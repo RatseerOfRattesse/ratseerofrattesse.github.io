@@ -57,7 +57,6 @@ Illustrations for [Chronicles of the Aethein](https://ratseerofrattesse.github.i
 01/05/2025
 ![ari hunches over her sword, staggering towards a portal as blood drips from her chest](../assets/img/art/chapter%20illustrations/Ch1-3.png "guess what this portal's design is referencing, you won't get it ")
 
-## ooohh interesting ship and stuff
+## PROLOGUE-1 OLD
 12/18/2024
 ![a big ol brass spaceship floats in front of a planet](../assets/img/art/chapter%20illustrations/Prologue1.png "spaceshib")
-decided to do illustrations for every chapter of my book. let's see how long it takes for me to regret that decision (UPDATE: IM REMAKING THIS ONE, ITS BAD)
