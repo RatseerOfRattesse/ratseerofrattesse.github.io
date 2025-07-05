@@ -1,0 +1,100 @@
+site_name: Ratseer0fRattesse
+site_description: Homepage for all my stuff
+site_author: RatseerOfRattesse
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  custom_dir: overrides
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: pink
+      accent: purple
+      toggle:
+        icon: material/eye
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: pink
+      accent: purple
+      toggle:
+        icon: material/eye-outline
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/git-alt
+  features:
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.preview
+    - navigation.instant.progress
+    - navigation.indexes
+    - navigation.path
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+extra:
+  social:
+    - icon: fontawesome/solid/palette
+      link: https://rentry.co/ratseerofrattesse
+      name: "Ratseer's Rentry (Art and Projects)"
+extra_css:
+  - stylesheets/extra.css
+copyright: Copyright &copy; 2025 RatseerOfRattesse
+plugins:
+  - meta
+  - search:
+      pipeline:
+        - stemmer
+        - stopWordFilter
+        - trimmer
+markdown_extensions:
+  - abbr
+  - attr_list
+  - md_in_html
+  - pymdownx.critic
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.smartsymbols
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.blocks.caption
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - admonition
+  - def_list
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - tables
+  - toc:
+      permalink: "#"
+      title: Table of Contents
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - footnotes
+  - pymdownx.snippets:
+      base_path: include/
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+site_url: https://ratseerofrattesse.github.io
+repo_url: https://github.com/RatseerOfRattesse/ratseerofrattesse.github.io
