@@ -39,9 +39,15 @@ theme:
     - toc.follow
 extra:
   social:
-    - icon: fontawesome/solid/palette
-      link: https://rentry.co/ratseerofrattesse
-      name: "Ratseer's Rentry (Art and Projects)"
+    - icon: octicons/code-16
+      link: https://github.com/RatseerOfRattesse
+      name: "Github"
+    - icon: material/wrench
+      link: https://modrinth.com/user/RatseerOfRattesse
+      name: "Modrinth"
+    - icon: material/alpha-r-circle-outline
+      link: https://www.royalroad.com/profile/725311
+      name: "Royalroad"
 extra_css:
   - stylesheets/extra.css
 copyright: Copyright &copy; 2025 RatseerOfRattesse
