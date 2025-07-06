@@ -27,15 +27,20 @@ was playing mini golf with some friends when they started dramatically stabbing 
 ![ari and bia portraits](../assets/img/art/style%20bullshittery.png)
 ari looks fine and bia looks like a demon ;-;
 
+## its murdering time
+06/07/2025
+![ari and bia jump off a ship](../assets/img/art/GENOCIDEEEEEEEE.gif)
+zooooooommmmmm
+
 ## wooterfall
 05/29/2025
 ![waterfall nestled in some rocks](../assets/img/art/herebound%20and%20up.png "eastbound and down")
 and don't talk about the sunrays istg
 
-## wooterfall
+## swoop
 05/25/2025
-![ari and bia jump off a ship](../assets/img/art/ability%20animation%20tests.gif)
-zooooooommmmmm
+![ari launches some light blades](../assets/img/art/ability%20animation%20tests.gif)
+swooop
 
 ## more slop action pieces
 05/20/2025
