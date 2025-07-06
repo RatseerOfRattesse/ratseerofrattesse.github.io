@@ -45,3 +45,4 @@ Alternately, email me at ratseerofrattesse@gmail.com.
 - Blindsight by Peter Watts
 - Deicidium by idi0cy (not that that's out yet :P)
 - Project Hail Mary by Andy Weir
+- Drehmal by Keeko100 and Rift
