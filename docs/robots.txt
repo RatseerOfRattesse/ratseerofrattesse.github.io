@@ -45,5 +45,8 @@ Disallow:/
 User-agent: Googlebot
 Allow: /
 
+User-agent: Googlebot
+Disallow: /MACCWiki
+
 Sitemap: https://ratseerofrattesse.github.io/sitemap.xml
 Sitemap: https://ratseerofrattesse.github.io/COAWiki/sitemap.xml

@@ -58,6 +58,9 @@ plugins:
   - redirects:
       redirect_maps:
         'Chronicles of the Aethein/index.md': https://ratseerofrattesse.github.io/COAWiki
+  - mkdocs-video:
+      is_video: True
+      video_autoplay: False
 markdown_extensions:
   - abbr
   - attr_list

@@ -7,6 +7,70 @@ icon: material/palette
 
 Sorted newest first
 
+## ONE POSTER
+11/26/2025
+![](../assets/img/art/ONE%20POSTER.png)
+Drew this and put it on a displate because I have too much digital art and no way to put it up on a wall.
+
+Please someone here get the reference.
+
+## Piltover
+11/23/2025
+![](../assets/img/art/piltover.png)
+Study of a shot from Arcane. Super rough cuz I'm super lazy.
+
+## FUCKING INCONSISTENT
+11/22/2025
+![](../assets/img/art/FUCKING_INCONSISTENTTTTT.png)
+
+LVJY's my fav band >:D, so I drew some bozos singing what I think is one of their best songs.
+
+## Carpfire Cuddles
+11/21/2025
+![](../assets/img/art/carpfire%20cuddles.png)
+he burned all the marshmallows
+
+i've repented for my sin
+
+## Live Laugh Lasagna
+11/05/2025
+![](../assets/img/art/lakeside.png)
+
+The Company has arrived at another place to potentially off themselves by comedic timing. They're either living or laughing and it's gonna have lasagna on the side.
+
+I apologize for that description, fever dreams are my default mental state.
+
+Guess the location, if ya want.
+
+## it's 11:45
+11/03/2025
+![](../assets/img/art/eepy.png)
+cozy drawing, wonder what rat and berry fell asleep to
+
+## COA Teaser Shot1 Draft
+11/24/2025
+![](../assets/img/art/shot1.gif)
+Working on a little promo anim for my book, here's the first shot I got
+
+Inevitably going to give up later :P
+
+## Goobers at Dinner
+10/13/2025
+![](../assets/img/art/food.png)
+Emo Rat and Strawberry Shortcake massacred a restaurant and stole the food. Don't worry 'bout it.
+
+Based on: [https://erinshin.com/projects/PmKvDr](https://erinshin.com/projects/PmKvDr)
+
+## Stargazing
+10/08/2025
+![](../assets/img/art/stargazing.png)
+Emo Rat and Strawberry Shortcake dramatically observe a big fantasy citadel in the distance. What lies inside? This writer doesn't know as he's too lazy to write it.
+
+## BADASSERY
+10/02/2025
+![](../assets/img/art/BADASSERY.png)
+Emo Rat and Strawberry Shortcake take on some offscreen threat with blood red adventuring STYLE.
+
 ## we're so back
 09/15/2025
 ![two weirdos hanging out in oddly eerie train car](../assets/img/art/we're%20so%20back.gif)
@@ -26,15 +90,17 @@ garfield kart is better than mario kart
 ![ari and bia angy at each other in multicolour lighting](../assets/img/art/angy.png)
 i did not end up working on the big stuff. this was inspired by a piece by zeniyan
 
-## wildberry
+## Seaside
 09/04/2025
 ![two weirdos chat in the light of a streetlamp along a dreary forest path](../assets/img/art/wildberry.png)
 just a cute appetizer piece for me before going back to work on big stuff
 
+The Company has for some reason decided to go walking outside on the coast in the middle of the night for no apparent reason.
+
 ## ONE DAY
 07/26/2025
 
-[the video](../assets/vid/ONE%20DAY.mp4)
+![type:video](../assets/vid/ONE%20DAY.mp4)
 
 another test, but also a gift for a friend :P
 
@@ -62,14 +128,21 @@ drew this while in china
 ![two idiots fight each other with weird fantasy weapons while standing on the edge of a cliff](../assets/img/art/swordfight.png)
 was playing mini golf with some friends when they started dramatically stabbing each other with the clubs
 
+Strawberry Shortcake has failed to stop the Old Man from burning mysterious rocky outcropping in the middle of nowhere. Badass duel with 2000s nightcore imminent.
+
 ## style bullshittery
+
 06/11/2025
+
 ![ari and bia portraits](../assets/img/art/style%20bullshittery.png)
+
 ari looks fine and bia looks like a demon ;-;
 
 ## its murdering time
 06/07/2025
+
 ![ari and bia jump off a ship](../assets/img/art/GENOCIDEEEEEEEE.gif)
+
 zooooooommmmmm
 
 ## wooterfall
@@ -102,7 +175,9 @@ idk where this fits into the story but it looks cool
 ![jinx looks very sadge](../assets/img/art/how%20are%20ur%20eyes%20open%20underwater%20breh.png "she aged 30 years that was intentional")
 recently stayed up till 4 to binge both seasons of arcane, amazing show
 
-this is a redraw of that scene when jinx throws silko's corpse into the lake
+How is every fictional character able to hold their eyes open underwater??? Every time????
+
+Painting study of a shot from Arcane. Went a little overboard with the lighting and also Jinx looks really old but its fineeee.
 
 ## anatomy testing
 05/09/2025
@@ -136,8 +211,13 @@ some friends saying catchphrases
 ## we need YOU for the COOB
 04/22/2025
 ![ic-0n holds a hand up invitingly while floating midair. red text across reads: WE NEED YOU FOR THE COOB](../assets/img/art/we%20need%20YOU%20for%20the%20COOB.png "coob coob coob coob coob coob")
-join the coob
-character is IC-0n from Internecion Coob
+JOIN THE HIVE
+
+JOIN THE HIVE
+
+JOIN THE HIVE
+
+Fanart of Liam Vickers' Internecion Cube. Go watch it it's incredible.
 
 ## clouds and schizz
 04/16/2025
@@ -173,14 +253,14 @@ doodled this at two in the morning, yes i have a problem
 ![that one shot of cyn playing with uzi's  n u l l  orb](../assets/img/art/dropped%20this%2C%20silly.png "dropped this, silly :3")
 even MORE rendering practice. redraw of a frame from murder drones episode 8
 
-[speedpaint](../assets/img/timelapses/dropped%20this%2C%20silly.mp4)
+![type:video](../assets/img/timelapses/dropped%20this%2C%20silly.mp4)
 
 ## ahhhhhh ari
 03/18/2025
 ![ari glares up at you while floating in the air and levitating miscellaneous debris items](../assets/img/art/ari%20float%20..D.png "ari float :D")
 rendering practice again :0
 
-[speedpaint](../assets/img/timelapses/ari%20float%20..D.mp4)
+![type:video](../assets/img/timelapses/ari%20float%20..D.mp4)
 
 ## plants :D
 03/15/2025
@@ -197,7 +277,7 @@ now that i look back at the reference it might be AI tho :(
 
 drew this to practice fine rendering a little more. the eye looks kinda off but its fiiineeeeee.
 
-[speedpaint](../assets/img/timelapses/stab.mp4)
+![type:video](../assets/img/timelapses/stab.mp4)
 
 ## AHHHHH IM GONNA DIE
 03/13/2025
@@ -205,7 +285,7 @@ drew this to practice fine rendering a little more. the eye looks kinda off but 
 
 animation looks kinda goofy lol
 
-[speedpaint](../assets/img/timelapses/get%20deleted.mp4)
+![type:video](../assets/img/timelapses/get%20deleted.mp4)
 
 ## bozos in the city
 03/07/2025
@@ -217,7 +297,8 @@ saw a poggers reference on pinterest and thought it perfectly reflected ari and 
 
 ## coa trailer storyboard
 02/26/2025
-[link](https://file.garden/Zi28N2lFSSn-KxkR/art/coa%20trailer%20thingity%20storyboard.mp4)
+
+![type:video](https://file.garden/Zi28N2lFSSn-KxkR/art/coa%20trailer%20thingity%20storyboard.mp4)
 
 so theoretically if my book was a movie 0:
 
@@ -228,7 +309,7 @@ reference taken from: SAD-ist, lazyeule, random walk cycles and birds on pintere
 ## math lady
 02/24/2025
 ![the math lady meme in painted style](../assets/img/art/math%20lady.png "MATH")
-needed a bg for my math presentation lol
+I have a vendetta against Canva yet also want my presentations to look artsy, so of course the obvious solution was to repaint memes and use em as slide backgrounds.
 
 ## ahhhh crazy person
 02/23/2025
@@ -264,12 +345,12 @@ found some pogging looking flowers and wanted to draw flowers
 ![hiker looks over a wilderness with lakes and mountains](../assets/img/art/hiker.png "i love this place")
 i went to lake o'hara a few summers ago and today i wanted to do a nature painting so i made this
 
-[speedpaint](../assets/img/timelapses/hiker.mp4)
+![type:video](../assets/img/timelapses/hiker.mp4)
 
 ## photosynthesis project
 02/10/2025
 
-[link](../assets/img/art/photosynthesis%20and%20cellular%20respiration%20animation.mp4 "kooky science bullshit")
+![type:video](../assets/img/art/photosynthesis%20and%20cellular%20respiration%20animation.mp4 "kooky science bullshit")
 
 a science project for school. we had to visually explain photosynthesis and cellular respiration. Kinda sad that this is my first coloured animation.
 
@@ -288,7 +369,7 @@ sketch was made for a school project, liked the sketch so i imported it onto my 
 
 recording!!! sketch isnt here cuz i did that on paper
 
-[speedpaint](../assets/img/timelapses/zoooom.mp4)
+![type:video](../assets/img/timelapses/zoooom.mp4)
 
 ## redoooo
 1/22/2025
@@ -297,7 +378,7 @@ redo of an old piece bcz i need another new bg and my old art style had the stup
 
 also did a recording this time, except i forgot to record the flats and rendering grim
 
-[speedpaint](../assets/img/timelapses/negative%20character%20arc%20pog.mp4)
+![type:video](../assets/img/timelapses/negative%20character%20arc%20pog.mp4)
 
 ## sit
 1/17/2025
@@ -341,7 +422,7 @@ i should stop using so much folly red. the composition, idea, and perspective of
 ## The Eye of Claus
 12/19/2024
 
-[The Eye of Claus](../assets/img/art/The%20Eye%20of%20Claus.mp4)
+![type:video](../assets/img/art/The%20Eye%20of%20Claus.mp4)
 
 for an open-ended winter-themed art project at school. concept: santa is secretly an eldritch demon. music is "Uzi Doesn't Read the Assignment" by AJ Dispirito
 

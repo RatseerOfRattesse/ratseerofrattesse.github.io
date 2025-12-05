@@ -9,54 +9,176 @@ description: Art by RatseerOfRattesse
 Illustrations for [Chronicles of the Aethein](https://ratseerofrattesse.github.io/COAWiki).
 
 
-## CH10-3
+## Advent of the Haelborne
 
-05/14/2025
-![burn xD](../assets/img/art/chapter%20illustrations/Ch10-3.png "no genocide occured in any way shape or form trust me")
+### Prologue: Eating New People
 
-## CH2-2
-04/30/2025
-![Ari peeks at duskir's cabin through some vines](../assets/img/art/chapter%20illustrations/Ch2-2.png "honestly kinda hate this one :/")
+#### Prologue-1 v3
+???+ info
 
-## CH2-1
-04/28/2025
-![Ari lying in a pool of blood on the floor](../assets/img/art/chapter%20illustrations/Ch2-1.png "i forgor to use filters and im too lazy too go back and do it")
+    :octicons-verified-16: :material-star-three-points-outline: :material-check-all:
+    
+    For reference on what these symbols mean, see the [art index](../index.md)
 
-## CH1-2
-04/28/2025
-![Ari gets pinned to a tree by Grim](../assets/img/art/chapter%20illustrations/Ch1-2.png "the levels filter was absolutely essential")
+![The Haelborne ship floats over Kaaldenvale](../assets/img/illustrations/Prologue-1.png)
 
-## CH2-3
-04/23/2025
-![Ari, Rosa, Dan, and Bia in the inn.](../assets/img/art/chapter%20illustrations/Ch2-3.png "too many filters smh")
+#### Prologue-1 v2
+???+ info
 
-## CH3-3
-01/24/2025
-![ari and lloyd sit over a finished meal as the sun sets. ari's reading and lloyd attempts to engage in conversation](../assets/img/art/chapter%20illustrations/Ch3-3.png "sunneeeeeee")
+    :octicons-verified-16: :material-star-three-points-outline: :octicons-trash-16:
+    
+    For reference on what these symbols mean, see the [art index](../index.md)
 
-[speedpaint](../assets/img/timelapses/Ch3-3.mp4)
+![The Haelborne ship floats over Kaaldenvale](../assets/img/illustrations/Prologue-1%20old.png)
 
-## PREFACE-1
-01/08/2025
-![crow-bug thing lies dead on a rock](../assets/img/art/chapter%20illustrations/Preface-1.png "ooh the exact same lighting scenario")
+#### Prologue-1 v1
+???+ info
 
-## PROLOGUE-1
-01/08/2025
-![big starship floats over a planet](../assets/img/art/chapter%20illustrations/Prologue-1.png "ignore the weird stars")
+    :octicons-verified-16: :material-star-three-points-outline: :octicons-trash-16:
+    
+    For reference on what these symbols mean, see the [art index](../index.md)
 
-## CH1-1
-01/08/2025
-![bia picks up a drained lesser governance core while ari looks at her. monster corpses lie across the ground](../assets/img/art/chapter%20illustrations/Ch1-1.png "vwoop")
+![The Haelborne ship floats over Kaaldenvale](../assets/img/illustrations/Prologue-1%20old1.png)
 
-## CH1-2 OLD
-01/06/2025
-![grim slams ari against a tree](../assets/img/art/chapter%20illustrations/Ch1-2%20old.png "solver uzi plays in the background")
+### Chapter I: Everything Stops
 
+#### Ch1-1 v2
+???+ info
 
-## CH1-3
-01/05/2025
-![ari hunches over her sword, staggering towards a portal as blood drips from her chest](../assets/img/art/chapter%20illustrations/Ch1-3.png "guess what this portal's design is referencing, you won't get it ")
+    :octicons-verified-16: :material-star-three-points-outline: :material-check-all:
+    
+    For reference on what these symbols mean, see the [art index](../index.md)
 
-## PROLOGUE-1 OLD
-12/18/2024
-![a big ol brass spaceship floats in front of a planet](../assets/img/art/chapter%20illustrations/Prologue1.png "spaceshib")
+![Ari stares at Bia while the latter holds up a drained lesser Governance core. Crienbeast corpses litter the ground.](../assets/img/illustrations/Ch1-1.png)
+
+#### Ch1-1 v1
+???+ info
+
+    :octicons-verified-16: :material-star-three-points-outline: :octicons-trash-16:
+    
+    For reference on what these symbols mean, see the [art index](../index.md)
+
+![Ari stares at Bia while the latter holds up a drained lesser Governance core. Crienbeast corpses litter the ground.](../assets/img/illustrations/Ch1-1%20old.png)
+
+#### Ch1-2 v3
+???+ info
+
+    :octicons-verified-16: :material-star-three-points-outline: :material-check-all:
+    
+    For reference on what these symbols mean, see the [art index](../index.md)
+
+![Grim pins Ari to a tree with a claw.](../assets/img/illustrations/Ch1-2.png)
+
+#### Ch1-2 v2
+???+ info
+
+    :octicons-verified-16: :material-star-three-points-outline: :octicons-trash-16:
+    
+    For reference on what these symbols mean, see the [art index](../index.md)
+
+![Grim pins Ari to a tree with a claw.](../assets/img/illustrations/Ch1-2%20v2.png)
+
+#### Ch1-2 v1
+???+ info
+
+    :octicons-verified-16: :material-star-three-points-outline: :octicons-trash-16:
+    
+    For reference on what these symbols mean, see the [art index](../index.md)
+
+![Grim pins Ari to a tree with a claw.](../assets/img/illustrations/Ch1-2%20old.png)
+
+#### Ch1-3 v2
+???+ info
+
+    :octicons-verified-16: :material-star-three-points-outline: :material-check-all:
+    
+    For reference on what these symbols mean, see the [art index](../index.md)
+
+![Ari hunches over her sword, staggering towards a portal as blood drips from her chest.](../assets/img/illustrations/Ch1-3.png)
+
+#### Ch1-3 v1
+???+ info
+
+    :octicons-verified-16: :material-star-three-points-outline: :octicons-trash-16:
+    
+    For reference on what these symbols mean, see the [art index](../index.md)
+
+![Ari hunches over her sword, staggering towards a portal as blood drips from her chest.](../assets/img/illustrations/Ch1-3%20old.png)
+
+### Chapter II: Vacation...?
+
+#### Ch2-1 v2
+???+ info
+
+    :octicons-verified-16: :material-star-three-points-outline: :material-check-all:
+    
+    For reference on what these symbols mean, see the [art index](../index.md)
+
+![Ari lying in a pool of blood on the floor](../assets/img/illustrations/Ch2-1.png)
+
+#### Ch2-1 v1
+???+ info
+
+    :octicons-verified-16: :material-star-three-points-outline: :octicons-trash-16:
+    
+    For reference on what these symbols mean, see the [art index](../index.md)
+
+![Ari lying in a pool of blood on the floor](../assets/img/illustrations/Ch2-1%20old.png)
+
+#### Ch2-2 v2
+???+ info
+
+    :octicons-verified-16: :material-star-three-points-outline: :material-check-all:
+    
+    For reference on what these symbols mean, see the [art index](../index.md)
+
+![Ari peeks at Duskir's cabin through some vines](../assets/img/illustrations/Ch2-2.png)
+
+#### Ch2-2 v1
+???+ info
+
+    :octicons-verified-16: :material-star-three-points-outline: :octicons-trash-16:
+    
+    For reference on what these symbols mean, see the [art index](../index.md)
+
+![Ari peeks at Duskir's cabin through some vines](../assets/img/illustrations/Ch2-2%20old.png)
+
+#### Ch2-3 v2
+???+ info
+
+    :octicons-verified-16: :material-star-three-points-outline: :material-check-all:
+    
+    For reference on what these symbols mean, see the [art index](../index.md)
+
+![Ari, Rosa, Dan, and Bia in the inn.](../assets/img/illustrations/Ch2-3.png)
+
+#### Ch2-3 v1
+???+ info
+
+    :octicons-verified-16: :material-star-three-points-outline: :octicons-trash-16:
+    
+    For reference on what these symbols mean, see the [art index](../index.md)
+
+![Ari, Rosa, Dan, and Bia in the inn.](../assets/img/illustrations/Ch2-3%20old.png)
+
+### Chapter III: Crab Rider
+
+#### Ch3-3
+???+ info
+
+    :octicons-verified-16: :material-star-three-points-outline: :octicons-trash-16:
+    
+    For reference on what these symbols mean, see the [art index](../index.md)
+
+![Ari and Lloyd 'interacting' over dinner](../assets/img/illustrations/Ch3-3.png)
+
+### Chapter X: You Know That Lying Thing I Do?
+
+#### Ch10-3
+???+ info
+
+    :octicons-verified-16: :material-star-three-points-outline: :octicons-trash-16:
+    
+    For reference on what these symbols mean, see the [art index](../index.md)
+
+![Ari and Lloyd 'interacting' over dinner](../assets/img/illustrations/Ch10-3.png)

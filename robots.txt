@@ -9,7 +9,6 @@ User-agent: Diffbot
 User-agent: Bard
 User-agent: ImagesiftBot
 User-agent: AppleBot
-User-agent: google-extended
 User-agent: YouBot
 User-agent: Omgili
 User-agent: Omgilibot
@@ -41,6 +40,13 @@ User-agent: Timpibot
 User-agent: Webzio-Extended
 User-agent: YandexAdditional
 User-agent: YandexAdditionalBot
-
-
 Disallow:/
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot
+Disallow: /MACCWiki
+
+Sitemap: https://ratseerofrattesse.github.io/sitemap.xml
+Sitemap: https://ratseerofrattesse.github.io/COAWiki/sitemap.xml
