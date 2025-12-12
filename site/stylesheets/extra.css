@@ -37,6 +37,26 @@ ul, ol {
               mask-image: var(--md-admonition-icon--governance);
 }
 
+:root {
+  --md-admonition-icon--artwork: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.5 12a1.5 1.5 0 0 1-1.5-1.5A1.5 1.5 0 0 1 17.5 9a1.5 1.5 0 0 1 1.5 1.5 1.5 1.5 0 0 1-1.5 1.5m-3-4A1.5 1.5 0 0 1 13 6.5 1.5 1.5 0 0 1 14.5 5 1.5 1.5 0 0 1 16 6.5 1.5 1.5 0 0 1 14.5 8m-5 0A1.5 1.5 0 0 1 8 6.5 1.5 1.5 0 0 1 9.5 5 1.5 1.5 0 0 1 11 6.5 1.5 1.5 0 0 1 9.5 8m-3 4A1.5 1.5 0 0 1 5 10.5 1.5 1.5 0 0 1 6.5 9 1.5 1.5 0 0 1 8 10.5 1.5 1.5 0 0 1 6.5 12M12 3a9 9 0 0 0-9 9 9 9 0 0 0 9 9 1.5 1.5 0 0 0 1.5-1.5c0-.39-.15-.74-.39-1-.23-.27-.38-.62-.38-1a1.5 1.5 0 0 1 1.5-1.5H16a5 5 0 0 0 5-5c0-4.42-4.03-8-9-8"/></svg>')
+}
+.md-typeset .admonition.artwork,
+.md-typeset details.artwork {
+  border-color: rgb(171, 34, 201);
+}
+.md-typeset .artwork > .admonition-title {
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+.md-typeset .artwork > summary {
+  background-color: rgba(171, 34, 201, 0.1);
+}
+.md-typeset .artwork > .admonition-title::before,
+.md-typeset .artwork > summary::before {
+  background-color: rgb(171, 34, 201);
+  -webkit-mask-image: var(--md-admonition-icon--artwork);
+          mask-image: var(--md-admonition-icon--artwork);
+}
+
 .md-header__topic {
     font-family: 'Carrois Gothic SC', sans-serif;
     font-size: 2rem;
@@ -173,4 +193,76 @@ html .md-footer-meta.md-typeset a {
 .md-grid {
     margin-left: 10vw;
     max-width: 70;
+}
+
+.md-typeset .mdx-iconsearch {
+    background-color: var(--md-default-bg-color);
+    box-shadow: var(--md-shadow-z1);
+    position: relative;
+    border-radius: 0.1rem;
+    transition: box-shadow 125ms;
+}
+
+.md-typeset .mdx-iconsearch .md-input {
+    box-shadow: none;
+    background: var(--md-default-bg-color);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .mdx-iconsearch .md-input {
+    background: var(--md-code-bg-color);
+}
+
+.md-typeset .mdx-iconsearch-result {
+    backface-visibility: hidden;
+    max-height: 50vh;
+    overflow-y: auto;
+    scrollbar-color: var(--md-default-fg-color--lighter) #0000;
+    scrollbar-width: thin;
+    touch-action: pan-y;
+}
+
+.md-typeset .mdx-iconsearch-result__select {
+    background-color: var(--md-default-fg-color--lightest);
+    color: var(--md-default-fg-color--light);
+    font-size: 0.64rem;
+    padding-bottom: 0.15em;
+    padding-top: 0.15em;
+    position: absolute;
+    right: 0.6rem;
+    top: 0.4rem;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 0.1rem;
+    transition: color 125ms, background-color 125ms;
+}
+
+.md-typeset .mdx-iconsearch-result__select + .mdx-iconsearch-result__meta {
+    right: 4.1rem;
+}
+
+.md-typeset .mdx-iconsearch-result__meta {
+    color: var(--md-default-fg-color--lighter);
+    font-size: 0.64rem;
+    position: absolute;
+    right: 0.6rem;
+    top: 0.4rem;
+}
+
+[dir="ltr"] .md-typeset .mdx-iconsearch-result__list {
+    margin-left: 0px;
+}
+
+.md-typeset .mdx-iconsearch-result__list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.gslide-description p {
+    font-family: 'Gentium Book Plus';
+}
+
+body[data-md-color-scheme="slate"] .gslide-title {
+    font-family: 'Carrois Gothic SC', sans-serif
 }

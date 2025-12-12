@@ -14,9 +14,6 @@ theme:
     repo: fontawesome/brands/git-alt
   features:
     - navigation.footer
-    - navigation.instant
-    - navigation.instant.preview
-    - navigation.instant.progress
     - navigation.indexes
     - navigation.path
     - navigation.tabs
@@ -45,6 +42,9 @@ extra_css:
   - stylesheets/extra.css
 copyright: Copyright &copy; 2025 RatseerOfRattesse
 plugins:
+  - glightbox:
+        touchNavigation: true
+        caption_position: right
   - blog:
       post_date_format: short
       post_excerpt: required
@@ -112,6 +112,7 @@ nav:
       - index.md
   - Art:
       - Art/index.md
+      - Art/Animations.md
       - Art/COA Chapter Illustrations.md
       - Art/COA Concept Art.md
       - Art/The Seven Deadly Insecurities.md
