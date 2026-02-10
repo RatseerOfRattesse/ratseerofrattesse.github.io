@@ -33,6 +33,14 @@ icon: material/palette
 
     [:octicons-arrow-right-24: CoA Chapter Illustrations](COA%20Chapter%20Illustrations.md)
 
+-   :material-vector-triangle:{ .lg .middle } __Too many words!__
+
+    ---
+
+    Too much commitment! I say, offering a very slowly and unpredictably updating comic version of the book.
+
+    [:octicons-arrow-right-24: CoA Comic](COA%20Comic.md)
+
 -   :material-vector-triangle:{ .lg .middle } __Can I has moar CoA stuff?__
 
     ---
@@ -54,6 +62,22 @@ icon: material/palette
 Sorted newest first
 
 Click images for more info and better nav.
+
+
+![](../assets/img/art/bloom.png){ data-title="bloom" data-description=".bloom" data-caption-position="right"}
+
+<div class="glightbox-desc bloom">
+    <p><em>02/08/2026</em></p>
+  <p>this all came out of one of the hytale beds being a stone cold ritual altar</p>
+  <p>totally forgot to put the blue light on the characters but whateverrrrr</p>
+</div>
+
+![](../assets/img/art/bloomRetrononbg.png){ data-title="bloom retro" data-description=".bloomretro" data-caption-position="right"}
+
+<div class="glightbox-desc bloomretro">
+    <p><em>02/07/2026</em></p>
+  <p>retro black and white looking version of the one above, thought it looked nice</p>
+</div>
 
 ![](../assets/img/art/ONE%20POSTER.png){ data-title="ONE POSTER" data-description=".oneposter" data-caption-position="right"}
 

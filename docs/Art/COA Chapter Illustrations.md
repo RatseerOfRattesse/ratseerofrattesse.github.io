@@ -13,10 +13,19 @@ Illustrations for [Chronicles of the Aethein](https://ratseerofrattesse.github.i
 
 ### Prologue: Eating New People
 
-#### Prologue-1 v3
+#### Prologue-1 v4
 ???+ info
 
     :octicons-verified-16: :material-star-three-points-outline: :material-check-all:
+    
+    For reference on what these symbols mean, see the [art index](../index.md)
+
+![The Haelborne ship floats over Kaaldenvale](../assets/img/illustrations/Prologue-1v4.png)
+
+#### Prologue-1 v3
+???+ info
+
+    :octicons-verified-16: :material-star-three-points-outline: :octicons-trash-16:
     
     For reference on what these symbols mean, see the [art index](../index.md)
 

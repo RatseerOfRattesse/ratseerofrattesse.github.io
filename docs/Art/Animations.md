@@ -6,6 +6,14 @@ description: Art by RatseerOfRattesse
 
 *Sorted newest first*
 
+!!! artwork "CoA Teaser Shot#1"
+
+    02/05/2026
+    
+    ![type:video](../assets/vid/shot1.mp4)
+
+    first shot of the teaser animation! took about two weeks
+
 !!! artwork "ONE DAY"
 
     07/26/2025
@@ -24,6 +32,8 @@ description: Art by RatseerOfRattesse
     
     ![type:video](../assets/vid/coa%20trailer%20thingity.mp4)
     
+    update: this will not be getting finished i have a better plan now
+
     so theoretically if my book was a movie 0:
     
     not done, i will colour this at some point
