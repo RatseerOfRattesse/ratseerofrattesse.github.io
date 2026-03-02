@@ -9,7 +9,7 @@ description: Art by RatseerOfRattesse
 Illustrations for [Chronicles of the Aethein](https://ratseerofrattesse.github.io/COAWiki).
 
 
-![](../assets/img/art/COA%20concept%20art/ari.png) { data-title="Aryon Hastor" data-description=".ari" data-caption-position="right"}
+![](../assets/img/art/COA%20concept%20art/ari.png){ data-title="Aryon Hastor" data-description=".ari" data-caption-position="right"}
 
 <div class="glightbox-desc ari">
     <p><em>01/15/2026</em></p>
@@ -18,7 +18,7 @@ Illustrations for [Chronicles of the Aethein](https://ratseerofrattesse.github.i
     <p>You barely reading-comprehended that last sentence, but the mysteries only deepen when she's saddled with the duty of defeating the interdimensional space rats currently invading her country. Her ill-fated mentor character quickly lore drops a bunch of weird shit like being descended from a deity and copious other confusions (what the heck does he mean 'Main Character'???). Even if she pulls off stopping the rat cultists, fate's still got plenty left to do before she can rest well.</p>
 </div>
 
-![](../assets/img/art/COA%20concept%20art/halos.png) { data-title="Halos" data-description=".halos" data-caption-position="right"}
+![](../assets/img/art/COA%20concept%20art/halos.png){ data-title="Halos" data-description=".halos" data-caption-position="right"}
 
 <div class="glightbox-desc halos">
     <p><em>01/13/2026</em></p>
@@ -26,7 +26,7 @@ Illustrations for [Chronicles of the Aethein](https://ratseerofrattesse.github.i
     <p>The Narrators' abilities are seemingly limitless, but they rarely employ their power so as to let the cosmos take its natural course of action. There is, of course, the fact that they seem to control where that course flows - but any non-nihilist would rather ignore that.</p>
 </div>
 
-![](../assets/img/art/COA%20concept%20art/castell.png) { data-title="Castell" data-description=".castell" data-caption-position="right"}
+![](../assets/img/art/COA%20concept%20art/castell.png){ data-title="Castell" data-description=".castell" data-caption-position="right"}
 
 <div class="glightbox-desc castell">
     <p><em>01/04/2026</em></p>
@@ -70,7 +70,7 @@ Illustrations for [Chronicles of the Aethein](https://ratseerofrattesse.github.i
     <p>A standard ship used by the Haelborne when conducting reality-mining operations. Powerful aura propulsion and weaponry systems. Has advanced metanavigational capabilities and is equipped with firmament crystal processing units.</p>
 </div>
 
-![Guy with pink hair and bad fashion sense with spooky wings](../assets/img/art/COA%20concept%20art/The%20Narrator.png "not god") { data-title="the Narrator" data-description=".narratorold" data-caption-position="right"}
+![Guy with pink hair and bad fashion sense with spooky wings](../assets/img/art/COA%20concept%20art/The%20Narrator.png "not god"){ data-title="the Narrator" data-description=".narratorold" data-caption-position="right"}
 
 <div class="glightbox-desc narratorold">
     <p><em>04/28/2025</em></p>
