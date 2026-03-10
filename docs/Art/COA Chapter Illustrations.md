@@ -172,6 +172,15 @@ Illustrations for [Chronicles of the Aethein](https://ratseerofrattesse.github.i
 
 ### Chapter III: Crab Rider
 
+#### Ch3-1
+???+ info
+
+    :octicons-verified-16: :material-star-three-points-outline: :material-check-all:
+    
+    For reference on what these symbols mean, see the [art index](../index.md)
+
+![The group travels on hexacampi](../assets/img/illustrations/Ch3-1.png)
+
 #### Ch3-3
 ???+ info
 
@@ -181,9 +190,9 @@ Illustrations for [Chronicles of the Aethein](https://ratseerofrattesse.github.i
 
 ![Ari and Lloyd 'interacting' over dinner](../assets/img/illustrations/Ch3-3.png)
 
-### Chapter X: You Know That Lying Thing I Do?
+### Misc
 
-#### Ch10-3
+#### Not Ch10-3
 ???+ info
 
     :octicons-verified-16: :material-star-three-points-outline: :octicons-trash-16:

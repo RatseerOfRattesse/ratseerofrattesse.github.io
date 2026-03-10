@@ -29,17 +29,19 @@ Alternately, email me at ratseerofrattesse@gmail.com.
 ## My Interests
 
 - Creative writing
-
 - Art
 - Minecraft (and modding occasionally)
 - He Who Fights With Monsters by Shirtaloon
+- Cliffside, Internecion Cube, Black Dogs, C-2 Strain, PuppetGame, and Murder Drones by Liam Vickers
+- Kochab by Sarah Webb
+- Songs of War by Black Plasma Studios (squared media is a stupid name ALSO WHERE SEASON 2)
+- Lovejoy
+- Cucumber Quest by GGDG
+- On A Sunbeam by Tillie Walden
 - Autodale and Sauria by Dead Sound
 - The Labyrinth, The Electric State, Tales from the Loop, and Things from the Flood by Simon Stalenhag
-- Cliffside, Internecion Cube, Black Dogs, C-2 Strain, PuppetGame, and Murder Drones by Liam Vickers
-- Songs of War by Black Plasma Studios (squared media is a stupid name ALSO WHERE SEASON 2)
 - Neverending Legacy by Orteil
 - Arcane
-- Lovejoy
 - The Giver by Lois Lowry
 - The Debt Collection by Andrew Givler
 - Remembrance of Earth's Past by Cixin Liu (I never actually read beyond three body tho :P - the actual writing is kinda dogshit)
