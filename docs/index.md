@@ -34,7 +34,8 @@ Alternately, email me at ratseerofrattesse@gmail.com.
 - He Who Fights With Monsters by Shirtaloon
 - Cliffside, Internecion Cube, Black Dogs, C-2 Strain, PuppetGame, and Murder Drones by Liam Vickers
 - Kochab by Sarah Webb
-- Songs of War by Black Plasma Studios (squared media is a stupid name ALSO WHERE SEASON 2)
+- Necry Talkie
+- Songs of War by Black Plasma Studios (squared media is a stupid name ALSO MAYBE SEASON 2??)
 - Lovejoy
 - Cucumber Quest by GGDG
 - On A Sunbeam by Tillie Walden
