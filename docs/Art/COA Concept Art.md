@@ -18,6 +18,14 @@ Illustrations for [Chronicles of the Aethein](https://ratseerofrattesse.github.i
     <p>You barely reading-comprehended that last sentence, but the mysteries only deepen when she's saddled with the duty of defeating the interdimensional space rats currently invading her country. Her ill-fated mentor character quickly lore drops a bunch of weird shit like being descended from a deity and copious other confusions (what the heck does he mean 'Main Character'???). Even if she pulls off stopping the rat cultists, fate's still got plenty left to do before she can rest well.</p>
 </div>
 
+![](../assets/img/art/COA%20concept%20art/bia.png){ data-title="Biaphon Hastor" data-description=".bia" data-caption-position="right"}
+
+<div class="glightbox-desc bia">
+    <p><em>01/15/2026</em></p>
+    <p>Bia is any party's comedic backbone; she will never stop laughing. Get past her big frontal personality however, and she's quite approachable. Never suspicious of anyone or anything, Bia has a high EQ and a detrimental lack of distrust and worry. However, she has been more agitated than usual as of late - it's about time she and her sister sought harder challenges in order to ascend to t-eight, but Ari won't budge out of her comfortable cot in Javenshard. So when Ari comes home ravaged by a hungry overranked demon, Bia convinces her to head to the nearest high-ranked city to request help. Ari quickly finds the trip spiralling out of control when Bia invites not only fellow adventurer Lloyd, but also their noncombatant friends.</p>
+    <p>Desperate to do something different for once, Bia takes to the journey with enthusiasm, but quickly finds it more than she bargained for as the demon in question turns out to be just as enthusiastic in its pursuit of Ari. Burdened by the guilt of leading her friends into a dangerous and very much preventable situation, she's determined to turn it around and make something positive out of it.</p>
+</div>
+
 ![](../assets/img/art/COA%20concept%20art/halos.png){ data-title="Halos" data-description=".halos" data-caption-position="right"}
 
 <div class="glightbox-desc halos">
