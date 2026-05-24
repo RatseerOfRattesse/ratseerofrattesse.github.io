@@ -6,7 +6,7 @@ description: Art by RatseerOfRattesse
 
 *Sorted newest first*
 
-!!! artwork "CoA Teaser Shot#1"
+!!! artwork "ODODI Teaser Shot#1"
 
     02/05/2026
     
@@ -26,7 +26,7 @@ description: Art by RatseerOfRattesse
     
     the file is 11 gb :(
 
-!!! artwork "coa trailer storyboard"
+!!! artwork "ododi trailer storyboard"
 
     02/26/2025
     

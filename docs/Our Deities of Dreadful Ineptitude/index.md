@@ -1,9 +1,9 @@
 ---
-description: CoA by RatseerOfRattesse
+description: ODODI by RatseerOfRattesse
 icon: material/book
 ---
 
-# Chronicles of the Aethein
+# Our Deities of Dreadful Ineptitude
 
 *A high fantasy LitRPG book series illustrated and written by RatseerOfRattesse*
 
@@ -15,4 +15,4 @@ A fun little passion project starring Aryon Hastor, who wants nothing but to mai
 
 While Ari's fucking around on Kaaldenvale, the multiverse is experiencing some wacky problems. The Great Immortals haven't answered any prayers in a century, and the churches are being increasingly offensively dogmatic. Meanwhile, the previously dormant spooky shadow demon population are out on the prowl! They're crawling through your voidways, creeping through your backyards, and scrounging through your organs, and nobody has a fucking clue where they came from. What a century, aye?
 
-Read here: [Chronicles of the Aethein](https://ratseerofrattesse.github.io/COAWiki)
+Read here: [Our Deities of Dreadful Ineptitude](https://ratseerofrattesse.github.io/ODODIWiki)

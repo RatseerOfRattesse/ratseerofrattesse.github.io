@@ -9,11 +9,14 @@ icon: fontawesome/solid/house
 ![yippee](assets/img/art/we're%20so%20back.gif)
 
 ## About Me
+
 Yoy! Hi! Hello! Those are all the same language!
 
-I'm RatseerOfRattesse, artist, writer, and really really bad programmer who doesn't actually know anything about programming. I also may or may not work as an emissary for the interdimensional society of Holy Rats who live in the Holy City of Rattesse (the rat shadow government).
+I'm RatseerOfRattesse, artist, writer, and really really bad programmer who doesn't actually know anything about programming. I also may or may not work as an emissary for the rat shadow government.
 
-You can find me on Discord as ratseerofrattesse. That's my main communication platform.
+I'm currently writing and illustrating an original high-fantasy comedy series called ODODI that you can read on [RoyalRoad](www.royalroad.com/fiction/136114) Please give me a rating, I'd love some feedback.
+
+@ratseerofrattesse on sheezy, cara, tumblr, bsky, artfol, newgrounds, and yt
 
 Alternately, email me at ratseerofrattesse@gmail.com.
 

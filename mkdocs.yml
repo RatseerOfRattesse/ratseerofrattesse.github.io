@@ -57,7 +57,7 @@ plugins:
         - trimmer
   - redirects:
       redirect_maps:
-        'Chronicles of the Aethein/index.md': https://ratseerofrattesse.github.io/COAWiki
+        'Our Deities of Dreadful Ineptitude/index.md': https://ratseerofrattesse.github.io/ODODIWiki
   - mkdocs-video:
       is_video: True
       video_autoplay: False
@@ -113,12 +113,12 @@ nav:
   - Art:
       - Art/index.md
       - Art/Animations.md
-      - Art/COA Chapter Illustrations.md
-      - Art/COA Comic.md
-      - Art/COA Concept Art.md
+      - Art/ODODI Chapter Illustrations.md
+      - Art/ODODI Comic.md
+      - Art/ODODI Concept Art.md
       - Art/The Seven Deadly Insecurities.md
-  - Chronicles of the Aethein:
-      - Chronicles of the Aethein/index.md
+  - Our Deities of Dreadful Ineptitude:
+      - Our Deities of Dreadful Ineptitude/index.md
   - Choose To Lose:
       - Choose To Lose/index.md
   - Blog:

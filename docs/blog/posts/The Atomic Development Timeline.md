@@ -69,7 +69,7 @@ Yoy. [RatseerOfRattesse] here representing the Amirlithic Union. No you. :P
 
 Hey there! Krath here representing idiocy.inc’s best interests. Die in a hole.
 
-Hi, I think you’ve made a mistake in your power scaling. As you may recall, idi0cy.inc Krath is part of the COA universe, in which I AM THE NARRATOR, so I shall simply write Krath out of this situation.
+Hi, I think you’ve made a mistake in your power scaling. As you may recall, idi0cy.inc Krath is part of the ODODI universe, in which I AM THE NARRATOR, so I shall simply write Krath out of this situation.
 
 Baruch here. I’ll have you know my universe’s cosmology is way better than yours. You can take your crappy worldbuilding and screw off the better narrative.
 
@@ -83,7 +83,7 @@ If the first Baruch was the one from Krath’s Interview, then why are you sayin
 
 Baruch from Krath’s interview here. In the canon, I am the host of the void of another narrative plane with a different cosmology. Do some research you idiot.
 
-Well, you brought yourself under MY narrative’s cosmology by interceding in Krath’s Interview, which is set in COA. You fool, you moron.  
+Well, you brought yourself under MY narrative’s cosmology by interceding in Krath’s Interview, which is set in ODODI. You fool, you moron.  
 
 I’ll have you know I own the intellectual property. Also, I’m writing a short story establishing that in the TWD.  
 
@@ -177,7 +177,7 @@ Democritus: Yeah, and the space in between it is the void. Hear that? The Vooooi
 
 Leucippus: Sounds like a lame name for crappy mysterious areas in bad worldbuilding projects.
 
-The COA logo fades on screen briefly.
+The ODODI logo fades on screen briefly.
 
 Democritus: Don’t you shame my cool words. Plus, you’re probably on a hitlist now, bro. Y’know, all this vision we can do must be when the atoms interact with each other.
 

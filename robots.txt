@@ -49,4 +49,4 @@ User-agent: Googlebot
 Disallow: /MACCWiki
 
 Sitemap: https://ratseerofrattesse.github.io/sitemap.xml
-Sitemap: https://ratseerofrattesse.github.io/COAWiki/sitemap.xml
+Sitemap: https://ratseerofrattesse.github.io/ODODIWiki/sitemap.xml

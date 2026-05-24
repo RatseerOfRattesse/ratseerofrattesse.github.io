@@ -2,14 +2,14 @@
 description: Art by RatseerOfRattesse
 ---
 
-# COA Concept Art
+# ODODI Concept Art
 
 *Sorted newest first*
 
-Illustrations for [Chronicles of the Aethein](https://ratseerofrattesse.github.io/COAWiki).
+Illustrations for [Our Deities of Dreadful Ineptitude](https://ratseerofrattesse.github.io/ODODIWiki).
 
 
-![](../assets/img/art/COA%20concept%20art/ari.png){ data-title="Aryon Hastor" data-description=".ari" data-caption-position="right"}
+![](../assets/img/art/ODODI%20concept%20art/ari.png){ data-title="Aryon Hastor" data-description=".ari" data-caption-position="right"}
 
 <div class="glightbox-desc ari">
     <p><em>01/15/2026</em></p>
@@ -18,7 +18,7 @@ Illustrations for [Chronicles of the Aethein](https://ratseerofrattesse.github.i
     <p>You barely reading-comprehended that last sentence, but the mysteries only deepen when she's saddled with the duty of defeating the interdimensional space rats currently invading her country. Her ill-fated mentor character quickly lore drops a bunch of weird shit like being descended from a deity and copious other confusions (what the heck does he mean 'Main Character'???). Even if she pulls off stopping the rat cultists, fate's still got plenty left to do before she can rest well.</p>
 </div>
 
-![](../assets/img/art/COA%20concept%20art/bia.png){ data-title="Biaphon Hastor" data-description=".bia" data-caption-position="right"}
+![](../assets/img/art/ODODI%20concept%20art/bia.png){ data-title="Biaphon Hastor" data-description=".bia" data-caption-position="right"}
 
 <div class="glightbox-desc bia">
     <p><em>01/15/2026</em></p>
@@ -26,7 +26,7 @@ Illustrations for [Chronicles of the Aethein](https://ratseerofrattesse.github.i
     <p>Desperate to do something different for once, Bia takes to the journey with enthusiasm, but quickly finds it more than she bargained for as the demon in question turns out to be just as enthusiastic in its pursuit of Ari. Burdened by the guilt of leading her friends into a dangerous and very much preventable situation, she's determined to turn it around and make something positive out of it.</p>
 </div>
 
-![](../assets/img/art/COA%20concept%20art/halos.png){ data-title="Halos" data-description=".halos" data-caption-position="right"}
+![](../assets/img/art/ODODI%20concept%20art/halos.png){ data-title="Halos" data-description=".halos" data-caption-position="right"}
 
 <div class="glightbox-desc halos">
     <p><em>01/13/2026</em></p>
@@ -34,7 +34,7 @@ Illustrations for [Chronicles of the Aethein](https://ratseerofrattesse.github.i
     <p>The Narrators' abilities are seemingly limitless, but they rarely employ their power so as to let the cosmos take its natural course of action. There is, of course, the fact that they seem to control where that course flows - but any non-nihilist would rather ignore that.</p>
 </div>
 
-![](../assets/img/art/COA%20concept%20art/castell.png){ data-title="Castell" data-description=".castell" data-caption-position="right"}
+![](../assets/img/art/ODODI%20concept%20art/castell.png){ data-title="Castell" data-description=".castell" data-caption-position="right"}
 
 <div class="glightbox-desc castell">
     <p><em>01/04/2026</em></p>
@@ -43,42 +43,42 @@ Illustrations for [Chronicles of the Aethein](https://ratseerofrattesse.github.i
 </div>
 
 
-![](../assets/img/art/COA%20concept%20art/Haelborne.png){ data-title="Haelborne" data-description=".haelborne" data-caption-position="right"}
+![](../assets/img/art/ODODI%20concept%20art/Haelborne.png){ data-title="Haelborne" data-description=".haelborne" data-caption-position="right"}
 
 <div class="glightbox-desc haelborne">
     <p><em>01/24/2026</em></p>
     <p>The Haelborne are among many fringe interdimensional factions in the cosmos, but one of the most active. They spend their time raiding underdeveloped worlds for 'fabric of reality', using its power to construct a machine to kill gods. Haelborne society is characterized by a single-minded worship of this destruction.</p>
 </div>
 
-![](../assets/img/art/COA%20concept%20art/Hexacampi.png){ data-title="Hexacampi" data-description=".hexacampi" data-caption-position="right"}
+![](../assets/img/art/ODODI%20concept%20art/Hexacampi.png){ data-title="Hexacampi" data-description=".hexacampi" data-caption-position="right"}
 
 <div class="glightbox-desc hexacampi">
     <p><em>11/20/2025</em></p>
     <p>A large crab creature, usually four or five feet tall. Its legs make up most of that height, as they are nearly vertical when standing. They shuffle like all crabs, but are able to do so at extreme speed, rivalling that of a traditional motorized vehicle. Because of this, fae use them as mounts, but they are rarely seen due to how hard to tame they are.</p>
 </div>
 
-![Weird geometric dragon thing](../assets/img/art/COA%20concept%20art/Elder%20Immortal.png "he very old"){ data-title="???" data-description=".questionmark" data-caption-position="right"}
+![Weird geometric dragon thing](../assets/img/art/ODODI%20concept%20art/Elder%20Immortal.png "he very old"){ data-title="???" data-description=".questionmark" data-caption-position="right"}
 
 <div class="glightbox-desc questionmark">
     <p><em>05/14/2025</em></p>
     <p>This doesn't make any sense, what could it be? Probably nothing, don't worry.</p>
 </div>
 
-![Five (six?) immortals](../assets/img/art/COA%20concept%20art/Great%20Immortals.png "your cosmos is safe in their hands"){ data-title="the Great Immortals" data-description=".immortals" data-caption-position="right"}
+![Five (six?) immortals](../assets/img/art/ODODI%20concept%20art/Great%20Immortals.png "your cosmos is safe in their hands"){ data-title="the Great Immortals" data-description=".immortals" data-caption-position="right"}
 
 <div class="glightbox-desc immortals">
     <p><em>04/30/2025</em></p>
     <p>These <s>six</s> five beings govern the fundamental laws of the cosmos as they see fit. The Mist Lord regulates all with negative affinity. The Eternal Flame regulates all with positive affinity. The Saviour builds life. The Reaper takes it. The Primordial Equilibrium controls all. Your cosmos is safe in these capable hands!</p>
 </div>
 
-![Spooky black and glowy red spaceshib](../assets/img/art/COA%20concept%20art/Haelborne%20Latticetrotter.png "have you heard of simon stalenhag"){ data-title="Haelborne Latticetrotter" data-description=".latticetrotter" data-caption-position="right"}
+![Spooky black and glowy red spaceshib](../assets/img/art/ODODI%20concept%20art/Haelborne%20Latticetrotter.png "have you heard of simon stalenhag"){ data-title="Haelborne Latticetrotter" data-description=".latticetrotter" data-caption-position="right"}
 
 <div class="glightbox-desc latticetrotter">
     <p><em>04/28/2025</em></p>
     <p>A standard ship used by the Haelborne when conducting reality-mining operations. Powerful aura propulsion and weaponry systems. Has advanced metanavigational capabilities and is equipped with firmament crystal processing units.</p>
 </div>
 
-![Guy with pink hair and bad fashion sense with spooky wings](../assets/img/art/COA%20concept%20art/The%20Narrator.png "not god"){ data-title="the Narrator" data-description=".narratorold" data-caption-position="right"}
+![Guy with pink hair and bad fashion sense with spooky wings](../assets/img/art/ODODI%20concept%20art/The%20Narrator.png "not god"){ data-title="the Narrator" data-description=".narratorold" data-caption-position="right"}
 
 <div class="glightbox-desc narratorold">
     <p><em>04/28/2025</em></p>

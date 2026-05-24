@@ -25,13 +25,13 @@ icon: material/palette
 
     [:octicons-arrow-right-24: Animations](Animations.md)
 
--   :material-sphere:{ .lg .middle } __What's Chronicles of the Aethein?__
+-   :material-sphere:{ .lg .middle } __What's Our Deities of Dreadful Ineptitude?__
 
     ---
 
     Try taking a look at tab labelled it up on the navigator bar. But I've also got these illustrations for the series here!
 
-    [:octicons-arrow-right-24: CoA Chapter Illustrations](COA%20Chapter%20Illustrations.md)
+    [:octicons-arrow-right-24: ODODI Chapter Illustrations](ODODI%20Chapter%20Illustrations.md)
 
 -   :material-vector-triangle:{ .lg .middle } __Too many words!__
 
@@ -39,15 +39,15 @@ icon: material/palette
 
     Too much commitment! I say, offering a very slowly and unpredictably updating comic version of the book.
 
-    [:octicons-arrow-right-24: CoA Comic](COA%20Comic.md)
+    [:octicons-arrow-right-24: ODODI Comic](ODODI%20Comic.md)
 
--   :material-vector-triangle:{ .lg .middle } __Can I has moar CoA stuff?__
+-   :material-vector-triangle:{ .lg .middle } __Can I has moar ODODI stuff?__
 
     ---
 
     Here's some concept art I made! Not much so far, but probably more coming...
 
-    [:octicons-arrow-right-24: CoA Concept Art](COA%20Concept%20Art.md)
+    [:octicons-arrow-right-24: ODODI Concept Art](ODODI%20Concept%20Art.md)
 
 -   :material-scale-unbalanced:{ .lg .middle } __Show me SATIRE SHIT__
 
@@ -124,9 +124,9 @@ Click images for more info and better nav.
     <p>cozy drawing, wonder what rat and berry fell asleep to</p>
 </div>
 
-![](../assets/img/art/shot1.gif){ data-title="COA Teaser Shot 1" data-description=".coateasers1" data-caption-position="right"}
+![](../assets/img/art/shot1.gif){ data-title="ODODI Teaser Shot 1" data-description=".ododiteasers1" data-caption-position="right"}
 
-<div class="glightbox-desc coateasers1">
+<div class="glightbox-desc ododiteasers1">
     <p><em>10/24/2025</em></p>
     <p>Working on a little promo anim for my book, here's the first shot I got</p>
     <p>Inevitably going to give up later :P</p>
@@ -199,7 +199,7 @@ Click images for more info and better nav.
 
 <div class="glightbox-desc plotsignificant">
     <p><em>07/04/2025</em></p>
-    <p>might use this in [Chronicles of the Aethein](https://ratseerofrattesse.github.io/COAWiki). digitized version of below`</p>
+    <p>might use this in [Our Deities of Dreadful Ineptitude](https://ratseerofrattesse.github.io/ODODIWiki). digitized version of below`</p>
 </div>
 
 ![ari crying in a ruined temple sitting across from a statue](../assets/img/art/l%20ari.jpg){ data-title="plot significant sketch" data-description=".plotsignificantsketch" data-caption-position="right"}
@@ -331,7 +331,7 @@ ari looks fine and bia looks like a demon ;-;
 
 <div class="glightbox-desc map">
     <p><em>03/25/2025</em></p>
-    <p>a map of kaaldenvale, the current setting for CoA</p>
+    <p>a map of kaaldenvale, the current setting for ODODI</p>
 </div>
 
 ![ari gestures](../assets/img/art/ahhhhhh%20colouring.png "hi there"){ data-title="hello" data-description=".hello" data-caption-position="right"}
@@ -575,7 +575,7 @@ ari looks fine and bia looks like a demon ;-;
 
 <div class="glightbox-desc avertine">
     <p><em>11/03/2025</em></p>
-    <p>first digital background. thsi is the city of avertine from chronicles of the aethein, its the capital of haelcrien.</p>
+    <p>first digital background. thsi is the city of avertine from Our Deities of Dreadful Ineptitude, its the capital of haelcrien.</p>
 </div>
 
 ![a sketch of an overview of the city of avertine](../assets/img/art/haelcrien.jpeg "spot the loser"){ data-title="Avertine Sketch" data-description=".avertinesketch" data-caption-position="right"}
@@ -592,7 +592,7 @@ ari looks fine and bia looks like a demon ;-;
     <p>some spooky bone thing + aryon's face + branch + COOB. first instance of me actually having an art style i think</p>
 </div>
 
-## marker drawings of characters from my project chronicles of the aethein (see profile)
+## marker drawings of characters from my project Our Deities of Dreadful Ineptitude (see profile)
 10/19/2024
 ![ari spreads hands dramatically in one drawing and is bleeding from the face in the other :D](../assets/img/art/ari%20marker.jpeg "regular day"){ data-title="Ari" data-description=".arimarker" data-caption-position="right"}
 

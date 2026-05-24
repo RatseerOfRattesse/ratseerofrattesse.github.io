@@ -2,11 +2,11 @@
 description: Art by RatseerOfRattesse
 ---
 
-# COA Chapter Illustrations
+# ODODI Chapter Illustrations
 
 *Sorted newest first*
 
-Illustrations for [Chronicles of the Aethein](https://ratseerofrattesse.github.io/COAWiki).
+Illustrations for [Our Deities of Dreadful Ineptitude](https://ratseerofrattesse.github.io/ODODIWiki).
 
 
 ## Advent of the Haelborne
