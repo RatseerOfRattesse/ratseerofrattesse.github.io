@@ -181,6 +181,15 @@ Illustrations for [Our Deities of Dreadful Ineptitude](https://ratseerofrattesse
 
 ![The group travels on hexacampi](../assets/img/illustrations/Ch3-1.png)
 
+#### Ch3-2
+???+ info
+
+    :octicons-verified-16: :material-star-three-points-outline: :material-check-all:
+    
+    For reference on what these symbols mean, see the [art index](../index.md)
+
+![Ari and Bia bickering](../assets/img/illustrations/Ch3-2.png)
+
 #### Ch3-3
 ???+ info
 
