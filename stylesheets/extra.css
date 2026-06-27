@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+h2, h3{
+    font-weight: bold;
+}
+
+ul, ol {
+    line-height: 115%;
+}
+
+:root {
+    --md-text-font: "Gentium Book Plus";
+    --md-admonition-icon--governance: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>code-array</title><path d="M3,5A2,2 0 0,1 5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5C3.89,21 3,20.1 3,19V5M6,6V18H10V16H8V8H10V6H6M16,16H14V18H18V6H14V8H16V16Z" /></svg>')
+    }
+    .md-typeset .admonition.governance,
+    .md-typeset details.governance {
+      border-color: rgb(80, 80, 160);
+      font-family: 'Funnel Display', serif;
+      font-weight: bold;
+      font-size: 0.75rem;
+    }
+    .md-typeset .governance > .admonition-title,
+    .md-typeset .governance > summary {
+      background-color: rgba(80, 80, 160, 0.1);
+    }
+    .md-typeset .governance > .admonition-title::before,
+    .md-typeset .governance > summary::before {
+      background-color: rgb(80, 80, 160);
+      -webkit-mask-image: var(--md-admonition-icon--governance);
+              mask-image: var(--md-admonition-icon--governance);
+}
+
+:root {
+  --md-admonition-icon--artwork: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.5 12a1.5 1.5 0 0 1-1.5-1.5A1.5 1.5 0 0 1 17.5 9a1.5 1.5 0 0 1 1.5 1.5 1.5 1.5 0 0 1-1.5 1.5m-3-4A1.5 1.5 0 0 1 13 6.5 1.5 1.5 0 0 1 14.5 5 1.5 1.5 0 0 1 16 6.5 1.5 1.5 0 0 1 14.5 8m-5 0A1.5 1.5 0 0 1 8 6.5 1.5 1.5 0 0 1 9.5 5 1.5 1.5 0 0 1 11 6.5 1.5 1.5 0 0 1 9.5 8m-3 4A1.5 1.5 0 0 1 5 10.5 1.5 1.5 0 0 1 6.5 9 1.5 1.5 0 0 1 8 10.5 1.5 1.5 0 0 1 6.5 12M12 3a9 9 0 0 0-9 9 9 9 0 0 0 9 9 1.5 1.5 0 0 0 1.5-1.5c0-.39-.15-.74-.39-1-.23-.27-.38-.62-.38-1a1.5 1.5 0 0 1 1.5-1.5H16a5 5 0 0 0 5-5c0-4.42-4.03-8-9-8"/></svg>')
+}
+.md-typeset .admonition.artwork,
+.md-typeset details.artwork {
+  border-color: rgb(171, 34, 201);
+}
+.md-typeset .artwork > .admonition-title {
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+.md-typeset .artwork > summary {
+  background-color: rgba(171, 34, 201, 0.1);
+}
+.md-typeset .artwork > .admonition-title::before,
+.md-typeset .artwork > summary::before {
+  background-color: rgb(171, 34, 201);
+  -webkit-mask-image: var(--md-admonition-icon--artwork);
+          mask-image: var(--md-admonition-icon--artwork);
+}
+
+.md-header__topic {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: 2rem;
+}
+
+.md-header__button.md-logo img, .md-header__button.md-logo svg {
+    height: 2.5rem;
+}
+
+.md-header__button.md-logo {
+    margin: .1rem;
+    padding: .2rem;
+}
+
+body {
+    background-image: url('../assets/img/misc/wildberries.png');
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+[data-md-color-scheme=slate] {
+    --md-typeset-color: hsl(0deg 0% 100%);
+    --md-default-bg-color: hsl(340deg 82.04% 51.96%);
+    --md-footer-bg-color: hsl(340deg 54.38% 32.75% / 32%);
+    --md-footer-bg-color--dark: hsl(340deg 54.38% 32.75% / 32%);
+    --md-admonition-bg-color: hsl(340deg 20.41% 9.02%);
+}
+
+/* fixing nav sidebars */
+.md-nav {
+    background: hsl(340deg 82.04% 51.96% / 32%);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+@media screen and (min-width: 76.25em) {
+    .md-nav--lifted>.md-nav__list>.md-nav__item--active>.md-nav__link {
+        background: hsl(340deg 82.04% 51.96% / 0%);
+        box-shadow: 0 0 .4rem .4rem hsl(340deg 82.04% 51.96% / 0%);
+        margin-top: 0;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+}
+
+@media screen and (min-width: 60em) {
+    .md-nav--secondary .md-nav__title {
+        background: hsl(340deg 82.04% 51.96% / 0%);
+        box-shadow: 0 0 .4rem .4rem hsl(340deg 82.04% 51.96% / 0%);
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+}
+
+.md-nav__title {
+    color: #ed5487;
+    display: block;
+    font-weight: 700;
+    overflow: hidden;
+    padding: 0 .6rem;
+    text-overflow: ellipsis;
+}
+
+.md-nav__list {
+    background: hsl(340deg 82.04% 51.96% / 32%);
+}
+
+/* fixing back to top button */
+
+.md-top {
+    color: hsl(0deg 0% 100%);
+}
+
+/* weird stuff in the footer that was separate for some reason - making the text white */
+.md-copyright {
+    color: #ffffff;
+}
+
+.md-copyright__highlight {
+    color: #ffffff;
+}
+
+html .md-footer-meta.md-typeset a {
+    color: #ffffff;
+}
+
+
+/* annotations */
+.md-annotation__index {
+    --md-default-bg-color: hsl(340deg 62.03% 15.84%);
+}
+
+.md-tooltip {
+    color: hsl(0deg 0% 100%);
+}
+
+/* blog sidebars are weird idk */
+@media screen and (min-width: 76.25em) {
+    .md-nav--primary .md-nav__title {
+        background: hsl(340deg 82.04% 51.96% / 0%);
+        box-shadow: 0 0 .4rem .4rem hsl(340deg 82.04% 51.96% / 0%);
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+}
+
+/* border around main box */
+.md-content {
+    background: hsl(340deg 82.04% 51.96% / 32%);
+    flex-grow: 1;
+    min-width: 0;
+}
+
+/* heading colours were weird */
+.md-typeset h1 {
+    color: #ffffff;
+    font-size: 6em;
+    line-height: 1;
+    margin: 0 0 0;
+}
+
+/* sidebar alignment */
+.md-sidebar {
+    padding: 0rem 0;
+    order: 1;
+}
+
+/* main content alignment */
+.md-grid {
+    margin-left: 10vw;
+    max-width: 70;
+}
+
+.md-typeset .mdx-iconsearch {
+    background-color: var(--md-default-bg-color);
+    box-shadow: var(--md-shadow-z1);
+    position: relative;
+    border-radius: 0.1rem;
+    transition: box-shadow 125ms;
+}
+
+.md-typeset .mdx-iconsearch .md-input {
+    box-shadow: none;
+    background: var(--md-default-bg-color);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .mdx-iconsearch .md-input {
+    background: var(--md-code-bg-color);
+}
+
+.md-typeset .mdx-iconsearch-result {
+    backface-visibility: hidden;
+    max-height: 50vh;
+    overflow-y: auto;
+    scrollbar-color: var(--md-default-fg-color--lighter) #0000;
+    scrollbar-width: thin;
+    touch-action: pan-y;
+}
+
+.md-typeset .mdx-iconsearch-result__select {
+    background-color: var(--md-default-fg-color--lightest);
+    color: var(--md-default-fg-color--light);
+    font-size: 0.64rem;
+    padding-bottom: 0.15em;
+    padding-top: 0.15em;
+    position: absolute;
+    right: 0.6rem;
+    top: 0.4rem;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 0.1rem;
+    transition: color 125ms, background-color 125ms;
+}
+
+.md-typeset .mdx-iconsearch-result__select + .mdx-iconsearch-result__meta {
+    right: 4.1rem;
+}
+
+.md-typeset .mdx-iconsearch-result__meta {
+    color: var(--md-default-fg-color--lighter);
+    font-size: 0.64rem;
+    position: absolute;
+    right: 0.6rem;
+    top: 0.4rem;
+}
+
+[dir="ltr"] .md-typeset .mdx-iconsearch-result__list {
+    margin-left: 0px;
+}
+
+.md-typeset .mdx-iconsearch-result__list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.gslide-description p {
+    font-family: 'Gentium Book Plus';
+}
+
+body[data-md-color-scheme="slate"] .gslide-title {
+    font-family: 'Carrois Gothic SC', sans-serif
+}
