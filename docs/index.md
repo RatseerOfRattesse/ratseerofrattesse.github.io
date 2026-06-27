@@ -14,9 +14,11 @@ Yoy! Hi! Hello! Those are all the same language!
 
 I'm RatseerOfRattesse, artist, writer, and really really bad programmer who doesn't actually know anything about programming. I also may or may not work as an emissary for the rat shadow government.
 
-I'm currently writing and illustrating an original high-fantasy comedy series called ODODI that you can read on [RoyalRoad](www.royalroad.com/fiction/136114) Please give me a rating, I'd love some feedback.
+I'm currently writing and illustrating an original high-fantasy comedy series called Our Deities of Dreadful Ineptitude that you can read on [RoyalRoad](www.royalroad.com/fiction/136114) Please give me a rating, I'd love some feedback. If ya'd like to discuss ODODI, you can talk with the totally existent fandom in [Our Discord of Dreadful Ineptitude](https://discord.gg/HjbmKQRdPa)
 
-@ratseerofrattesse on sheezy, cara, tumblr, bsky, artfol, newgrounds, and yt
+You can check out my projects on the top nav bar :)
+
+@ratseerofrattesse on sheezy, cara, bsky, artfol, and yt
 
 Alternately, email me at ratseerofrattesse@gmail.com.
 
@@ -24,12 +26,10 @@ Alternately, email me at ratseerofrattesse@gmail.com.
 
 - I swear a lot :D
 - ASCII emoticons are objectively superior
-- I love jokingly acting as if media I like is a whole damn religion (JOKINGLY)
-- I use a lot of slang from different cultures
 - I am the cringe and the cringe is me
-- Deal with it, bi-
+- AI is the scourge of the earth. Delete that shit
 
-## My Interests
+## Stuff I Like
 
 - Creative writing
 - Art

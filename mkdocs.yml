@@ -58,7 +58,7 @@ plugins:
   - redirects:
       redirect_maps:
         'Our Deities of Dreadful Ineptitude/index.md': https://ratseerofrattesse.github.io/ODODIWiki
-        'COAWiki/index.md': https://ratseerofrattesse.github.io/ODODIWiki
+        'ODODIWiki/index.md': https://ratseerofrattesse.github.io/ODODIWiki
   - mkdocs-video:
       is_video: True
       video_autoplay: False
