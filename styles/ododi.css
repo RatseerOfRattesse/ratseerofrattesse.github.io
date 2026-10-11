@@ -1,0 +1,166 @@
+.splash {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.splash::before {
+    content: "";
+    position:absolute;
+    inset: 0;
+    z-index: -1;
+    background-image: url("../assets/img/misc/ododi/banner.png");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.splashSign {
+    text-align: right;
+    text-shadow: 1px 1px 0px #c79aff, 2px 2px 0px #af87ff, -1px -1px 0px #ff848f, -2px -2px 0px #ffc0dc;
+    padding-right: 5vw;
+    color: #740064;
+    font-size: 3vh;
+}
+
+.splashSmallBright {
+    font-family: 'Courier New';
+    font-size: 2vh;
+    color: #740064;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px #c79aff, 2px 2px 0px #af87ff, -1px -1px 0px #ff848f, -2px -2px 0px #ffc0dc;
+}
+
+.splashContainer {
+    flex: 1;
+    width: 10vw;
+    margin: 1vw 1vw 1vw 1vw;
+}
+
+.splashLogo {
+    width: 35vw;
+}
+
+.pitchImage {
+    width: 40vw;
+    margin: 0 auto;
+}
+
+.alignedImage {
+    width: 10vw;
+    margin: 1vw 1vw 1vw 1vw;
+}
+
+.pitchParagraph {
+    background: hsl(343deg 76% 68% / 0.1);
+}
+
+.artParagraph {
+    background: hsl(189deg 43% 73% / 0.1);
+}
+
+.worldbuildingParagraph {
+    background: hsl(197deg 49% 38% / 0.1);
+}
+
+
+.creditParagraph {
+    background: hsl(267deg 57% 78% / 0.1);
+}
+
+
+.pitch::before {
+    content: "";
+    position:absolute;
+    inset: 0;
+    z-index: -1;
+    background: #191724;
+    background-position: center;
+    background-size: cover;
+    -webkit-mask-image: linear-gradient(to top, black, transparent);
+    mask-image: linear-gradient (to top, black, transparent);
+    -webkit-mask-size: cover;
+    mask-size: cover;
+}
+
+.art, .worldbuilding, .pitch {
+    padding-bottom: 5vh;
+}
+
+.creditMain {
+    margin: 5vw 15vw;
+}
+
+.credit {
+    margin-bottom: 5vw;
+}
+
+.webcomicPage {
+    width: 55vw;
+}
+
+.pageContainer {
+    justify-content: center;
+    display: flex;
+
+}
+
+.webcomic {
+    text-align: center;
+    margin: 0 15vw;
+    padding: 5vh 0vw;
+    background: hsl(2deg 55% 83% / 0.1);
+    margin-bottom: 5vh;
+}
+
+webcomicButton {
+    margin: 5vh auto;
+    background: hsl(2deg 55% 83% / 0.1);
+}
+
+.webcomicParagraph {
+    background: hsl(2deg 55% 83% / 0.1);
+    margin-bottom: 5vh;
+}
+
+.masonry {
+    background: linear-gradient(hsl(189deg 43% 73% / 0.1), transparent);
+    --items: 1;
+    --gap: 1rem;
+    column-count: var(--items);
+    column-gap: var(--gap);
+    margin: 0 10vw;
+    padding: 1vw 2vw;
+}
+
+.masonryItem {
+    background: linear-gradient(hsl(343deg 76% 68% / 0.1), transparent);
+    margin-bottom: var(--gap);
+    img {
+        width: 100%;
+    }
+    break-inside: avoid;
+}
+
+
+@media (min-width: 48rem) {
+  .masonry { --items: 2 }
+}
+
+@media (min-width: 64rem) {
+  .masonry { --items: 3 }
+}
+
+.lightboxThumbnailContainer {
+  float: left;
+  width: 16%;
+}
+
+.columnPFP {
+    width: 8vw;
+    margin: 0 1vw 0 0;
+}
+
+.bioLeft {
+    margin-right: 1vw;
+}

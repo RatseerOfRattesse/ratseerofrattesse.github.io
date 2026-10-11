@@ -1,0 +1,302 @@
+/*Nav and logo on side*/
+
+body {
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hcsidelogo {
+    object-fit: cover;
+    display: block;
+    width: 37vw;
+    margin: auto;
+}
+
+.nav {
+    flex: 1;
+    display: flex;
+    z-index: 999;
+    position: fixed;
+    top: 0
+    left: 0
+    align-items: center;
+}
+
+.dummy {
+    flex: 1;
+}
+
+.parent {
+    display: flex;
+}
+
+.right-box {
+    flex: 1;
+    font-size: 1cqw;
+    padding-left: 10vw;
+}
+
+.centre-box {
+    flex: 0.2;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.left-box {
+    flex: 1;
+    align-items: center;
+}
+
+.navlineBox {
+    flex: 0.1;
+    position: relative;
+}
+
+.navLabels {
+    flex: 1
+    background-color: white;
+    padding-left: 10%;
+    width: 60%;
+}
+
+.navline {
+    width: 0.5vw;
+    height: 90vh;
+    background-color: #6e6a86;
+    z-index: 999;
+    top: -45vh;
+    left: -0.5vw;
+    position: absolute;
+}
+
+.navLabel {
+    text-decoration: underline;
+    font-size: 2cqw;
+}
+
+.labelDivider {
+    width: 95%;
+    height: 0.25vw;
+    background-color: #6e6a86;
+}
+
+.labelDividerGap {
+    width: 95%;
+    height: 0.25vw;
+    background-color: transparent;
+}
+
+.scrollIndicator {
+    height: 2vw;
+    width: 2vw;
+    background-color: #eb6f92;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: 999;
+    top: 5vw;
+    left: -1.25vw;
+    position: absolute;
+}
+
+/*max -16.25 min 5*/
+
+/*Splash Art*/
+
+.splashArt {
+    z-index: 999;
+    height: 95vh;
+    text-align: right;
+    align-items: bottom;
+    position: relative;
+}
+
+.splashArt::before {
+    content: "";
+    position:absolute;
+    inset: 0;
+    z-index: -1;
+    /*background: linear-gradient(to left, #c4a7e7, transparent);*/
+    background-size: cover;
+    background-position: center;
+}
+
+.currentSplash {
+    font-size: 1.5cqw;
+    line-height: 0.1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.splashName {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-family: "Playfair Display","Times New Roman",Georgia,serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 5vh;
+    line-height: 0.5;
+}
+
+/* Art*/
+
+.artContainer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.artTitle {
+    font-size: 3cqw;
+    line-height: 0.1;
+}
+
+.artButtonLabel {
+    font-size: 1.5cqw;
+    text-shadow: 2px 2px 0px #1f1d2e;
+    background-color: rgba(49, 116, 143, 0.3);
+}
+
+.art {
+    z-index: 999;
+    height: 95vh;
+    text-align: left;
+    align-items: bottom;
+    position: relative;
+}
+
+.artButtonIcon {
+    width: 2vw;
+    margin: 0;
+    padding: 0;
+}
+
+.art::before {
+    content: "";
+    position:absolute;
+    inset: 0;
+    z-index: -1;
+    background: url('../assets/img/misc/hpage/art.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-mask-image: linear-gradient(to left, black, transparent);
+    mask-image: linear-gradient (to left, black, transparent);
+    -webkit-mask-size: cover;
+    mask-size: cover;
+}
+
+/*ododi*/
+
+.ododiTitle {
+    margin-top: 5vh;
+    width: 40vh;
+    background-color: rgba(235, 111, 146, 0.3);
+}
+
+.ododiDesc {
+    background-color: rgba(235, 111, 146, 0.3);
+    text-shadow: 2px 2px 0px #1f1d2e;
+}
+
+.ododi {
+    z-index: 999;
+    height: 95vh;
+    text-align: left;
+    position: relative;
+}
+
+.ododiDivider {
+    width: 95%;
+    height: 0.25vw;
+    background-color: #6e6a86;
+}
+
+.ododi::before {
+    content: "";
+    position:absolute;
+    inset: 0;
+    z-index: -1;
+    background: url('../assets/img/misc/splashArtCandidates/ODODI I Cover.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-mask-image: linear-gradient(to left, black, transparent);
+    mask-image: linear-gradient (to left, black, transparent);
+    -webkit-mask-size: cover;
+    mask-size: cover;
+}
+
+/*ccap*/
+.ccapTitle {
+    padding-top: 20vh;
+    width: 50vh;
+}
+
+.ccapDesc {
+    background-color: rgba(49, 116, 143, 0.3);
+    text-shadow: 2px 2px 0px #1f1d2e;
+}
+
+.ccap {
+    z-index: 999;
+    height: 95vh;
+    text-align: left;
+    align-items: top;
+    position: relative;
+}
+
+.ccap::before {
+    content: "";
+    position:absolute;
+    inset: 0;
+    z-index: -1;
+    background: url('../assets/img/misc/hpage/ccap.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-mask-image: linear-gradient(to left, black, transparent);
+    mask-image: linear-gradient (to left, black, transparent);
+    -webkit-mask-size: cover;
+    mask-size: cover;
+}
+
+/*about*/
+
+.about {
+    z-index: 999;
+    height: 95vh;
+    text-align: left;
+    align-items: top;
+    position: relative;
+}
+
+.aboutTitle {
+    font-size: 3cqw;
+    line-height: 0.1;
+}
+
+.aboutMe {
+    bottom: 4vh;
+    right: 0;
+    position: absolute;
+    font-family: "Playfair Display","Times New Roman",Georgia,serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 5vh;
+    line-height: 0.5;
+    margin: 0;
+}
+
+.about::before {
+    content: "";
+    position:absolute;
+    inset: 0;
+    z-index: -1;
+    background: url('../assets/img/misc/hpage/about.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-mask-image: linear-gradient(to left, black, transparent);
+    mask-image: linear-gradient (to left, black, transparent);
+    -webkit-mask-size: cover;
+    mask-size: cover;
+}
