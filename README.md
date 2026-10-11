@@ -1,0 +1,1 @@
+This is a personal website for RatseerOfRattesse, containing their portfolio and projects (such as Our Deities of Dreadful Ineptitude and Celestial Capitalist (w/ idi0cy))
