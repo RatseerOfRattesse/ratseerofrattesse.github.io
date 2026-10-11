@@ -3,6 +3,7 @@
 body {
     background-position: center;
     background-attachment: fixed;
+    background-size: auto cover;
 }
 
 .hcsidelogo {

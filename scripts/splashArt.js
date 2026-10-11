@@ -1,6 +1,5 @@
 const images = [
     "../../assets/img/misc/splashArtCandidates/BADASSERY.png",
-    "../../assets/img/misc/splashArtCandidates/BANG.png",
     "../../assets/img/misc/splashArtCandidates/bloom.png",
     "../../assets/img/misc/splashArtCandidates/Ch1-2.png",
     "../../assets/img/misc/splashArtCandidates/Ch1-3.png",
@@ -16,13 +15,10 @@ const images = [
     "../../assets/img/misc/splashArtCandidates/Haelborne.png",
     "../../assets/img/misc/splashArtCandidates/herebound and up.png",
     "../../assets/img/misc/splashArtCandidates/Hexacampi.png",
-    "../../assets/img/misc/splashArtCandidates/Nobly Gazing.png",
     "../../assets/img/misc/splashArtCandidates/indifference.png",
     "../../assets/img/misc/splashArtCandidates/KOCHAB.gif",
     "../../assets/img/misc/splashArtCandidates/live laugh coob.png",
     "../../assets/img/misc/splashArtCandidates/map of Kaaldenvale.png",
-    "../../assets/img/misc/splashArtCandidates/CYNOSURE OF CHANGE.png",
-    "../../assets/img/misc/splashArtCandidates/ONE POSTER.png",
     "../../assets/img/misc/splashArtCandidates/piltover.png",
     "../../assets/img/misc/splashArtCandidates/ODODI Comic PG1.png",
     "../../assets/img/misc/splashArtCandidates/Prologue-1v4.png",
@@ -51,7 +47,7 @@ const fileName = images[randomIndex].split(/[/\\]/).pop();
 const processedName = fileName.slice(0, -4).toLowerCase()
 splashName.textContent = processedName
 
-document.body.style.backgroundSize = `100vw`;
+document.body.style.backgroundSize = `cover`;
 document.body.style.backgroundPosition = `center`;
 document.body.style.backgroundAttachment = `fixed`
 document.body.style.backgroundRepeat = `no-repeat`
