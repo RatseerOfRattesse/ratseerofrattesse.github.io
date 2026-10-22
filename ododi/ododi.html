@@ -5,8 +5,8 @@
     <link rel="stylesheet" href="../styles/stylesheet.css">
     <link rel="stylesheet" href="../styles/ododi.css">
     <script src="../scripts/ododi/masonry.js" defer></script>
-    <script src="../scripts/lightbox.js" defer></script>
     <script src="../scripts/global.js" defer></script>
+    <script src="../scripts/lightbox.js" defer></script>
     <title>ODODI</title>
 </head>
 <body>
@@ -161,12 +161,15 @@
 <div class="art">
     <div class="masonry">
     </div>
-    <div class="lightbox"> <!--TODO fix the lightbox-->
-        <span class="closeLightbox cursorLightbox" onclick="closeLightbox()">x</span>
+    <div class="lightbox">
+        <button class="closeLightbox closeLightbox-cancel" onclick="closeLightbox()"></button>
+        <button class="plusX plusX-cancel" onclick="openInfo()"></button>
+        <div id="imageModal" class="imageModal">
+            <b class="lightBoxTitle"></b>
+        </div>
         <div class="lightboxContent">
             <a class="lightboxPrev" onclick="incrementSlide(-1)"><-</a>
             <a class="lightboxNext" onclick="incrementSlide(1)">-></a>
-
             <div class="lightboxCaptionContainer">
                 <p id="lightboxCaption"></p>
             </div>
