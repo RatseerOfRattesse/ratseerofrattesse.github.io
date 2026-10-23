@@ -1,0 +1,14 @@
+.notFoundMain {
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.notFoundTitle {
+    margin-top: 5vw;
+}
+
+.notFoundImage {
+    margin: 0 auto;
+}

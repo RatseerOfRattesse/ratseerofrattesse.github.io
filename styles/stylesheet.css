@@ -31,6 +31,14 @@ a {
     color: #eb6f92;
 }
 
+a:hover {
+    color: #ebbcba;
+    display: inline-block;
+    transform: scale(1.1);
+    z-index: 1;
+    transition: all 0.2s ease-in-out;
+}
+
 .mainModal {
   display: none;
   position: fixed;
@@ -399,6 +407,11 @@ code {
 
 .textRuneColumn {
     height: 20vh;
+    margin: 0 auto;
+}
+
+.textRuneLine {
+    height: 4vh;
     margin: 0 auto;
 }
 
@@ -818,4 +831,31 @@ img.lightboxCapable {
   animation-trigger: view() normal;
   animation-timeline: view();
   animation-range: entry 0% cover 45%;
+}
+
+.searchInput {
+    color: #c4a7e7;
+    font-family: 'Courier New';
+    background-color: #26233a;
+    border-color: #eb6f92;
+    border-radius: 5px;
+    width: 20vw;
+    padding: 0.5vw;
+    font-size: 1rem;
+}
+
+.searchBar {
+    margin: auto;
+}
+
+.searchHint {
+    margin: 0 auto;
+    font-size: 0.8rem;
+}
+
+.searchHintContainer {
+    padding-top: 0;
+}
+
+.searchParagraph {
 }
