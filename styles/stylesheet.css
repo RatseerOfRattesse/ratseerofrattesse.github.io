@@ -31,8 +31,7 @@ a {
     color: #eb6f92;
 }
 
-a:hover {
-    color: #ebbcba;
+p a:hover, li a:hover {
     display: inline-block;
     transform: scale(1.1);
     z-index: 1;
@@ -201,15 +200,86 @@ a:hover {
     padding: 8px 8px;
     text-decoration: none;
     font-size: 2vh;
-    position:relative
+    position: relative;
 }
 
 .navElement {
-  float: right;
+    float: right;
+}
+
+.navElement .navSubBar {
+  display: none;
+}
+
+.navElement:hover .navSubBar {
+  display: block;
+}
+
+.subNavbar {
+    -webkit-animation: navSubBarEmerge 0.8s ease-in-out forwards;
+    animation: navSubBarEmerge 0.8s ease-in-out forwards;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: right;
+    position: fixed;
+    right: 20vw;
+    margin-top: 1vh;
+    width: 0;
+    height: 0;
+    background-color: hsl(245deg 25% 18 / 0.8);
+}
+
+.subNavLink {
+    color: #31748f;
+    display: block;
+    padding: 8px 8px;
+    text-decoration: none;
+    font-size: 1.5vh;
+    position:relative;
+}
+
+.subNavLinkActive {
+    display: block;
+    padding: 8px 8px;
+    font-size: 2vh;
+    position:relative
+    color: #31748f;
+    text-decoration: underline;
+}
+
+@-webkit-keyframes navSubBarEmerge {
+  0% {
+    -webkit-transform: translateY(-3vh);
+            transform: translateY(-3vh);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes navSubBarEmerge {
+  0% {
+    -webkit-transform: translateY(-3vh);
+            transform: translateY(-3vh);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .navLink:hover {
   color: #eb6f92;
+}
+
+.subNavLink:hover {
+  color: #9ccfd8;
 }
 
 .navLink:after {
