@@ -5,10 +5,21 @@
     text-align: center;
 }
 
-.notFoundTitle {
+#notFoundTitle {
     margin-top: 5vw;
+    background-color: #1f1d2e;
+    padding: 18px;
+    border: 1px solid #f6c177;
+    border-radius: 15px;
 }
 
-.notFoundImage {
+#notFoundError {
+    background-color: #1f1d2e;
+    padding: 1px 5px;
+    border: 1px solid #f6c177;
+    border-radius: 15px;
+}
+
+#notFoundImage {
     margin: 0 auto;
 }
