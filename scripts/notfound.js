@@ -1,6 +1,6 @@
 const images = [
-    "../../assets/img/misc/404/ari.png",
-    "../../assets/img/misc/404/bia.png",
+    "/assets/img/misc/404/ari.png",
+    "/assets/img/misc/404/bia.png",
 ];
 
 const img = document.getElementById("notFoundImage");
