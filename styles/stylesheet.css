@@ -929,3 +929,9 @@ img.lightboxCapable {
 
 .searchParagraph {
 }
+
+.alignedDivider {
+  border-left: 2px solid #eb6f92;
+  height: 10vh;
+  margin: 0 1vw;
+}

@@ -18,7 +18,7 @@ async function search(searchBar, listId) {
 
     var doc = parser.parseFromString(htmlText, 'text/html');
 
-    var targetElements = doc.querySelectorAll('p.nonUI, li.nonUI');
+    var targetElements = doc.querySelectorAll('.loreText p');
     var allText = [];
     for (var j = 0; j < targetElements.length; j++) {
         allText.push(targetElements[j].textContent.toUpperCase());
