@@ -1,0 +1,25 @@
+.pageContainer {
+    background: #e1d1cb;
+    width: 70vw;
+    margin: 5vh auto;
+    border: 0.2rem solid #eb6f92;
+    color: #6e6a86;
+    position: relative;
+}
+
+.stainOverlay {
+    display: block;
+    z-index: 1;
+    width: 100%;
+    objectFit: contain;
+}
+
+.pageText {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 5vh 10vh;
+}

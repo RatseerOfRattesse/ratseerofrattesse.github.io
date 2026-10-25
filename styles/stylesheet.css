@@ -935,3 +935,13 @@ img.lightboxCapable {
   height: 10vh;
   margin: 0 1vw;
 }
+
+.inlineLogo {
+    display: inline;
+    vertical-align: middle;
+    height: 2rem;
+    width: auto;
+    margin: 0;
+    padding: 0;
+
+}

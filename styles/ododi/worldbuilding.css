@@ -13,3 +13,7 @@
 .articles > .alignedParagraph{
     padding-bottom: 5vh;
 }
+
+.loreIntro {
+    margin: 5vh 15vw;
+}
