@@ -7,7 +7,7 @@ Built in IntelliJ because I know the keyboard shortcuts and don't wanna install 
 Here's a few screenies for the reviewers.
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/86601c71-4af2-4fe6-bfb9-28d52e38d276" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/259d906f-233f-4ad1-9cc9-6c03bcf3b63a" />
-
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ac810207-c109-41df-83b0-0730db512295" />
 
 Built previously with Material for MkDocs and currently undergoing a revamp using pure CSS/HTML/JS. For the like five people who saw it, the old site is defunct and will not be coming back. Its files may still be viewed in the 'old' folder of the repo root.
 
