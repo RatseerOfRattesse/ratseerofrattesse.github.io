@@ -1,0 +1,57 @@
+b {
+    color: #524f67;
+}
+
+.pageContainer {
+    background: #e0def4;
+    width: 70vw;
+    margin: 5vh auto;
+    border: 0.2rem solid #eb6f92;
+    color: #6e6a86;
+    position: relative;
+}
+
+.pageOverlay {
+    display: block;
+    z-index: 1;
+    width: 100%;
+    objectFit: contain;
+    pointer-events: none;
+}
+
+.pageText {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.part1 {
+    padding: 5vh 10vh;
+}
+
+.part2 {
+    background-color: #26233a;
+    padding: 5vh 10vh;
+}
+
+.part3 {
+    background-color: #1f1d2e;
+    padding: 5vh 10vh;
+}
+
+.alignedArticleLeft {
+    display: flex;
+    align-items: center;
+}
+
+.alignedArticleRight {
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+.tooltip, .bigTooltip {
+    color: #31748f;
+}

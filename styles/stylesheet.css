@@ -31,6 +31,14 @@ a {
     color: #eb6f92;
 }
 
+hr {
+    padding: 0vw 0vw;
+    margin: 0vw 0vw;
+    border: none;
+    height: 2px;
+    background-color: #6e6a86;
+}
+
 p a:hover, li a:hover {
     display: inline-block;
     transform: scale(1.1);
