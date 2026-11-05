@@ -162,17 +162,14 @@ p a:hover, li a:hover {
     text-indent: 20px;
 }
 
-.footer {
-    background-color: #26233a;
-    z-index: 1000;
-}
-
 #footer {
     -webkit-animation: fadeInBottom 0.8s ease-in-out forwards;
     animation: fadeInBottom 0.8s ease-in-out forwards;
     animation-trigger: view() normal;
     animation-timeline: view();
     animation-range: entry 0% cover 15%;
+    background-color: #26233a;
+    z-index: 1000;
 }
 
 .navLogo {

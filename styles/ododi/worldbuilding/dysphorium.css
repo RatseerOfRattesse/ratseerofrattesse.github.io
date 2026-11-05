@@ -1,18 +1,15 @@
-b {
+.pageContainer b {
     color: #524f67;
 }
 
 .pageContainer {
-    background: #e0def4;
-    width: 70vw;
-    margin: 5vh auto;
-    border: 0.2rem solid #eb6f92;
+    margin: 5vh 15vw;
     color: #6e6a86;
     position: relative;
 }
 
 .pageOverlay {
-    display: block;
+    position: absolute;
     z-index: 1;
     width: 100%;
     objectFit: contain;
@@ -20,25 +17,19 @@ b {
 }
 
 .pageText {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    border: 0.2rem solid #eb6f92;
+    background: #e0def4;
 }
 
-.part1 {
+.part1, .part2, .part3, .part4 {
     padding: 5vh 10vh;
 }
 
-.part2 {
+.part2, .part4 {
     background-color: #26233a;
-    padding: 5vh 10vh;
-}
-
-.part3 {
-    background-color: #1f1d2e;
-    padding: 5vh 10vh;
+    b {
+        color: #908caa;
+    }
 }
 
 .alignedArticleLeft {
