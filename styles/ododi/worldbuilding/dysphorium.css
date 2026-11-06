@@ -29,7 +29,7 @@
 }
 
 .part1, .part2, .part3, .part4 {
-    padding: 1vh 10vh;
+    padding: 3vh 10vh;
     margin: 0 15vw;
     border: 0.2rem solid #eb6f92;
 }
@@ -79,7 +79,7 @@
 
 .imageBox {
     border: 0.2rem solid #eb6f92;
-    margin: 0 3vw;
+    margin: 2vh 1.5vw;
     padding: 1vw;
     font-size: 1.5vh;
     text-align: center;
@@ -92,11 +92,49 @@
     width: 15vw;
 }
 
-.growth {
+#growthContainer, #shadowContainer {
     position: absolute;
-    z-index: 2;
-    width: 100%;
+    bottom: 3vh;
     pointer-events: none;
+}
+
+#shadowContainer {
     bottom: 0;
+    opacity: 0;
+}
+
+@keyframes fadeInShadow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.75;
+  }
+}
+
+
+.growthSubContainer, .shadowSubContainer {
+    display: flex;
+}
+
+.growthRight, .growthLeft, .shadowLeft, .shadowRight {
+    z-index: 2;
+    width: 40%;
+    object-fit: contain;
     margin: 0 auto;
+}
+
+.growthLeft, .shadowLeft {
+    left: 0;
+}
+
+.growthRight, .shadowRight {
+    right: 0;
+}
+
+.shadowLeft, .shadowRight {
+}
+
+.growthSubContainer {
+    display: none;
 }

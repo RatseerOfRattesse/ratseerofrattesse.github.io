@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="">
 <head>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
     <link rel="stylesheet" href="../../../styles/stylesheet.css">
     <link rel="stylesheet" href="../../../styles/ododi.css">
     <link rel="stylesheet" href="../../../styles/ododi/worldbuilding.css">
     <link rel="stylesheet" href="../../../styles/ododi/worldbuilding/dysphorium.css">
+    <script src="../../../scripts/ododi/worldbuilding/dysphorium.js" defer></script>
     <script src="../../../scripts/global.js" defer></script>
     <title>Mass Dysphoria Attacks</title>
 </head>
@@ -89,6 +91,37 @@
         <img src="../../../assets/img/misc/ododi/runes/laezSineOhn.png" class="textRuneRow">
     </div>
     <div class="pageContainer">
+        <div id="shadowContainer">
+            <div class="shadowSubContainer" id="shadowii">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphoriumIILeftShadow.png" class="shadowLeft">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphoriumIIRightShadow.png" class="shadowRight">
+            </div>
+            <div class="shadowSubContainer" id="shadowiii">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphoriumIIILeftShadow.png" class="shadowLeft">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphoriumIIIRightShadow.png" class="shadowRight">
+            </div>
+            <div class="shadowSubContainer" id="shadowiv">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphoriumIVLeftShadow.png" class="shadowLeft">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphoriumIVRightShadow.png" class="shadowRight">
+            </div>
+        </div>
+        <div id="growthContainer">
+            <div class="growthSubContainer" id="growthii">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphoriumIILeft.png" class="growthLeft">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphoriumIIRight.png" class="growthRight">
+            </div>
+            <div class="growthSubContainer" id="growthiii">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphoriumIIILeft.png" class="growthLeft">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphoriumIIIRight.png" class="growthRight">
+            </div>
+            <div class="growthSubContainer" id="growthiv">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphoriumIVLeft.png" class="growthLeft">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphoriumIVRight.png" class="growthRight">
+                <audio id="audioiv">
+                    <source src="horse.ogg" type="audio/wav">
+                </audio>
+            </div>
+        </div>
         <div class="pageText">
             <div class="part1 noBottomBorder">
                 <img src="../../../assets/img/misc/amirlithSeal.png" class="pageOverlay">
@@ -100,6 +133,7 @@
                 <div class="alignedArticleLeft">
                     <div>
                         <h2 id="i">I | REPORT//</h2>
+                        <hr>
                         <p>On the fifteenth of Samiron, Cycle 12<sup>12</sup>, communicators encountered a <b>LOSS OF SIGNAL</b> on all Neverglade feeds and channels across the <span class="bigTooltip" data-tooltip="(Absolutionists assumed, unaccounted as per usual)">Six Majors</span>. Subsequent attempts to contact Neverglade were unsuccessful. It should be noted that this silencing was not gradual; the entirety of the Neverglade surface, orbit, and several ships moving to and from its orbit, were all cut off at the moment. Estimating from the average reaction time of interdasannakal channel operators, the process could have taken no less than <b>3.5 ahnsecs</b>.</p>
                     </div>
                     <div class="imageBox">
@@ -131,6 +165,7 @@
                     </div>
                     <div>
                         <h2 id="ii">II | STATUS//</h2>
+                        <hr>
                         <p>Evacuations are being organized but the Diorvana dasannak's dimensional membrane is refusing to admit anything but metaphysical matter. Daethaian analysts have arrived and are studying the phenomenon with no estimate of an unlock time. Communications with the rest of the dasannak's planets are still up and the local proxy government will soon be unable to reign in the populus.</p>
                         <p>Loss of control over the warpways is estimated within six to ten rotations; even if the Daethai are able to unlock the membrane or the locals stop the effect, Diorvanan society will need reformations. Their position as a major manufacturing hub - especially Neverglades - will have lasting impact to the seventh dasanqi's economy. All investigative effort into the silenced planets have been given up and the populus of all the dasannak are migrating as fast as possible away from the Neverglades.</p>
                     </div>
@@ -140,6 +175,7 @@
                 <div class="alignedArticleLeft">
                     <div>
                         <h2 id="iii">III | EXPEDITION DATA//</h2>
+                        <hr>
                         <p>The neighbouring planets Gardinal, Etshini, and Corrundal each sent fleets of two to six daysahnsi class battleships and a collective two hundred seventy smaller combat ships to land at multiple of Neverglade's sahnadocks, equipped with the region's <span class="bigTooltip" data-tooltip="Further information on Diorvanan military technology and procedure may be found in the CSD Interdasannal library, should the reader need context on the relative power levels of the forces at play.">top of the line technology</span>. These ships arrived on the planet surface without issue and passed many Neverglade ships cut along perfect seams, at a fidelity and precision suggesting a mass attack by <b>metaweaponry</b> yet to be industrialized in the Daethaian territories, much less the wider cosmos.</p>
                         <p>Expeditions arrived at three separate sahnadocks at equidistant points around the planet, each inactive. Buildings showed more of the aforementioned perfect seams. Without the velocity of the cut ships in orbit, the seams were thin enough that almost every structure not impacted by a fallen ship was still upright and left no debris. <b>There were no bodies</b>.</p>
                     </div>
@@ -172,6 +208,7 @@
                     </div>
                     <div>
                         <h2 id="iv">IV | ANALYSIS//</h2>
+                        <hr>
                         <p>The recovered expedition data has been sent off to the Church of Six Deities and the Daethai labs. It is undergoing analysis and the Interdasannal Council will be updated as according to progress.</p>
                         <p>There is no solid hypothesis on the phenomenon currently happening in Diorvana. Speculations guess it may relate to the Chaos' recent descension, if only for lack of other large scale interdasannal events in the past cyclade. <b>The similarity of the 90-degree godspeak to the runes read from the recent extradahnal intrusion is noted</b>. The runes and arbitrarily placed cuts also point to this being an incident caused by sentients (whether from malice or otherwise) rather than some natural phenomena. However, natural disaster is not to be placed out of the picture entirely during investigation; runes, especially godspeak, do appear naturally as a result of extreme metaphysical forces.</p>
                     </div>
@@ -191,7 +228,6 @@
                 </div>
             </div>
         </div>
-        <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium1.png" class="growth">
     </div>
 </div>
 <div class="navbar" id="footer">
@@ -214,6 +250,7 @@
         <li class="navElement"><a href="https://artfol.app/@RatseerOfRattesse" class="navLink">ARTFOL</a></li>
         <li class="navElement"><a href="https://discord.gg/HjbmKQRdPa" class="navLink">DISCORD</a></li>
         <li class="navElement"><a href="mailto:ratseerofrattesse@gmail.com" class="navLink">EMAIL</a></li>
+        <li class="navElement"><a href="../../../credit.html" class="navLink">CREDIT</a></li>
     </ul>
     <hr style="height: 3px; border: none; background-color: #eb6f92;">
     <p class="navPath"><span style="font-family: 'Courier New';">&copy;</span> Copyright 2026 RatseerOfRattesse</p>

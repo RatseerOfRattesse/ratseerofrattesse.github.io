@@ -158,6 +158,11 @@ p a:hover, li a:hover {
     padding: 1vw;
 }
 
+.alignedImage {
+    width: 10vw;
+    margin: 1vw 1vw 1vw 1vw;
+}
+
 .indented {
     text-indent: 20px;
 }
@@ -187,7 +192,7 @@ p a:hover, li a:hover {
     list-style-type: none;
     align-items: center;
     margin: 0;
-    padding: 0 20vw;
+    padding: 0 15vw;
     background-color: hsl(245deg 25% 18 / 0.8);
     justify-content: right;
     top: 0;
@@ -223,16 +228,12 @@ p a:hover, li a:hover {
 .subNavbar {
     -webkit-animation: navSubBarEmerge 0.8s ease-in-out forwards;
     animation: navSubBarEmerge 0.8s ease-in-out forwards;
+    clear: both;
     display: flex;
     list-style-type: none;
-    align-items: center;
-    justify-content: right;
-    position: fixed;
-    right: 20vw;
-    margin-top: 1vh;
-    width: 0;
-    height: 0;
-    background-color: hsl(245deg 25% 18 / 0.8);
+    right: 15vw;
+    top: 9vh;
+    position: absolute;
 }
 
 .subNavLink {

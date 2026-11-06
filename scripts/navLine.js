@@ -19,8 +19,5 @@ window.addEventListener('scroll', () => {
 
   const indicatorPos = -16.25+0.2125*scrollPercent
 
-  console.log(`Scroll Progress: ${Math.round(scrollPercent)}%`);
-  console.log(indicatorPos)
-
   scrollIndicator.style.top = `${indicatorPos}vw`
 });
