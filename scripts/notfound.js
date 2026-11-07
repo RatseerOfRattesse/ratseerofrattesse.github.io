@@ -38,7 +38,16 @@ const messages = [
     "your chandelier mocks you",
     "big snake hasn't built this part yet",
     "'wait, this isnt easter island'",
-    "you are swimming in dumpling soup"
+    "you are swimming in dumpling soup",
+    "chimp, logs please",
+    "the page is a few steps weg of here",
+    "there will be no nibbana",
+    "bear put this in",
+    "its been 40 years dr tereshkov, the place has changed",
+    "this page got bivniked",
+    "the stoyanium's all gone",
+    "'im gonna make a website that 404s all the time,' said bear",
+    "goose said 'dont put that in'"
 ];
 
 const randomText = Math.floor(Math.random() * messages.length);
