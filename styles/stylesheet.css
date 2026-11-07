@@ -32,6 +32,10 @@ a {
     color: #eb6f92;
 }
 
+img {
+    image-rendering: pixelated;
+}
+
 hr {
     padding: 0vw 0vw;
     margin: 1vw 0vw;
@@ -547,6 +551,13 @@ code {
     mask-image: radial-gradient(circle, black 50%, transparent 50%);
 }
 
+.lightboxImg {
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+    margin: 1vh auto;
+}
+
 .lightBoxTitle {
     text-decoration: underline;
 }
@@ -753,6 +764,12 @@ img.lightboxThumbnail {
 .activeLightbox,
 .lightboxThumbnail:hover {
   opacity: 1;
+}
+
+.lightboxThumbnail {
+    height: 10vh;
+    width: 100%;
+    object-fit: contain;
 }
 
 img.lightboxCapable {

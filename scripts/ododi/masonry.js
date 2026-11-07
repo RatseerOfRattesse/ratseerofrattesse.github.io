@@ -143,10 +143,6 @@ for (let i = 1; i <= 6; i++) {
         let img2 = document.createElement("img");
         img2.classList.add("lightboxImg");
         img2.src = images[randomIndex][0];
-        img2.style.width = "100%";
-        img2.style.height = "100vh";
-        img2.style.objectFit = "contain";
-        img2.style.margin = "1vh auto";
         newLightBoxSlide.append(img2);
 
         if (i == 1) {

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../../../styles/ododi/worldbuilding.css">
     <link rel="stylesheet" href="../../../styles/ododi/worldbuilding/dysphorium.css">
     <script src="../../../scripts/ododi/worldbuilding/dysphorium.js" defer></script>
+    <script src="../../../scripts/lightbox.js" defer></script>
     <script src="../../../scripts/global.js" defer></script>
     <title>Mass Dysphoria Attacks</title>
 </head>
@@ -109,30 +110,30 @@
     <div class="pageContainer">
         <div id="shadowContainer">
             <div class="shadowSubContainer" id="shadowii">
-                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphoriumIILeftShadow.png" class="shadowLeft">
-                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphoriumIIRightShadow.png" class="shadowRight">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/dysphoriumIILeftShadow.png" class="shadowLeft">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/dysphoriumIIRightShadow.png" class="shadowRight">
             </div>
             <div class="shadowSubContainer" id="shadowiii">
-                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphoriumIIILeftShadow.png" class="shadowLeft">
-                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphoriumIIIRightShadow.png" class="shadowRight">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/dysphoriumIIILeftShadow.png" class="shadowLeft">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/dysphoriumIIIRightShadow.png" class="shadowRight">
             </div>
             <div class="shadowSubContainer" id="shadowiv">
-                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphoriumIVLeftShadow.png" class="shadowLeft">
-                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphoriumIVRightShadow.png" class="shadowRight">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/dysphoriumIVLeftShadow.png" class="shadowLeft">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/dysphoriumIVRightShadow.png" class="shadowRight">
             </div>
         </div>
         <div id="growthContainer">
             <div class="growthSubContainer" id="growthii">
-                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphoriumIILeft.png" class="growthLeft">
-                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphoriumIIRight.png" class="growthRight">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/dysphoriumIILeft.png" class="growthLeft">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/dysphoriumIIRight.png" class="growthRight">
             </div>
             <div class="growthSubContainer" id="growthiii">
-                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphoriumIIILeft.png" class="growthLeft">
-                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphoriumIIIRight.png" class="growthRight">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/dysphoriumIIILeft.png" class="growthLeft">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/dysphoriumIIIRight.png" class="growthRight">
             </div>
             <div class="growthSubContainer" id="growthiv">
-                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphoriumIVLeft.png" class="growthLeft">
-                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphoriumIVRight.png" class="growthRight">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/dysphoriumIVLeft.png" class="growthLeft">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/dysphoriumIVRight.png" class="growthRight">
             </div>
         </div>
         <div class="pageText">
@@ -151,8 +152,8 @@
                     </div>
                     <div class="imageBox">
                         <p class="small">figure i</p>
-                        <img src="../../../assets/img/misc/international.png" class="imageBoxImage">
-                        <p>Neverglade from orbit, courtesy of recently inserted satellite.</p>
+                        <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/neverglade1.png" class="imageBoxImage lightboxCapable" onclick="openLightbox(); setSlide(1);">
+                        <p>Neverglade from orbit pre-incident.</p>
                     </div>
                 </div>
             </div>
@@ -164,7 +165,7 @@
                     </div>
                     <div class="imageBox">
                         <p class="small">figure ii</p>
-                        <img src="../../../assets/img/misc/international.png" class="imageBoxImage">
+                        <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/neverglade2.png" class="imageBoxImage" onclick="openLightbox(); setSlide(2);">
                         <p>Neverglade's aural makeup post-incident.</p>
                     </div>
                 </div>
@@ -173,7 +174,7 @@
                 <div class="alignedArticleRight">
                     <div class="imageBox">
                         <p class="small">figure iii</p>
-                        <img src="../../../assets/img/misc/international.png" class="imageBoxImage">
+                        <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/spreadmap.png" class="imageBoxImage" onclick="openLightbox(); setSlide(3);">
                         <p>'Silencing' spread modelled through the Diorvana dasannak.</p>
                     </div>
                     <div>
@@ -194,7 +195,7 @@
                     </div>
                     <div class="imageBox">
                         <p class="small">figure iv</p>
-                        <img src="../../../assets/img/misc/international.png" class="imageBoxImage">
+                        <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/axs.png" class="imageBoxImage" onclick="openLightbox(); setSlide(4);">
                         <p>An AXS102 porter ship of Criodun design, cleanly bisected.</p>
                     </div>
                 </div>
@@ -203,11 +204,11 @@
                 <div class="alignedArticleLeft">
                     <div>
                         <p>Across any wall or other surface perched at a <span class="bigTooltip" data-tooltip="According to the Deiclidean set of physical laws. More info may be found in the CSD Interdasannal library.">ninety-degree angle</span>, the godspeak <span class="tooltip" data-tooltip="Raw: The Change Energy Machine, Processed: The Engine of Change">'di deiehn sisahdfas'</span> was painted in multicolour fluids of unknown composition, now dried.</p>
-                        <p>On touching the runes, each fleet lost signal after about 0.25 ahnsecs, during which live feeds transmitted the images in figure two. Contact has yet to be reestablished and unlikely to be; a satellite promptly inserted into Neverglade orbit found the sites of all three visited sahnadocks with new perfectly cut wreckages.</p>
+                        <p>On touching the runes, each fleet lost signal after about 0.25 ahnsecs, during which live feeds transmitted figure v. Contact has yet to be reestablished and unlikely to be; a satellite promptly inserted into Neverglade orbit found the sites of all three visited sahnadocks with new perfectly cut wreckages.</p>
                     </div>
                     <div class="imageBox">
                         <p class="small">figure v</p>
-                        <img src="../../../assets/img/misc/international.png" class="imageBoxImage">
+                        <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/dysphorium.png" class="imageBoxImage" onclick="openLightbox(); setSlide(5);">
                         <p>Images captured after the touching of the runes.</p>
                     </div>
                 </div>
@@ -216,7 +217,7 @@
                 <div class="alignedArticleRight">
                     <div class="imageBox">
                         <p class="small">figure vi</p>
-                        <img src="../../../assets/img/misc/international.png" class="imageBoxImage">
+                        <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/runes1.png" class="imageBoxImage" onclick="openLightbox(); setSlide(6);">
                         <p>The runes appearing on 90-degree surfaces on Neverglade.</p>
                     </div>
                     <div>
@@ -231,7 +232,7 @@
                 <div class="alignedArticleRight">
                     <div class="imageBox">
                         <p class="small">figure vii</p>
-                        <img src="../../../assets/img/misc/international.png" class="imageBoxImage">
+                        <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/runes2.png" class="imageBoxImage" onclick="openLightbox(); setSlide(7);">
                         <p>Runes shining on the object come of the recent extradahnal intrusion.</p>
                     </div>
                     <div>
@@ -239,6 +240,62 @@
                         <p>The lifeforms or otherwise displayed in fig. v of the above section are unknown and do not match any biological records kept at the Interdasannal Library. Analysts are currently making their way through the CSD archives looking for them. Whether they are the direct cause of the incident or an accompanying symptom is unknown.</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="lightbox">
+        <button class="closeLightbox closeLightbox-cancel" onclick="closeLightbox()"></button>
+        <button class="plusX plusX-cancel" onclick="openInfo()"></button>
+        <div id="imageModal" class="imageModal">
+            <b class="lightBoxTitle"></b>
+        </div>
+        <div class="lightboxContent">
+            <div class="lightboxSlide" data-title="Neverglade Pre Incident" data-desc="Captured by a routine satellite mapping survey of the planet.">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/neverglade1.png" class="lightboxImg">
+            </div>
+            <div class="lightboxSlide" data-title="Neverglade Post Incident" data-desc="Guides are currently decoding the godscript. The symbols are repeated in various areas around the planet.">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/neverglade2.png" class="lightboxImg">
+            </div>
+            <div class="lightboxSlide" data-title="Map of phenomenon spread" data-desc="38 systems predicted to be silenced by next rotation, marked purple. Worlds now gone are marked red.">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/spreadmap.png" class="lightboxImg">
+            </div>
+            <div class="lightboxSlide" data-title="Slashed ship" data-desc="Found amongst many other wreckages during the expeditions' passage to the surface. Note that gravity has not yet pulled the pieces apart.">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/axs.png" class="lightboxImg">
+            </div>
+            <div class="lightboxSlide" data-title="Possible lifeform" data-desc="Not a known species in any interdasannal databases. Research ongoing.">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/dysphorium.png" class="lightboxImg">
+            </div>
+            <div class="lightboxSlide" data-title="90-degree runes" data-desc="Believed to translate as 'The Engine of Change', plastered across the observed sahnadocks.">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/runes1.png" class="lightboxImg">
+            </div>
+            <div class="lightboxSlide" data-title="Extradahnal intrusion runes" data-desc="Also translating to 'The Engine of Change'. The correlation has been noted by analysts, even though the nature of both objects is largely unknown.">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/runes2.png" class="lightboxImg">
+            </div>
+            <a class="lightboxPrev" onclick="incrementSlide(-1)"><-</a>
+            <a class="lightboxNext" onclick="incrementSlide(1)">-></a>
+            <div class="lightboxCaptionContainer">
+                <p id="lightboxCaption"></p>
+            </div>
+            <div class="lightboxThumbnailContainer">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/neverglade1.png" class="lightboxThumbnail" onclick="setSlide(1);">
+            </div>
+            <div class="lightboxThumbnailContainer">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/neverglade2.png" class="lightboxThumbnail" onclick="setSlide(2);">
+            </div>
+            <div class="lightboxThumbnailContainer">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/spreadmap.png" class="lightboxThumbnail" onclick="setSlide(3);">
+            </div>
+            <div class="lightboxThumbnailContainer">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/axs.png" class="lightboxThumbnail" onclick="setSlide(4);">
+            </div>
+            <div class="lightboxThumbnailContainer">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/dysphorium.png" class="lightboxThumbnail" onclick="setSlide(5);">
+            </div>
+            <div class="lightboxThumbnailContainer">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/runes1.png" class="lightboxThumbnail" onclick="setSlide(6);">
+            </div>
+            <div class="lightboxThumbnailContainer">
+                <img src="../../../assets/img/misc/ododi/worldbuilding/dysphorium/runes2.png" class="lightboxThumbnail" onclick="setSlide(7);">
             </div>
         </div>
     </div>
