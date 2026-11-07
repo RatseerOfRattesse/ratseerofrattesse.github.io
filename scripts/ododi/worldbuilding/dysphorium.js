@@ -1,3 +1,21 @@
+var fakeSecurity = document.getElementById("fakeSecurity");
+var blocker = document.getElementById("blocker");
+var closeButton = document.getElementsByClassName("closeModal")[1];
+
+fakeSecurity.style.display = "block";
+
+closeButton.onclick = function() {
+    fakeSecurity.style.display = "none";
+        blocker.style.display = "none";
+}
+
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+        fakeSecurity.style.display = "none";
+        blocker.style.display = "none";
+    }
+});
+
 const scrollY = window.scrollY;
 
 const shadows = document.getElementById("shadowContainer");
@@ -5,25 +23,57 @@ const shadows = document.getElementById("shadowContainer");
 const growthii = document.getElementById("growthii");
 const growthiii = document.getElementById("growthiii");
 const growthiv = document.getElementById("growthiv");
+
 var reachedBottom = false;
 
+var sound1 = false;
+var sound2 = false;
+var sound3 = false;
+
+var scrollTop = window.scrollY || document.documentElement.scrollTop;
+
+var totalHeight = document.documentElement.scrollHeight;
+
+var viewportHeight = document.documentElement.clientHeight;
+
+var scrollableDistance = totalHeight - viewportHeight;
+
+var scrollPercent = scrollableDistance > 0
+    ? (scrollTop / scrollableDistance) * 100
+    : 0;
+
+if (scrollPercent > 96) {
+    shadows.style.opacity = `${scrollPercent/100-0.25}`;
+    if (scrollPercent > 60) {
+        growthiv.style.display = "flex";
+        const audio = new Audio('../../../assets/audio/ododi/worldbuilding/dysphorium1.wav');
+        audio.play();
+    } else if (scrollPercent > 30) {
+        growthiii.style.display = "flex";
+        const audio = new Audio('../../../assets/audio/ododi/worldbuilding/dysphorium2.wav');
+        audio.play();
+    } else {
+        growthii.style.display = "flex";
+        const audio = new Audio('../../../assets/audio/ododi/worldbuilding/dysphorium3.wav');
+        audio.play();
+    }
+}
+
 window.addEventListener('scroll', () => {
-    const scrollTop = window.scrollY || document.documentElement.scrollTop;
+    scrollTop = window.scrollY || document.documentElement.scrollTop;
 
-    const totalHeight = document.documentElement.scrollHeight;
+    totalHeight = document.documentElement.scrollHeight;
 
-    const viewportHeight = document.documentElement.clientHeight;
+    viewportHeight = document.documentElement.clientHeight;
 
-    const scrollableDistance = totalHeight - viewportHeight;
+    scrollableDistance = totalHeight - viewportHeight;
 
-    const scrollPercent = scrollableDistance > 0
+    scrollPercent = scrollableDistance > 0
         ? (scrollTop / scrollableDistance) * 100
         : 0;
 
-    console.log(`Scroll Progress: ${Math.round(scrollPercent)}%`);
 
-
-    if (scrollPercent > 90) {
+    if (scrollPercent > 96) {
         reachedBottom = true;
     }
 
@@ -34,13 +84,25 @@ window.addEventListener('scroll', () => {
     if (reachedBottom == true) {
         if (scrollPercent > 60) {
             growthiv.style.display = "flex";
-            console.log("iv");
+            if (!sound1) {
+                const audio = new Audio('../../../assets/audio/ododi/worldbuilding/dysphorium1.wav');
+                audio.play();
+                sound1 = true;
+            }
         } else if (scrollPercent > 30) {
             growthiii.style.display = "flex";
-            console.log("iii");
+            if (!sound2) {
+                const audio = new Audio('../../../assets/audio/ododi/worldbuilding/dysphorium2.wav');
+                audio.play();
+                sound2 = true;
+            }
         } else {
             growthii.style.display = "flex";
-            console.log("ii");
+            if (!sound3) {
+                const audio = new Audio('../../../assets/audio/ododi/worldbuilding/dysphorium3.wav');
+                audio.play();
+                sound3 = true;
+            }
         }
     }
 });
