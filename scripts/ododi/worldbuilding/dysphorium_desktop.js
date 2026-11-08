@@ -1,7 +1,3 @@
-const scrollY = window.scrollY;
-
-const shadows = document.getElementById("shadowContainer");
-
 const growthii = document.getElementById("growthii");
 const growthiii = document.getElementById("growthiii");
 const growthiv = document.getElementById("growthiv");
@@ -25,7 +21,6 @@ var scrollPercent = scrollableDistance > 0
     : 0;
 
 if (scrollPercent > 96) {
-    shadows.style.opacity = `${scrollPercent/100-0.25}`;
     if (scrollPercent > 60) {
         growthiv.style.display = "flex";
         const audio = new Audio('../../../assets/audio/ododi/worldbuilding/dysphorium1.wav');
@@ -57,10 +52,6 @@ window.addEventListener('scroll', () => {
 
     if (scrollPercent > 96) {
         reachedBottom = true;
-    }
-
-    if (!reachedBottom) {
-        shadows.style.opacity = `${scrollPercent/100-0.25}`;
     }
 
     if (reachedBottom == true) {

@@ -21,7 +21,7 @@ const isDesktop = window.matchMedia("(min-width: 1024px)").matches;
 
 if (isDesktop) {
     const script = document.createElement('script');
-    script.src = "dysphorium_desktop.js";
+    script.src = "../../../../scripts/ododi/worldbuilding/dysphorium_desktop.js";
     script.defer = true;
     document.head.appendChild(script);
 }
@@ -30,15 +30,7 @@ const scrollY = window.scrollY;
 
 const shadows = document.getElementById("shadowContainer");
 
-const growthii = document.getElementById("growthii");
-const growthiii = document.getElementById("growthiii");
-const growthiv = document.getElementById("growthiv");
-
 var reachedBottom = false;
-
-var sound1 = false;
-var sound2 = false;
-var sound3 = false;
 
 var scrollTop = window.scrollY || document.documentElement.scrollTop;
 
@@ -54,19 +46,6 @@ var scrollPercent = scrollableDistance > 0
 
 if (scrollPercent > 96) {
     shadows.style.opacity = `${scrollPercent/100-0.25}`;
-    if (scrollPercent > 60) {
-        growthiv.style.display = "flex";
-        const audio = new Audio('../../../assets/audio/ododi/worldbuilding/dysphorium1.wav');
-        audio.play();
-    } else if (scrollPercent > 30) {
-        growthiii.style.display = "flex";
-        const audio = new Audio('../../../assets/audio/ododi/worldbuilding/dysphorium2.wav');
-        audio.play();
-    } else {
-        growthii.style.display = "flex";
-        const audio = new Audio('../../../assets/audio/ododi/worldbuilding/dysphorium3.wav');
-        audio.play();
-    }
 }
 
 window.addEventListener('scroll', () => {

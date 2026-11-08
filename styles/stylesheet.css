@@ -344,8 +344,8 @@ p a:hover, li a:hover {
             clear: both;
             display: flex;
             list-style-type: none;
-            right: 0vw;
-            top: 8vh;
+            right: 15vw;
+            top: 9vh;
             position: absolute;
             .subNavLink {
                 color: #31748f;
@@ -402,6 +402,9 @@ p a:hover, li a:hover {
         .navElement {
             .navLink {
                 font-size: 2vw;
+                .subNavbar {
+                    right: 15vw;
+                }
             }
         }
     }
