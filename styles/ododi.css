@@ -140,7 +140,7 @@ webcomicButton {
 }
 
 
-@media (min-width: 48rem) {
+@media (max-width: 767px) {
   .masonry { --items: 2 }
 }
 

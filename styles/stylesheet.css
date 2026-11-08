@@ -64,7 +64,7 @@ p a:hover, li a:hover {
     border-radius: 10px;
     font-size: 1.2vh;
     width: 20vw;
-    @media screen and (max-width: 800px) {
+    @media (max-width: 767px) {
         width: 100vw;
         font-size: 2vh;
     }
@@ -89,7 +89,7 @@ p a:hover, li a:hover {
 
 .fakeSecurity {
     width: 30vw;
-    @media screen and (max-width: 800px) {
+    @media (max-width: 767px) {
         width: 80vw;
         font-size: 2vh;
     }
@@ -122,7 +122,7 @@ p a:hover, li a:hover {
     border-radius: 10px;
     font-size: 1.2vh;
     width: 20vw;
-    @media screen and (max-width: 800px) {
+    @media (max-width: 767px) {
         font-size: 2vw;
         padding-left: 12vw;
         width: 80vw;
@@ -134,7 +134,7 @@ p a:hover, li a:hover {
     float: right;
     font-size: 2vw;
     font-weight: bold;
-    @media screen and (max-width: 800px) {
+    @media (max-width: 767px) {
         font-size: 5vw;
     }
 }
@@ -211,7 +211,7 @@ p a:hover, li a:hover {
     align-items: center;
     margin: 0 20vw;
     padding: 1vw 2vw;
-    @media screen and (max-width: 800px) {
+    @media (max-width: 767px) {
         flex-direction: column;
     }
 }
@@ -236,17 +236,17 @@ p a:hover, li a:hover {
     background-color: #26233a;
     z-index: 1000;
     .copyright {
-        @media screen and (max-width: 800px) {
+        @media (max-width: 767px) {
             font-size: 1vh;
         }
     }
     .navLogo {
-        @media screen and (max-width: 800px) {
+        @media (max-width: 767px) {
             display: none;
         }
     }
     .navActive {
-        @media screen and (max-width: 800px) {
+        @media (max-width: 767px) {
             display: none;
         }
     }
@@ -345,7 +345,7 @@ p a:hover, li a:hover {
     top: 0;
     position: sticky;
     z-index: 1000;
-    @media screen and (max-width: 800px) {
+    @media (max-width: 767px) {
         padding: 0 0;
         .navActive {
             .navPath {
@@ -554,7 +554,7 @@ code {
     margin: 5vw;
 }
 
-@media (min-width: 48rem) {
+@media (max-width: 767px) {
   .masonry { --items: 2 }
 }
 
@@ -644,7 +644,7 @@ code {
 
     border: 0 none;
     background: transparent;
-    @media screen and (max-width: 800px) {
+    @media (max-width: 767px) {
         font-size: 5vw;
     }
 }
@@ -705,7 +705,7 @@ code {
 
     border: 0 none;
     background: transparent;
-    @media screen and (max-width: 800px) {
+    @media (max-width: 767px) {
         font-size: 5vw;
     }
 }
@@ -1040,7 +1040,7 @@ img.lightboxCapable {
     border-left: 2px solid #eb6f92;
     height: 10vh;
     margin: 0 1vw;
-    @media screen and (max-width: 800px) {
+    @media (max-width: 767px) {
         display: none;
     }
 }
