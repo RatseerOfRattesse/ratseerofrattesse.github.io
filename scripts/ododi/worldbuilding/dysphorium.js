@@ -16,6 +16,16 @@ document.addEventListener('keydown', (event) => {
     }
 });
 
+
+const isDesktop = window.matchMedia("(min-width: 1024px)").matches;
+
+if (isDesktop) {
+    const script = document.createElement('script');
+    script.src = "dysphorium_desktop.js";
+    script.defer = true;
+    document.head.appendChild(script);
+}
+
 const scrollY = window.scrollY;
 
 const shadows = document.getElementById("shadowContainer");
@@ -79,30 +89,5 @@ window.addEventListener('scroll', () => {
 
     if (!reachedBottom) {
         shadows.style.opacity = `${scrollPercent/100-0.25}`;
-    }
-
-    if (reachedBottom == true) {
-        if (scrollPercent > 60) {
-            growthiv.style.display = "flex";
-            if (!sound1) {
-                const audio = new Audio('../../../assets/audio/ododi/worldbuilding/dysphorium1.wav');
-                audio.play();
-                sound1 = true;
-            }
-        } else if (scrollPercent > 30) {
-            growthiii.style.display = "flex";
-            if (!sound2) {
-                const audio = new Audio('../../../assets/audio/ododi/worldbuilding/dysphorium2.wav');
-                audio.play();
-                sound2 = true;
-            }
-        } else {
-            growthii.style.display = "flex";
-            if (!sound3) {
-                const audio = new Audio('../../../assets/audio/ododi/worldbuilding/dysphorium3.wav');
-                audio.play();
-                sound3 = true;
-            }
-        }
     }
 });

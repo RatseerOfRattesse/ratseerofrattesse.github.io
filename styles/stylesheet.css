@@ -206,13 +206,52 @@ p a:hover, li a:hover {
     text-orientation: upright;
 }
 
+.textRuneColumn {
+    height: 20vh;
+    margin: 0 auto;
+}
+
+.textRuneRow {
+    height: 8vh;
+    margin: 0 auto;
+}
+
 .alignedParagraph {
     display: flex;
     align-items: center;
     margin: 0 20vw;
     padding: 1vw 2vw;
     @media (max-width: 767px) {
-        flex-direction: column;
+        margin: 10vw;
+        padding: 2vw;
+    }
+}
+
+.alignedWatermark {
+    @media (max-width: 767px) {
+        display: none;
+    }
+}
+
+.alignedRuneColumnRight {
+    @media (max-width: 767px) {
+        height: 40vh;
+        margin-right: 2vw;
+        margin-left: -5vw;
+    }
+}
+
+.alignedRuneColumnLeft {
+    @media (max-width: 767px) {
+        height: 40vh;
+        margin-right: -5vw;
+        margin-left: 2vw;
+    }
+}
+
+.alignedRuneColumn {
+    @media (max-width: 767px) {
+        height: 40vh;
     }
 }
 
@@ -305,8 +344,8 @@ p a:hover, li a:hover {
             clear: both;
             display: flex;
             list-style-type: none;
-            right: 15vw;
-            top: 9vh;
+            right: 0vw;
+            top: 8vh;
             position: absolute;
             .subNavLink {
                 color: #31748f;
@@ -547,6 +586,9 @@ code {
 
 .columnItem {
     margin: auto 2vw;
+    @media (max-width: 767px) {
+        margin: auto 0.5vw;
+    }
 }
 
 .dynamicParagraph {
@@ -560,16 +602,6 @@ code {
 
 @media (min-width: 64rem) {
   .masonry { --items: 4 }
-}
-
-.textRuneColumn {
-    height: 20vh;
-    margin: 0 auto;
-}
-
-.textRuneRow {
-    height: 8vh;
-    margin: 0 auto;
 }
 
 .smallUprightRuneTranslation {
@@ -1018,6 +1050,9 @@ img.lightboxCapable {
     width: 20vw;
     padding: 0.5vw;
     font-size: 1rem;
+    @media (max-width: 767px) {
+        width: 40vw;
+    }
 }
 
 .searchBar {
