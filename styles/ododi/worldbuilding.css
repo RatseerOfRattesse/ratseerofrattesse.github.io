@@ -17,3 +17,9 @@
 .loreIntro {
     margin: 5vh 15vw;
 }
+
+.loreArticleDesc {
+    @media (max-width: 767px) {
+        display: none;
+    }
+}
