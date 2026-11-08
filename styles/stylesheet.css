@@ -52,18 +52,22 @@ p a:hover, li a:hover {
 }
 
 .mainModal {
-  display: none;
-  position: fixed;
-  z-index: 1100;
-  right: 0;
-  margin: 0.5vw;
-  overflow: auto;
-  background-color: #1f1d2e;
-  padding: 1vw;
-  border: 1px solid #eb6f92;
-  border-radius: 10px;
-  font-size: 1.2vh;
-  width: 20vw;
+    display: none;
+    position: fixed;
+    z-index: 1200;
+    right: 0;
+    margin: 0.5vw;
+    overflow: auto;
+    background-color: #1f1d2e;
+    padding: 1vw;
+    border: 1px solid #eb6f92;
+    border-radius: 10px;
+    font-size: 1.2vh;
+    width: 20vw;
+    @media screen and (max-width: 800px) {
+        width: 100vw;
+        font-size: 2vh;
+    }
 }
 
 .centralModal {
@@ -85,6 +89,10 @@ p a:hover, li a:hover {
 
 .fakeSecurity {
     width: 30vw;
+    @media screen and (max-width: 800px) {
+        width: 80vw;
+        font-size: 2vh;
+    }
 }
 
 .blocker {
@@ -100,27 +108,35 @@ p a:hover, li a:hover {
 }
 
 .imageModal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  margin: 0.5vw;
-  overflow: auto;
-  background-color: #1f1d2e;
-  padding: 2vw;
-  padding-bottom: 1vw;
-  border: 1px solid #eb6f92;
-  border-radius: 10px;
-  font-size: 1.2vh;
-  width: 20vw;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    margin: 0.5vw;
+    overflow: auto;
+    background-color: #1f1d2e;
+    padding: 2vw;
+    padding-bottom: 1vw;
+    border: 1px solid #eb6f92;
+    border-radius: 10px;
+    font-size: 1.2vh;
+    width: 20vw;
+    @media screen and (max-width: 800px) {
+        font-size: 2vw;
+        padding-left: 12vw;
+        width: 80vw;
+    }
 }
 
 .closeModal {
-  color: #31748f;
-  float: right;
-  font-size: 2vw;
-  font-weight: bold;
+    color: #31748f;
+    float: right;
+    font-size: 2vw;
+    font-weight: bold;
+    @media screen and (max-width: 800px) {
+        font-size: 5vw;
+    }
 }
 
 .closeModal:hover,
@@ -195,6 +211,9 @@ p a:hover, li a:hover {
     align-items: center;
     margin: 0 20vw;
     padding: 1vw 2vw;
+    @media screen and (max-width: 800px) {
+        flex-direction: column;
+    }
 }
 
 .alignedColumn {
@@ -214,26 +233,108 @@ p a:hover, li a:hover {
 }
 
 #footer {
-    -webkit-animation: fadeInBottom 0.8s ease-in-out forwards;
-    animation: fadeInBottom 0.8s ease-in-out forwards;
-    animation-trigger: view() normal;
-    animation-timeline: view();
-    animation-range: entry 0% cover 15%;
     background-color: #26233a;
     z-index: 1000;
-}
-
-.navLogo {
-    width: 8vw;
-}
-
-.navActive {
-    padding-right: 1vh;
-    margin-right: auto;
-    margin-bottom: 25px;
+    .copyright {
+        @media screen and (max-width: 800px) {
+            font-size: 1vh;
+        }
+    }
+    .navLogo {
+        @media screen and (max-width: 800px) {
+            display: none;
+        }
+    }
+    .navActive {
+        @media screen and (max-width: 800px) {
+            display: none;
+        }
+    }
 }
 
 .navbar {
+    .navLogo {
+        width: 8vw;
+    }
+    .navActive {
+        padding-right: 1vh;
+        margin-right: auto;
+        margin-bottom: 25px;
+        .navPath {
+            color: white;
+        }
+    }
+    .navElement {
+        float: right;
+        .navLink {
+            display: block;
+            color: white;
+            padding: 8px 8px;
+            text-decoration: none;
+            font-size: 2vh;
+            position: relative;
+            :after {
+                content: "";
+                background: #eb6f92;
+                height: 2px;
+                transition: right .25s;
+                position: absolute;
+                bottom: 0.5vh;
+                left: 0;
+                right: 100%
+            }
+            :hover {
+                color: #eb6f92;
+            }
+            :hover:after,
+            .navLink:focus-visible:after {
+                right:0
+            }
+        }
+        .navLinkActive {
+            display: block;
+            padding: 8px 8px;
+            font-size: 3vh;
+            position:relative
+            color: #eb6f92;
+            text-decoration: underline;
+        }
+        .subNavbar {
+            -webkit-animation: navSubBarEmerge 0.8s ease-in-out forwards;
+            animation: navSubBarEmerge 0.8s ease-in-out forwards;
+            clear: both;
+            display: flex;
+            list-style-type: none;
+            right: 15vw;
+            top: 9vh;
+            position: absolute;
+            .subNavLink {
+                color: #31748f;
+                display: block;
+                padding: 8px 8px;
+                text-decoration: none;
+                font-size: 1.5vh;
+                position:relative;
+                :hover {
+                    color: #9ccfd8;
+                }
+            }
+            .subNavLinkActive {
+                display: block;
+                padding: 8px 8px;
+                font-size: 2vh;
+                position:relative
+                color: #31748f;
+                text-decoration: underline;
+            }
+        }
+    }
+    .navElement .navSubBar {
+      display: none;
+    }
+    .navElement:hover .navSubBar {
+      display: block;
+    }
     display: flex;
     list-style-type: none;
     align-items: center;
@@ -244,60 +345,27 @@ p a:hover, li a:hover {
     top: 0;
     position: sticky;
     z-index: 1000;
-}
-
-.navPath {
-  color: white;
-}
-
-.navLink {
-    display: block;
-    color: white;
-    padding: 8px 8px;
-    text-decoration: none;
-    font-size: 2vh;
-    position: relative;
-}
-
-.navElement {
-    float: right;
-}
-
-.navElement .navSubBar {
-  display: none;
-}
-
-.navElement:hover .navSubBar {
-  display: block;
-}
-
-.subNavbar {
-    -webkit-animation: navSubBarEmerge 0.8s ease-in-out forwards;
-    animation: navSubBarEmerge 0.8s ease-in-out forwards;
-    clear: both;
-    display: flex;
-    list-style-type: none;
-    right: 15vw;
-    top: 9vh;
-    position: absolute;
-}
-
-.subNavLink {
-    color: #31748f;
-    display: block;
-    padding: 8px 8px;
-    text-decoration: none;
-    font-size: 1.5vh;
-    position:relative;
-}
-
-.subNavLinkActive {
-    display: block;
-    padding: 8px 8px;
-    font-size: 2vh;
-    position:relative
-    color: #31748f;
-    text-decoration: underline;
+    @media screen and (max-width: 800px) {
+        padding: 0 0;
+        .navActive {
+            .navPath {
+                font-size: 2vw;
+            }
+            .navPathMain {
+                font-size: 3vw;
+            }
+        }
+        .navLogo {
+            width: 12vw;
+            display: inline;
+            margin: 1vw;
+        }
+        .navElement {
+            .navLink {
+                font-size: 2vw;
+            }
+        }
+    }
 }
 
 @-webkit-keyframes navSubBarEmerge {
@@ -324,39 +392,6 @@ p a:hover, li a:hover {
             transform: translateY(0);
     opacity: 1;
   }
-}
-
-.navLink:hover {
-  color: #eb6f92;
-}
-
-.subNavLink:hover {
-  color: #9ccfd8;
-}
-
-.navLink:after {
-  content: "";
-  background: #eb6f92;
-  height: 2px;
-  transition: right .25s;
-  position: absolute;
-  bottom: 0.5vh;
-  left: 0;
-  right: 100%
-}
-
-.navLink:hover:after,
-.navLink:focus-visible:after {
-  right:0
-}
-
-.navLinkActive {
-    display: block;
-    padding: 8px 8px;
-    font-size: 3vh;
-    position:relative
-    color: #eb6f92;
-    text-decoration: underline;
 }
 
 code {
@@ -532,8 +567,8 @@ code {
     margin: 0 auto;
 }
 
-.textRuneLine {
-    height: 4vh;
+.textRuneRow {
+    height: 8vh;
     margin: 0 auto;
 }
 
@@ -609,6 +644,9 @@ code {
 
     border: 0 none;
     background: transparent;
+    @media screen and (max-width: 800px) {
+        font-size: 5vw;
+    }
 }
 
 .closeLightbox:before {
@@ -667,6 +705,9 @@ code {
 
     border: 0 none;
     background: transparent;
+    @media screen and (max-width: 800px) {
+        font-size: 5vw;
+    }
 }
 
 .plusX::-moz-focus-inner {
@@ -996,9 +1037,12 @@ img.lightboxCapable {
 }
 
 .alignedDivider {
-  border-left: 2px solid #eb6f92;
-  height: 10vh;
-  margin: 0 1vw;
+    border-left: 2px solid #eb6f92;
+    height: 10vh;
+    margin: 0 1vw;
+    @media screen and (max-width: 800px) {
+        display: none;
+    }
 }
 
 .inlineLogo {

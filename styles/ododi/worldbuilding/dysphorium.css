@@ -32,6 +32,9 @@
     padding: 3vh 10vh;
     margin: 0 15vw;
     border: 0.2rem solid #eb6f92;
+    @media screen and (max-width: 800px) {
+        padding: 0 8vw;
+    }
 }
 
 .noBottomBorder {
@@ -65,12 +68,18 @@
 .alignedArticleLeft {
     display: flex;
     align-items: center;
+    @media screen and (max-width: 800px) {
+        flex-direction: column;
+    }
 }
 
 .alignedArticleRight {
     display: flex;
     align-items: center;
     text-align: right;
+    @media screen and (max-width: 800px) {
+        flex-direction: column;
+    }
 }
 
 .tooltip, .bigTooltip {
@@ -90,12 +99,23 @@
 
 .imageBoxImage {
     width: 15vw;
+    @media screen and (max-width: 800px) {
+        width: 40vw;
+    }
 }
 
 #growthContainer, #shadowContainer {
     position: absolute;
-    bottom: 3vh;
     pointer-events: none;
+    @media screen and (max-width: 800px) {
+        display: flex;
+        flex-direction: column;
+        gap: 400vh;
+    }
+}
+
+#growthContainer {
+    bottom: 3vh;
 }
 
 #shadowContainer {
