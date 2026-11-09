@@ -1,6 +1,6 @@
 https://ratseerofrattesse.github.io/
 
-This is a personal website for RatseerOfRattesse, containing their portfolio and projects (such as Our Deities of Dreadful Ineptitude and Celestial Capitalist (w/ idi0cy)). It is also to hold links for their socials and other works, such as other stories, games, mods, and the like. May host some writing tools in future? Depends. A reviewer might say this is a description of the website. It's here for in future when I need a proper job and have to show my portfolio around to the moguls of the animation landscape, and also for fun I suppose. A reviewer may also say that that was a reason I made this project.
+This is a personal website for RatseerOfRattesse, containing their portfolio and projects (such as Our Deities of Dreadful Ineptitude and Celestial Capitalist (w/ idi0cy)). It is also to hold links for their socials and other works, such as other stories, games, mods, and the like. May host some writing tools in future? Depends. A reviewer might say this is a description of the website. It's here for in future when I need a proper job and have to show my portfolio around to the moguls of the animation landscape, and also for fun I suppose, and also for the indie webcomic dream. A reviewer may also say that these are reasons I made this project.
 
 Built in IntelliJ because I know the keyboard shortcuts and don't wanna install VS as result of immense laziness. Runs on the web. It's a website, y'know. That sufficient for you, Ratticus? For further information, note that you may open the website from the conspicuously placed link at the top of this README that would surely serve no other purpose, by looking at the deployments page, or here: https://ratseerofrattesse.github.io/, or perhaps, guessing from the name of the repository.
 
@@ -9,7 +9,7 @@ Here's a few screenies for the reviewers.
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/259d906f-233f-4ad1-9cc9-6c03bcf3b63a" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ac810207-c109-41df-83b0-0730db512295" />
 
-Built previously with Material for MkDocs and currently undergoing a revamp using pure CSS/HTML/JS. For the like five people who saw it, the old site is defunct and will not be coming back. Its files may still be viewed in the 'old' folder of the repo root.
+Built previously with Material for MkDocs and currently undergoing a revamp using pure CSS/HTML/JS. For the like five people who saw it, the old site is defunct and will not be coming back. Its files may still be viewed in the 'old' folder of the repo root. The ODODIWiki site is still up at its usual URL, and its repo is public per usual. It will probably also be archived.
 
 Reference and code snippets taken from:
 - https://w3bits.com/labs/css-masonry/
