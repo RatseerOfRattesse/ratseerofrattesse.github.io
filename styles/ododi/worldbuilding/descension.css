@@ -1,0 +1,78 @@
+.loreText b, .loreText i {
+    color: #524f67;
+}
+
+.pageOverlay {
+    position: absolute;
+    left: 10vw;
+    z-index: 1;
+    width: 75%;
+    object-fit: contain;
+    pointer-events: none;
+}
+
+.pageText {
+    color: #6e6a86;
+    .imageBoxImage {
+        background-color: #403d52;
+    }
+    .imageBox {
+        background-color: #6e6a86;
+        p {
+            color: #e0def4;
+        }
+    }
+    margin: 5vh 0;
+}
+
+.textBody {
+    padding: 3vh 10vh;
+    margin: 0 15vw;
+    border: 0.2rem solid #eb6f92;
+    @media (max-width: 767px) {
+        padding: 0 8vw;
+    }
+    background: #e0def4;
+}
+
+.part2, .part4 {
+    background-color: #26233a;
+    b {
+        color: #908caa;
+    }
+    .imageBoxImage {
+        background-color: #6e6a86;
+    }
+    .imageBox {
+        background-color: #403d52;
+        p {
+            color: #908caa;
+        }
+    }
+}
+
+.innerTextBody {
+    display: flex;
+    align-items: center;
+    @media (max-width: 767px) {
+        flex-direction: column;
+    }
+}
+
+.tooltip, .bigTooltip {
+    color: #31748f;
+}
+
+#passwordInput {
+    color: #6e6a86;
+    background-color: #e0def4;
+    font-family: 'Courier New';
+    border-color: #eb6f92;
+    border-radius: 5px;
+    width: 20vw;
+    padding: 0.5vw;
+    font-size: 1rem;
+    @media (max-width: 767px) {
+        width: 40vw;
+    }
+}

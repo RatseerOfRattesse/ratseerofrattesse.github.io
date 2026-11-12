@@ -33,6 +33,9 @@ a {
 }
 
 img {
+}
+
+img.lightboxCapable, img.lightboxImg, img.lightboxThumbnail {
     image-rendering: pixelated;
 }
 
