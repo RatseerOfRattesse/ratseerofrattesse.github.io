@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/styles/ododi/worldbuilding.css">
     <link rel="stylesheet" href="/styles/ododi/worldbuilding/descension.css">
     <script src="/scripts/global.js" defer></script>
+    <script src="/scripts/ododi/keyboard.js" defer></script>
     <script src="/scripts/ododi/worldbuilding/descension.js" defer></script>
     <title>Halos-Castell//</title>
 </head>
@@ -108,7 +109,7 @@
         <div class="textBody">
             <img src="../../../assets/img/misc/amirlithSeal.png" class="pageOverlay">
             <p class="small">C.F.D. INTERDASANNAL BODY <img src="../../../assets/img/misc/international.png" class="inlineLogo"> // PUBLIC INFO // 00 FS. C12<sup>8</sup> // 1920:00</p>
-            <h1>SITE TAKEDOWN OF DOMINION.LS.0102.DNT</h1>
+            <h1>SITE TAKEDOWN OF DOMINION.LS / 0102.DNT</h1>
             <hr>
             <p class="small">C.F.D. DEPARTMENT OF PEACEKEEPING // DOMAIN SEIZED FOR // </p>
             <div class="alignedArticleLeft">
@@ -117,50 +118,54 @@
                     <hr>
                     <p>The dasanet domain <b>'dominion.ls'</b> of <i>sector 0102 of the Dunether Dasannak (DNT)</i> has been seized by the Church of Five Deities' Department of Peacekeeping. This domain has violated the First Edict of Dasa: <b>There are No False Idols</b>: and furthermore, that all true idols beyond the court of <b>Venerable Daesa Equilibrium</b> are <i>dead or otherwise gone</i>.</p>
                     <p><b>The C.F.D is currently looking for the owner of this domain, but no contact has been linked. If relevant, please claim this domain by contacting 000 universal lookup.</b></p>
-                    <p class="small">C.F.D. DATABASE CLEANUP TEAM: POSSIBLE SYSTEM ERROR, 8320194246341942782655 SIMILAR REPORTS ON 00 FS. C12<sup>8</sup>. OCCURENCE HAS BEEN NOTED.</p>
-                    <p class="small">C.F.D. DATABASE CLEANUP TEAM: POSSIBLE SYSTEM ERROR, DATE '00 FS. C12<sup>8</sup> 1920:00' IS INVALID. OCCURENCE HAS BEEN NOTED.</p>
+                    <p class="small">C.F.D. DATABASE CLEANUP TEAM: POSSIBLE SYSTEM ERROR, 8320194246341942782655 SIMILAR REPORTS ON 00 FS. C12<sup>8</sup>. OCCURRENCE HAS BEEN NOTED.</p>
+                    <p class="small">C.F.D. DATABASE CLEANUP TEAM: POSSIBLE SYSTEM ERROR, DATE '00 FS. C12<sup>8</sup> 1920:00' IS INVALID. OCCURRENCE HAS BEEN NOTED.</p>
                     <h2 id="clearance">CLEARANCE CHECK // </h2>
                     <hr>
                     <div class="searchBar" id="password">
                         <input type="text" placeholder="ENTER PASSWORD" id="passwordInput">
                     </div>
-                    <div class="godspeakKeyboard">
+                    <div id="godspeakKeyboard">
+                        <div id="keyboardOutput">
+                            <img class="placeholderChar" src="/assets/img/misc/ododi/runes/glyphs/punct/pause.png">
+                        </div>
                         <div class="vowelContainer">
-                            <button onclick="modify('ae')" class="vowelKey key"><img src="/assets/img/misc/ododi/runes/chars/ae.png"></button>
-                            <button onclick="modify('a')" class="vowelKey key"><img src="/assets/img/misc/ododi/runes/chars/a.png"></button>
-                            <button onclick="modify('e')" class="vowelKey key"><img src="/assets/img/misc/ododi/runes/chars/e.png"></button>
-                            <button onclick="modify('i')" class="vowelKey key"><img src="/assets/img/misc/ododi/runes/chars/i.png"></button>
-                            <button onclick="modify('o')" class="vowelKey key"><img src="/assets/img/misc/ododi/runes/chars/o.png"></button>
-                            <button onclick="modify('u')" class="vowelKey key"><img src="/assets/img/misc/ododi/runes/chars/u.png"></button>
+                            <button onclick="modify('ay')" class="vowelKey key"><img src="/assets/img/misc/ododi/runes/glyphs/ay.png"></button>
+                            <button onclick="modify('a')" class="vowelKey key"><img src="/assets/img/misc/ododi/runes/glyphs/a.png"></button>
+                            <button onclick="modify('e')" class="vowelKey key"><img src="/assets/img/misc/ododi/runes/glyphs/e.png"></button>
+                            <button onclick="modify('i')" class="vowelKey key"><img src="/assets/img/misc/ododi/runes/glyphs/i.png"></button>
+                            <button onclick="modify('o')" class="vowelKey key"><img src="/assets/img/misc/ododi/runes/glyphs/o.png"></button>
+                            <button onclick="modify('u')" class="vowelKey key"><img src="/assets/img/misc/ododi/runes/glyphs/u.png"></button>
                         </div>
                         <div class="row">
-                            <button onclick="type('b')" class="consonantKey key"><img src="/assets/img/misc/ododi/runes/chars/b.png"></button>
-                            <button onclick="type('c')" class="consonantKey key"><img src="/assets/img/misc/ododi/runes/chars/c.png"></button>
-                            <button onclick="type('d')" class="consonantKey key"><img src="/assets/img/misc/ododi/runes/chars/d.png"></button>
-                            <button onclick="type('f')" class="consonantKey key"><img src="/assets/img/misc/ododi/runes/chars/f.png"></button>
-                            <button onclick="type('h')" class="consonantKey key"><img src="/assets/img/misc/ododi/runes/chars/h.png"></button>
-                            <button onclick="type('j')" class="consonantKey key"><img src="/assets/img/misc/ododi/runes/chars/j.png"></button>
-                            <button onclick="type('k')" class="consonantKey key"><img src="/assets/img/misc/ododi/runes/chars/k.png"></button>
+                            <button onclick="typeChar('b')" class="consonantKey key"><img src="/assets/img/misc/ododi/runes/glyphs/b.png"></button>
+                            <button onclick="typeChar('c')" class="consonantKey key"><img src="/assets/img/misc/ododi/runes/glyphs/c.png"></button>
+                            <button onclick="typeChar('d')" class="consonantKey key"><img src="/assets/img/misc/ododi/runes/glyphs/d.png"></button>
+                            <button onclick="typeChar('f')" class="consonantKey key"><img src="/assets/img/misc/ododi/runes/glyphs/f.png"></button>
+                            <button onclick="typeChar('h')" class="consonantKey key"><img src="/assets/img/misc/ododi/runes/glyphs/h.png"></button>
+                            <button onclick="typeChar('j')" class="consonantKey key"><img src="/assets/img/misc/ododi/runes/glyphs/j.png"></button>
+                            <button onclick="typeChar('k')" class="consonantKey key"><img src="/assets/img/misc/ododi/runes/glyphs/k.png"></button>
                         </div>
                         <div class="row">
-                            <button onclick="type('l')" class="consonantKey key"><img src="/assets/img/misc/ododi/runes/chars/l.png"></button>
-                            <button onclick="type('m')" class="consonantKey key"><img src="/assets/img/misc/ododi/runes/chars/m.png"></button>
-                            <button onclick="type('p')" class="consonantKey key"><img src="/assets/img/misc/ododi/runes/chars/p.png"></button>
-                            <button onclick="type('r')" class="consonantKey key"><img src="/assets/img/misc/ododi/runes/chars/r.png"></button>
-                            <button onclick="type('s')" class="consonantKey key"><img src="/assets/img/misc/ododi/runes/chars/s.png"></button>
-                            <button onclick="type('t')" class="consonantKey key"><img src="/assets/img/misc/ododi/runes/chars/t.png"></button>
-                            <button onclick="type('v')" class="consonantKey key"><img src="/assets/img/misc/ododi/runes/chars/v.png"></button>
+                            <button onclick="typeChar('l')" class="consonantKey key"><img src="/assets/img/misc/ododi/runes/glyphs/l.png"></button>
+                            <button onclick="typeChar('m')" class="consonantKey key"><img src="/assets/img/misc/ododi/runes/glyphs/m.png"></button>
+                            <button onclick="typeChar('p')" class="consonantKey key"><img src="/assets/img/misc/ododi/runes/glyphs/p.png"></button>
+                            <button onclick="typeChar('r')" class="consonantKey key"><img src="/assets/img/misc/ododi/runes/glyphs/r.png"></button>
+                            <button onclick="typeChar('s')" class="consonantKey key"><img src="/assets/img/misc/ododi/runes/glyphs/s.png"></button>
+                            <button onclick="typeChar('t')" class="consonantKey key"><img src="/assets/img/misc/ododi/runes/glyphs/t.png"></button>
+                            <button onclick="typeChar('v')" class="consonantKey key"><img src="/assets/img/misc/ododi/runes/glyphs/v.png"></button>
                         </div>
                         <div class="row">
-                            <button onclick="type('l')" class="punctuationKey key"><img src="/assets/img/misc/ododi/runes/chars/colon.png"></button>
-                            <button onclick="type('m')" class="punctuationKey key"><img src="/assets/img/misc/ododi/runes/chars/exclamation.png"></button>
-                            <button onclick="type('p')" class="punctuationKey key"><img src="/assets/img/misc/ododi/runes/chars/apostrophe.png"></button>
-                            <button onclick="type('r')" class="punctuationKey key"><img src="/assets/img/misc/ododi/runes/chars/fullpause.png"></button>
-                            <button onclick="type('v')" class="spaceKey key"><img src="/assets/img/misc/ododi/runes/chars/pause.png"></button>
-                            <button onclick="type('s')" class="punctuationKey key"><img src="/assets/img/misc/ododi/runes/chars/semipause.png"></button>
-                            <button onclick="type('t')" class="punctuationKey key"><img src="/assets/img/misc/ododi/runes/chars/quote.png"></button>
-                            <button onclick="type('v')" class="punctuationKey key"><img src="/assets/img/misc/ododi/runes/chars/question.png"></button>
-                            <button onclick="type('v')" class="punctuationKey key"><img src="/assets/img/misc/ododi/runes/chars/posession.png"></button>
+                            <button onclick="typeChar('colon')" class="punctuationKey key"><img src="/assets/img/misc/ododi/runes/glyphs/punct/colon.png"></button>
+                            <button onclick="typeChar('exclamation')" class="punctuationKey key"><img src="/assets/img/misc/ododi/runes/glyphs/punct/exclamation.png"></button>
+                            <button onclick="typeChar('apostrophe')" class="punctuationKey key"><img src="/assets/img/misc/ododi/runes/glyphs/punct/apostrophe.png"></button>
+                            <button onclick="typeChar('fullpause')" class="punctuationKey key"><img src="/assets/img/misc/ododi/runes/glyphs/punct/fullpause.png"></button>
+                            <button onclick="typeChar('semipause')" class="middleKey key"><img src="/assets/img/misc/ododi/runes/glyphs/punct/semipause.png"></button>
+                            <button onclick="backspace()" class="middleKey key"><img src="/assets/img/misc/ododi/runes/glyphs/punct/backspace.png"></button>
+                            <button onclick="typeChar('pause')" class="punctuationKey key"><img src="/assets/img/misc/ododi/runes/glyphs/punct/pause.png"></button>
+                            <button onclick="typeChar('quote')" class="punctuationKey key"><img src="/assets/img/misc/ododi/runes/glyphs/punct/quote.png"></button>
+                            <button onclick="typeChar('question')" class="punctuationKey key"><img src="/assets/img/misc/ododi/runes/glyphs/punct/question.png"></button>
+                            <button onclick="typeChar('possession')" class="punctuationKey key"><img src="/assets/img/misc/ododi/runes/glyphs/punct/possession.png"></button>
                         </div>
                     </div>
                 </div>
