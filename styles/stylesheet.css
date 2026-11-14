@@ -1180,5 +1180,10 @@ img.lightboxCapable {
                 object-fit: contain;
             }
         }
+        .submitKey {
+            border: 2px solid #31748f;
+            height: 3vw;
+            width: 80%;
+        }
     }
 }
