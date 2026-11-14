@@ -1095,11 +1095,10 @@ img.lightboxCapable {
 .inlineLogo {
     display: inline;
     vertical-align: middle;
-    height: 2rem;
+    height: 1.5em;
     width: auto;
     margin: 0;
     padding: 0;
-
 }
 
 #godspeakKeyboard {

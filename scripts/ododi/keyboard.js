@@ -15,6 +15,7 @@ function typeChar(character) {
         modifying = true;
     } else {
         img.src = "/assets/img/misc/ododi/runes/glyphs/punct/" + character + ".png";
+        modifying = false;
     }
     img.classList.add("outChar");
     output.append(img);
@@ -38,9 +39,9 @@ function modify(character) {
         (currentChar == 'o' && (character == 'a' || character == 'e' || character == 'i' || character == 'u' || character == 'ay')) || // check for illegal o combos
         (currentChar == 'u' && (character == 'a' || character == 'e' || character == 'i' || character == 'o' || character == 'ay')) // check for illegal u combos
     ) {
-        console.log('skipped');
-        console.log(currentChar);
-        console.log(character);
+        //console.log('skipped');
+        //console.log(currentChar);
+        //console.log(character);
         typeChar(character);
         stack = false;
     } else {
@@ -50,7 +51,7 @@ function modify(character) {
         }
         let img = document.createElement("img");
         if ((character == 'ay' || character == 'e') && stack) {
-            console.log('stacking');
+            //console.log('stacking');
             if (character == 'ay') {
                 img.src = "/assets/img/misc/ododi/runes/glyphs/ow/" + currentConsonant + "ow.png";
             } else {
@@ -59,7 +60,7 @@ function modify(character) {
             stack = false;
             modifying = false;
         } else {
-            console.log('nonstacking');
+            //console.log('nonstacking');
             img.src = "/assets/img/misc/ododi/runes/glyphs/" + character + "/" + currentChar + character + ".png";
             stack = true;
             if (currentChar == 'ay' && character == 'ay') {

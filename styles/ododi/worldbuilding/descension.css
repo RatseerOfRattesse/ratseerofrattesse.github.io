@@ -36,22 +36,6 @@
     background: #e0def4;
 }
 
-.part2, .part4 {
-    background-color: #26233a;
-    b {
-        color: #908caa;
-    }
-    .imageBoxImage {
-        background-color: #6e6a86;
-    }
-    .imageBox {
-        background-color: #403d52;
-        p {
-            color: #908caa;
-        }
-    }
-}
-
 .innerTextBody {
     display: flex;
     align-items: center;

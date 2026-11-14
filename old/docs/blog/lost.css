@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+
+body {
+    background-color: hsl(140deg 10% 18 / 0.8);
+    font-family: 'Aubrey';
+    color: #e0def4;
+    font-size: 2vh;
+}
+
+.emphasized {
+    font-family: "Aubrey";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 5vh;
+    margin: 1vh;
+}
+
+.navbar {
+    .navElement {
+        float: right;
+        .navLink {
+            display: block;
+            color: pink;
+            text-decoration: underline;
+        }
+    }
+    gap: 2vw;
+    background-color: hsl(110deg 10% 18 / 0.8);
+}
+
+.textBody {
+    padding: 3vh 1vh;
+    margin: 0 5vw;
+    background: hsl(189deg 10% 73%);
+    display: flex;
+}
+
+.small {
+    font-size: 1.25vh;
+}
+
+.smallThick {
+    font-family: 'Notable';
+    font-size: 1vh;
+}
+
+.thick {
+    font-family: 'Notable';
+    font-size: 2vh;
+}
+
+#immortals {
+    margin: 0 auto;
+    height: 50vh;
+}
+
+.footer {
+    color: pink;
+}
+
+.blogEntries {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+}

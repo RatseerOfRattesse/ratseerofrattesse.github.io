@@ -95,7 +95,7 @@ async function submit() {
     if (password == "EM SAMS MEE RAYLEEA HASTOR") {
         clearance.innerText = "ACCEPTED. WELCOME, VENERABLE DAESA.";
         await wait(200);
-        window.location.assign("../spoiler2/dysphorium.html");
+        window.location.assign("/old/docs/Our%20Deities%20of%20Dreadful%20Ineptitude/lost.html");
     } else if (password.includes("RAYLEEA") || password.includes("HASTOR")) {
         clearance.innerText = "REJECTED. BEGONE, VENERABLE AHNDAESA.";
     } else if (password.includes("HASTUR") || (password.includes("ELO") || password.includes("KEEMJ") )) {
