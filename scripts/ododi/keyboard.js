@@ -103,10 +103,12 @@ function backspace() {
             currentChar = fileName.substring(0, 1);
             currentConsonant = fileName.substring(0, 1);
         }
+        modifying = true;
     } else {
         currentChar = null;
         currentConsonant = null;
+        modifying = false;
     }
     stack = false;
-    modifying = true;
 }
+
