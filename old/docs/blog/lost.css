@@ -51,7 +51,8 @@ body {
 
 #immortals {
     margin: 0 auto;
-    height: 50vh;
+    width: 50vw;
+    object-fit: contain;
 }
 
 .footer {
@@ -62,4 +63,17 @@ body {
     display: flex;
     flex-direction: column;
     margin-left: 1vw;
+}
+
+.date {
+    font-family: 'Notable';
+    font-size: 1vh;
+    color: #6e6a86;
+    background-color: hsl(189deg 10% 73%);
+    border: none;
+    font-size: 1em;
+}
+
+.date:focus {
+  outline: none;
 }
