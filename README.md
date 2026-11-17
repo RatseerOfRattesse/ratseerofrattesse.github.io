@@ -21,3 +21,4 @@ Reference and code snippets taken from:
 - https://w3bits.com/labs/css-masonry/
 - https://www.w3schools.com/
 - https://animista.net/
+- https://mojoauth.com/security-guides/sha-1-in-javascript-in-browser
