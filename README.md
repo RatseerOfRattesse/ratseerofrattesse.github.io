@@ -22,3 +22,4 @@ Reference and code snippets taken from:
 - https://www.w3schools.com/
 - https://animista.net/
 - https://mojoauth.com/security-guides/sha-1-in-javascript-in-browser
+- https://medium.com/@thomas_40553/how-to-secure-encrypt-and-decrypt-data-within-the-browser-with-aes-gcm-and-pbkdf2-057b839c96b6
