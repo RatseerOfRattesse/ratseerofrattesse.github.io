@@ -1,0 +1,156 @@
+body {
+    background: url("/assets/img/misc/ododi/worldbuilding/aurageo/wallpaper.png");
+    background-size: 98px 49px;
+}
+
+a {
+    color: #9bcaca;
+}
+
+.worldbuildingParagraph {
+    background: #fff9ea;
+}
+
+.pageContainer b {
+    color: #524f67;
+}
+
+.pageContainer {
+    position: relative;
+}
+
+.pageOverlay {
+    position: absolute;
+    left: 10vw;
+    z-index: 1;
+    width: 75%;
+    object-fit: contain;
+    pointer-events: none;
+}
+
+.pageText {
+    color: #6e6a86;
+    .imageBoxImage {
+        background-color: #e1d6c2;
+    }
+    .imageBox {
+        background-color: #e1d6c2;
+        p {
+            color: #a94521;
+        }
+    }
+}
+
+.part1, .part2, .part3, .part4, .part5 {
+    padding: 3vh 10vh;
+    margin: 0 15vw;
+    border: 0.2rem solid #9bcaca;
+    @media (max-width: 767px) {
+        padding: 0 8vw;
+        margin: 0 5vw;
+    }
+}
+
+.noBottomBorder {
+    border-bottom: 0;
+}
+
+.noTopBorder {
+    border-top: 0;
+}
+
+.part1, .part3, .part5 {
+    background: #fff9ea;
+}
+
+.part2, .part4 {
+    background-color: #9bcaca;
+    b {
+        color: #908caa;
+    }
+    .imageBoxImage {
+        background-color: #d4c5a8;
+    }
+    .imageBox {
+        background-color: #d4c5a8;
+        p {
+            color: #a94521;
+        }
+    }
+}
+
+.alignedArticleLeft {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    @media (max-width: 767px) {
+        flex-direction: column;
+    }
+}
+
+.alignedArticleRight {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    gap: 2vw;
+    @media (max-width: 767px) {
+        flex-direction: column;
+    }
+}
+
+.tooltip, .bigTooltip {
+    color: #31748f;
+}
+
+.imageBox {
+    margin: 1vh 0;
+    padding: 1vw;
+    font-size: 1.5vh;
+    text-align: center;
+    .small {
+        font-size: 1vh;
+    }
+}
+
+.imageBoxImage {
+    width: 15vw;
+    @media (max-width: 767px) {
+        width: 40vw;
+    }
+}
+
+.title1 {
+    font-size: 8em;
+    line-height: 0.8;
+    margin-bottom: 1vh;
+}
+
+.title2 {
+    font-size: 4em;
+    line-height: 0.5;
+    margin-bottom: 3vh;
+}
+
+#titleImgContainer {
+    width: 50%;
+    background: #9bcaca;
+    padding: 1vw;
+    @media (max-width: 767px) {
+        width: 100%;
+    }
+}
+
+#titleImg {
+    width: 100%;
+    @media (max-width: 767px) {
+        margin-left: none;
+    }
+}
+
+#titleText {
+    width: 50%;
+    @media (max-width: 767px) {
+        font-size: 0.9em;
+        width: 100%;
+    }
+}

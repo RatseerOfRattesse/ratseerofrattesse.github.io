@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aubrey&display=swap');
 
@@ -185,10 +186,6 @@ button:hover {
     font-size: 5vh;
     line-height: 1;
     margin: -1vw 0vw;
-}
-
-.aubrey {
-    font-family: "Aubrey";
 }
 
 .noItalic {
@@ -1185,4 +1182,12 @@ img.lightboxCapable {
             width: 80%;
         }
     }
+}
+
+.aubrey {
+    font-family: "Aubrey";
+}
+
+.notable {
+    font-family: "Notable";
 }

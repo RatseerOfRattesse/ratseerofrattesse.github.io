@@ -189,9 +189,9 @@ async function submit() {
     clearance.innerText = "PROCESSED";
     await wait(80);
 
-    console.log(hashed);
+    //console.log(hashed);
     const decryptedLink = await decryptData(link, hashed);
-    console.log(decryptedLink);
+    //console.log(decryptedLink);
     if (decryptedLink != null && decryptedLink.includes("https://")) {
         clearance.innerText = "ACCEPTED. WELCOME, VENERABLE DAESA.";
         await wait(200);
@@ -203,7 +203,7 @@ async function submit() {
             var hashedWord = await sha1Hex(word);
             hashedWords.push(hashedWord);
         }
-        console.log(hashedWords);
+        //console.log(hashedWords);
         if (hashedWords.includes("249dcb7765f663fe4cd5977921e83d5afa2c436c") || hashedWords.includes("d4e5fd5793ce34615f15ab297c5d1c3eb5a67e16")) {
             clearance.innerText = "REJECTED. BEGONE, VENERABLE AHNDAESA.";
         } else if (hashedWords.includes("953a03875308d7c9e641f6053d5f964a8b238158") || (hashedWords.includes("43c2ae2eacabed5dd0c4aba299cd220d7e8a918c") && hashedWords.includes("50f3058c291765cb6d4e43a94ae42b2c4f0fa770"))) {

@@ -69,6 +69,7 @@
 .alignedArticleLeft {
     display: flex;
     align-items: center;
+    gap: 2vw;
     @media (max-width: 767px) {
         flex-direction: column;
     }
@@ -78,6 +79,7 @@
     display: flex;
     align-items: center;
     text-align: right;
+    gap: 2vw;
     @media (max-width: 767px) {
         flex-direction: column;
     }
@@ -89,7 +91,7 @@
 
 .imageBox {
     border: 0.2rem solid #eb6f92;
-    margin: 2vh 1.5vw;
+    margin: 2vh 0;
     padding: 1vw;
     font-size: 1.5vh;
     text-align: center;
