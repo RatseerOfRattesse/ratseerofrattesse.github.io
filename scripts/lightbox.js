@@ -81,7 +81,7 @@ function showSlide(n) {
   thumbnails[slideIndex-1].className += " active";
   imageModal.firstElementChild.textContent = slides[slideIndex-1].getAttribute('data-title');
   var paragraphs = slides[slideIndex-1].getAttribute('data-desc').split(/\r?\n/).filter(Boolean);
-  console.log(paragraphs);
+  //console.log(paragraphs);
   for (i = 0; i < paragraphs.length; i++) {
     let newParagraph = document.createElement("p");
     newParagraph.textContent = paragraphs[i];

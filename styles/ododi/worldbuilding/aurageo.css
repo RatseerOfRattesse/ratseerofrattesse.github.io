@@ -154,3 +154,12 @@ a {
         width: 100%;
     }
 }
+
+.footnote.active {
+    background-color: #9bcaca;
+}
+
+.overlayButton {
+    background-color: #9bcaca;
+    color: #6e6a86;
+}

@@ -19,6 +19,7 @@ body {
     background-color: #191724;
     font-family: 'JetBrains Mono';
     color: #e0def4;
+    position: relative;
 }
 
 i {
@@ -1190,4 +1191,48 @@ img.lightboxCapable {
 
 .notable {
     font-family: "Notable";
+}
+
+.footnote {
+    text-decoration: none;
+    padding: 0.25vw;
+    border-radius: 10px;
+    background-color: transparent;
+    transition: background-color 2s ease;
+}
+
+.footnote.active {
+    background-color: #eb6f92;
+    list-style-type: "  -> ";
+}
+
+.overlayButton {
+    position: fixed;
+    top: 5vh;
+    z-index: 1001;
+    border-radius: 10px;
+    background-color: #eb6f92;
+    padding: 0.25vw;
+    line-height: 0.25;
+    inset: 0;
+    top: 5vh;
+    place-self: start center;
+}
+
+.overlayButton:hover {
+    display: inline-block;
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+
+#returnFootnote {
+    transform: translateY(-10vh);
+    transition: transform 2s ease;
+    opacity: 0;
+}
+
+#returnFootnote.active {
+    transform: translateY(0);
+    transform: translateY(-3vh);
+    opacity: 1;
 }
