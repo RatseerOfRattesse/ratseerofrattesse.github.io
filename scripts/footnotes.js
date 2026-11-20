@@ -22,7 +22,9 @@ async function openFootnote(noteLink, index) {
 async function waitUnfocus() {
     await wait(15000);
     if (focused) {
-        scrollBack();
+        focused = false;
+        returnButton.classList.toggle('active');
+        note.classList.remove('active');
     }
 }
 
