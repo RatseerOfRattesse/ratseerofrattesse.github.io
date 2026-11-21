@@ -20,8 +20,9 @@ async function openFootnote(noteLink, index) {
 }
 
 async function waitUnfocus() {
+    var noteLog = currentNote;
     await wait(15000);
-    if (focused) {
+    if (focused && currentNote == noteLog) {
         focused = false;
         returnButton.classList.toggle('active');
         note.classList.remove('active');

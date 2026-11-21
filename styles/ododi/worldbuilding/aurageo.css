@@ -11,7 +11,7 @@ a {
     background: #fff9ea;
 }
 
-.pageContainer b {
+.pageContainer b, .pageContainer i {
     color: #524f67;
 }
 
@@ -76,6 +76,9 @@ a {
         p {
             color: #a94521;
         }
+    }
+    .footnoteLink {
+        color: #fff9ea;
     }
 }
 
