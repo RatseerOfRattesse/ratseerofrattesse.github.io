@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: left;
+    position: relative;
 }
 
 .splash::before {
@@ -12,6 +13,10 @@
     background-image: url("../assets/img/misc/ododi/banner.png");
     background-position: center;
     background-size: cover;
+    -webkit-mask-image: linear-gradient(to bottom, #191724, transparent);
+    mask-image: linear-gradient (to bottom, #191724, transparent);
+    -webkit-mask-size: cover;
+    mask-size: cover;
 }
 
 
