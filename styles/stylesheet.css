@@ -39,6 +39,7 @@ img {
 
 img.lightboxCapable, img.lightboxImg, img.lightboxThumbnail {
     image-rendering: pixelated;
+    cursor: pointer;
 }
 
 hr {
@@ -1135,6 +1136,7 @@ img.lightboxCapable {
             height: 100%;
             object-fit: contain;
         }
+        cursor: pointer;
     }
     .vowelContainer {
         border-radius: 10px;
@@ -1193,6 +1195,10 @@ img.lightboxCapable {
     font-family: "Notable";
 }
 
+.footnoteLink {
+    cursor: pointer;
+}
+
 .footnote {
     text-decoration: none;
     padding: 0.25vw;
@@ -1207,6 +1213,7 @@ img.lightboxCapable {
 }
 
 .overlayButton {
+    cursor: pointer;
     position: fixed;
     top: 5vh;
     z-index: 1001;

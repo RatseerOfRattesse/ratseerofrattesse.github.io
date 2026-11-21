@@ -6,16 +6,8 @@ fakeSecurity.style.display = "block";
 
 closeButton.onclick = function() {
     fakeSecurity.style.display = "none";
-        blocker.style.display = "none";
+    blocker.style.display = "none";
 }
-
-document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape') {
-        fakeSecurity.style.display = "none";
-        blocker.style.display = "none";
-    }
-});
-
 
 const isDesktop = window.matchMedia("(min-width: 1024px)").matches;
 
