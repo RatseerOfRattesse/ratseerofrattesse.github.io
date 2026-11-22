@@ -38,11 +38,11 @@
     display: flex;
     z-index: 999;
     position: fixed;
-    inset: 0;
-    place-self: center start;
     width: 50vw;
     @media (max-width: 768px) {
         width: 25vw;
+        align-items: center;
+        height: 100svh;
     }
 }
 
