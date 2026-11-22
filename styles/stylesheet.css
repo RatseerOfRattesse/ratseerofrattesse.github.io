@@ -20,6 +20,8 @@ body {
     font-family: 'JetBrains Mono';
     color: #e0def4;
     position: relative;
+    margin: 0;
+    overflow-x: hidden;
 }
 
 i {
@@ -1242,4 +1244,89 @@ img.lightboxCapable {
     transform: translateY(0);
     transform: translateY(-3vh);
     opacity: 1;
+}
+
+h1 {
+  text-align:center;
+}
+
+
+/**
+The Below Code from .page selector to the #layer-8 selector is courtesy of rob2 on codepen, under the follow license. This also applies to all divs of class parallaxContainer and their content, as well as the general architecture of div page(div parallaxContainer, div overflow).
+
+Copyright (c) 2026 by rob2 (https://codepen.io/robatronbobby/pen/dyeQWvN)
+Fork of an original work Parallax Example: Firewatch Launch Site (https://codepen.io/empatheticpolyglot/pen/LWBLNW
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+**/
+
+.page {
+  width:100vw;
+  height:100vh;
+  perspective:1px;
+  perspective-origin: center center;
+  overflow-x:hidden;
+}
+.overflow {
+  position:absolute;
+  width:100vw;
+  height:80vh;
+  top:100vh;
+}
+
+#parallax {
+  transform-style: preserve-3d;
+  height:120vh;
+}
+
+.parallaxLayer {
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: repeat-x;
+  position: absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+}
+
+#layer0 {
+  transform:translate3d(-11px,-46px,-1.3px) scale(2.3);
+    image-rendering: pixelated;
+}
+#layer1 {
+  transform:translate3d(0,-47px,-.7px) scale(1.7);
+    image-rendering: pixelated;
+}
+#layer2 {
+  transform:translate3d(0,-98px,-.4px) scale(1.6);
+    image-rendering: pixelated;
+}
+#layer3 {
+  transform:translate3d(0,-2px,-.1px) scale(1.1);
+    image-rendering: pixelated;
+}
+#layer4 {
+  transform:translate3d(0,35px,.1px) scale(.9);
+    image-rendering: pixelated;
+}
+#layer5 {
+  transform:translate3d(0,84px,.2px) scale(.8);
+    image-rendering: pixelated;
+}
+#layer6 {
+  transform:translate3d(0, 106px,.3px) scale(.7);
+    image-rendering: pixelated;
+}
+#layer7 {
+  transform:translate3d(0,106px,.38px) scale(.65);
+    image-rendering: pixelated;
+}
+#layer8 {
+  transform:translate3d(0, 180px,.45px) scale(.55);
+    image-rendering: pixelated;
 }
