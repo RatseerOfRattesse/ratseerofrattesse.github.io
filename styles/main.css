@@ -6,47 +6,39 @@ body {
     background-size: auto cover;
 }
 
+.pageContainer {
+    display: flex;
+}
+
+.pageContainer::before {
+    content: "";
+    flex-shrink: 0;
+    width: 50vw;
+    @media (max-width: 767px) {
+        width: 25vw;
+    }
+}
+
 .hcsidelogo {
     object-fit: cover;
     display: block;
     width: 37vw;
     margin: auto;
+    @media (max-width: 767px) {
+        display: none;
+    }
 }
 
 .nav {
-    flex: 1;
     display: flex;
     z-index: 999;
     position: fixed;
-    top: 0
-    left: 0
-    align-items: center;
-}
-
-.dummy {
-    flex: 1;
-}
-
-.parent {
-    display: flex;
-}
-
-.right-box {
-    flex: 1;
-    font-size: 1cqw;
-    padding-left: 10vw;
-}
-
-.centre-box {
-    flex: 0.2;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
-
-.left-box {
-    flex: 1;
-    align-items: center;
+    inset: 0;
+    place-self: center start;
+    width: 50vw;
+    @media (max-width: 767px) {
+        width: 25vw;
+    }
 }
 
 .navlineBox {
@@ -57,47 +49,43 @@ body {
 .navLabels {
     flex: 1
     background-color: white;
-    padding-left: 10%;
     width: 60%;
+    text-decoration: underline;
+    font-size: 4vh;
+    place-self: center start;
 }
 
 .navline {
-    width: 0.5vw;
-    height: 90vh;
+    width: 0.25vw;
+    height: 100vh;
     background-color: #6e6a86;
     z-index: 999;
-    top: -45vh;
     left: -0.5vw;
     position: absolute;
 }
 
-.navLabel {
-    text-decoration: underline;
-    font-size: 2cqw;
-}
-
 .labelDivider {
-    width: 95%;
+    width: 8vh;
     height: 0.25vw;
     background-color: #6e6a86;
 }
 
 .labelDividerGap {
-    width: 95%;
+    width: 8vh;
     height: 0.25vw;
     background-color: transparent;
 }
 
 .scrollIndicator {
-    height: 2vw;
-    width: 2vw;
+    height: 2vh;
+    width: 2vh;
     background-color: #eb6f92;
     border-radius: 50%;
     display: inline-block;
     z-index: 999;
-    top: 5vw;
-    left: -1.25vw;
-    position: absolute;
+    place-self: center start;
+    transform: translate(-0.9vw);
+    position: fixed;
 }
 
 /*max -16.25 min 5*/
@@ -123,7 +111,7 @@ body {
 }
 
 .currentSplash {
-    font-size: 1.5cqw;
+    font-size: 2vh;
     line-height: 0.1;
     position: absolute;
     bottom: 0;
@@ -150,12 +138,12 @@ body {
 }
 
 .artTitle {
-    font-size: 3cqw;
+    font-size: 3vh;
     line-height: 0.1;
 }
 
 .artButtonLabel {
-    font-size: 1.5cqw;
+    font-size: 2vh;
     text-shadow: 2px 2px 0px #1f1d2e;
     background-color: rgba(49, 116, 143, 0.3);
 }
@@ -272,7 +260,7 @@ body {
 }
 
 .aboutTitle {
-    font-size: 3cqw;
+    font-size: 3vh;
     line-height: 0.1;
 }
 

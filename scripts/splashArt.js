@@ -47,7 +47,7 @@ const fileName = images[randomIndex].split(/[/\\]/).pop();
 const processedName = fileName.slice(0, -4).toLowerCase()
 splashName.textContent = processedName
 
-document.body.style.backgroundSize = `cover`;
+document.body.style.backgroundSize = `auto cover`;
 document.body.style.backgroundPosition = `center`;
 document.body.style.backgroundAttachment = `fixed`
 document.body.style.backgroundRepeat = `no-repeat`
