@@ -1,22 +1,27 @@
-/*Nav and logo on side*/
 
-body {
-    background-position: center;
-    background-attachment: fixed;
-    background-size: auto cover;
+#bg {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
 }
 
 .pageContainer {
     display: flex;
+    @media (max-width: 768px) {
+        overflow-x: hidden;
+    }
 }
 
 .pageContainer::before {
     content: "";
     flex-shrink: 0;
     width: 50vw;
-    @media (max-width: 767px) {
-        width: 25vw;
+    @media (max-width: 768px) {
+        width: 30vw;
     }
+}
+
+.content {
 }
 
 .hcsidelogo {
@@ -24,7 +29,7 @@ body {
     display: block;
     width: 37vw;
     margin: auto;
-    @media (max-width: 767px) {
+    @media (max-width: 768px) {
         display: none;
     }
 }
@@ -36,7 +41,7 @@ body {
     inset: 0;
     place-self: center start;
     width: 50vw;
-    @media (max-width: 767px) {
+    @media (max-width: 768px) {
         width: 25vw;
     }
 }
@@ -83,9 +88,16 @@ body {
     border-radius: 50%;
     display: inline-block;
     z-index: 999;
+    @media (max-width: 768px) {
+        top: 0;
+        left: 0;
+    }
     place-self: center start;
-    transform: translate(-0.9vw);
     position: fixed;
+}
+
+.content {
+    min-width: 0;
 }
 
 /*max -16.25 min 5*/
@@ -187,6 +199,7 @@ body {
 .ododiDesc {
     background-color: rgba(235, 111, 146, 0.3);
     text-shadow: 2px 2px 0px #1f1d2e;
+    overflow-wrap: break-word;
 }
 
 .ododi {
@@ -225,6 +238,7 @@ body {
 .ccapDesc {
     background-color: rgba(49, 116, 143, 0.3);
     text-shadow: 2px 2px 0px #1f1d2e;
+    overflow-wrap: break-word;
 }
 
 .ccap {

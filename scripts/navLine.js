@@ -17,14 +17,10 @@ window.addEventListener('scroll', () => {
 
     const isDesktop = window.matchMedia("(min-width: 1024px)").matches;
     var indicatorPos = 0;
-    console.log(window.innerHeight);
-    /**
-    if (isDesktop) { //1064
-        indicatorPos = window.innerHeight/120+0.2125*scrollPercent
-    } else { //760
-        indicatorPos = window.innerHeight/120+0.35*scrollPercent
-    }**/
     indicatorPos = 0.4175*scrollPercent;
 
-    scrollIndicator.style.top = `${indicatorPos+19}vh`
+    var offset = 18;
+    offset /= 3;
+
+    scrollIndicator.style.transform= `translate3d(-0.9vw, ${indicatorPos+18}svh, 0)`
 });

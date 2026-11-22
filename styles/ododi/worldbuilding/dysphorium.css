@@ -32,7 +32,7 @@
     padding: 3vh 10vh;
     margin: 0 15vw;
     border: 0.2rem solid #eb6f92;
-    @media (max-width: 767px) {
+    @media (max-width: 768px) {
         padding: 0 8vw;
         margin: 0 5vw;
     }
@@ -70,7 +70,7 @@
     display: flex;
     align-items: center;
     gap: 2vw;
-    @media (max-width: 767px) {
+    @media (max-width: 768px) {
         flex-direction: column;
     }
 }
@@ -80,7 +80,7 @@
     align-items: center;
     text-align: right;
     gap: 2vw;
-    @media (max-width: 767px) {
+    @media (max-width: 768px) {
         flex-direction: column;
     }
 }
@@ -102,7 +102,7 @@
 
 .imageBoxImage {
     width: 15vw;
-    @media (max-width: 767px) {
+    @media (max-width: 768px) {
         width: 40vw;
     }
 }
@@ -110,7 +110,7 @@
 #growthContainer, #shadowContainer {
     position: absolute;
     pointer-events: none;
-    @media (max-width: 767px) {
+    @media (max-width: 768px) {
         display: flex;
         flex-direction: column;
         gap: 400vh;
