@@ -29,7 +29,7 @@
     padding: 3vh 10vh;
     margin: 0 15vw;
     border: 0.2rem solid #eb6f92;
-    @media (max-width: 768px) {
+    @media (max-width: 1024px) {
         padding: 0 8vw;
         margin: 0 5vw;
     }
@@ -39,7 +39,7 @@
 .innerTextBody {
     display: flex;
     align-items: center;
-    @media (max-width: 768px) {
+    @media (max-width: 1024px) {
         flex-direction: column;
     }
 }
@@ -57,7 +57,7 @@
     width: 20vw;
     padding: 0.5vw;
     font-size: 1rem;
-    @media (max-width: 768px) {
+    @media (max-width: 1024px) {
         width: 40vw;
     }
 }
