@@ -173,64 +173,64 @@ a {
 
 #layer0 {
     background-image: url('../../../assets/img/misc/ododi/worldbuilding/aurageo/parallax0.png');
-    -webkit-mask-image: linear-gradient(to bottom, black, transparent);
-    mask-image: linear-gradient (to bottom, black, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent);
+    mask-image: linear-gradient (to bottom, black 70%, transparent);
     -webkit-mask-size: cover;
     mask-size: cover;
 }
 #layer1 {
     background-image: url('../../../assets/img/misc/ododi/worldbuilding/aurageo/parallax1.png');
-    -webkit-mask-image: linear-gradient(to bottom, black, transparent);
-    mask-image: linear-gradient (to bottom, black, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent);
+    mask-image: linear-gradient (to bottom, black 70%, transparent);
     -webkit-mask-size: cover;
     mask-size: cover;
 }
 #layer2 {
     background-image: url('../../../assets/img/misc/ododi/worldbuilding/aurageo/parallax2.png');
-    -webkit-mask-image: linear-gradient(to bottom, black, transparent);
-    mask-image: linear-gradient (to bottom, black, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent);
+    mask-image: linear-gradient (to bottom, black 70%, transparent);
     -webkit-mask-size: cover;
     mask-size: cover;
 }
 #layer3 {
     background-image: url('../../../assets/img/misc/ododi/worldbuilding/aurageo/parallax3.png');
-    -webkit-mask-image: linear-gradient(to bottom, black, transparent);
-    mask-image: linear-gradient (to bottom, black, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent);
+    mask-image: linear-gradient (to bottom, black 70%, transparent);
     -webkit-mask-size: cover;
     mask-size: cover;
 }
 #layer4 {
     background-image: url('../../../assets/img/misc/ododi/worldbuilding/aurageo/parallax4.png');
-    -webkit-mask-image: linear-gradient(to bottom, black, transparent);
-    mask-image: linear-gradient (to bottom, black, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent);
+    mask-image: linear-gradient (to bottom, black 70%, transparent);
     -webkit-mask-size: cover;
     mask-size: cover;
 }
 #layer5 {
     background-image: url('../../../assets/img/misc/ododi/worldbuilding/aurageo/parallax5.png');
-    -webkit-mask-image: linear-gradient(to bottom, black, transparent);
-    mask-image: linear-gradient (to bottom, black, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent);
+    mask-image: linear-gradient (to bottom, black 70%, transparent);
     -webkit-mask-size: cover;
     mask-size: cover;
 }
 #layer6 {
     background-image: url('../../../assets/img/misc/ododi/worldbuilding/aurageo/parallax6.png');
-    -webkit-mask-image: linear-gradient(to bottom, black, transparent);
-    mask-image: linear-gradient (to bottom, black, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent);
+    mask-image: linear-gradient (to bottom, black 70%, transparent);
     -webkit-mask-size: cover;
     mask-size: cover;
 }
 #layer7 {
     background-image: url('../../../assets/img/misc/ododi/worldbuilding/aurageo/parallax7.png');
-    -webkit-mask-image: linear-gradient(to bottom, black, transparent);
-    mask-image: linear-gradient (to bottom, black, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent);
+    mask-image: linear-gradient (to bottom, black 70%, transparent);
     -webkit-mask-size: cover;
     mask-size: cover;
 }
 #layer8 {
     background-image: url('../../../assets/img/misc/ododi/worldbuilding/aurageo/parallax8.png');
-    -webkit-mask-image: linear-gradient(to bottom, black, transparent);
-    mask-image: linear-gradient (to bottom, black, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent);
+    mask-image: linear-gradient (to bottom, black 70%, transparent);
     -webkit-mask-size: cover;
     mask-size: cover;
 }

@@ -1246,11 +1246,6 @@ img.lightboxCapable {
     opacity: 1;
 }
 
-h1 {
-  text-align:center;
-}
-
-
 /**
 The Below Code from .page selector to the #layer-8 selector is courtesy of rob2 on codepen, under the follow license. This also applies to all divs of class parallaxContainer and their content, as well as the general architecture of div page(div parallaxContainer, div overflow).
 
