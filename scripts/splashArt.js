@@ -1,5 +1,3 @@
-const bg = document.getElementById("bg");
-
 const images = [
     "../../assets/img/misc/splashArtCandidates/BADASSERY.png",
     "../../assets/img/misc/splashArtCandidates/bloom.png",
@@ -42,14 +40,13 @@ const images = [
 
 const randomIndex = Math.floor(Math.random() * images.length);
 
-bg.style.background = `linear-gradient(to right, black, transparent), url('${images[randomIndex]}')`;
+document.body.style.setProperty('--bg', `linear-gradient(to right, black, transparent), url('${images[randomIndex]}')`);
 
 const splashName = document.getElementById("splashName");
 const fileName = images[randomIndex].split(/[/\\]/).pop();
-const processedName = fileName.slice(0, -4).toLowerCase()
-splashName.textContent = processedName
+const processedName = fileName.slice(0, -4).toLowerCase();
+splashName.textContent = processedName;
 
-bg.style.backgroundSize = `cover`;
-bg.style.backgroundPosition = `center`;
-bg.style.backgroundAttachment = `fixed`
-bg.style.backgroundRepeat = `no-repeat`
+document.body.style.setProperty('--bgsize', `cover`);
+document.body.style.setProperty('--bgposition', `center`);
+document.body.style.setProperty('--bgrepeat', `no-repeat`);
