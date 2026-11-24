@@ -12,9 +12,6 @@ html {
   box-sizing: inherit;
 }
 
-* {
-}
-
 body {
     background-color: #191724;
     font-family: 'JetBrains Mono';
@@ -35,9 +32,6 @@ b {
 
 a {
     color: #eb6f92;
-}
-
-img {
 }
 
 img.lightboxCapable, img.lightboxImg, img.lightboxThumbnail {
@@ -353,7 +347,7 @@ button:hover {
             display: block;
             padding: 8px 8px;
             font-size: 3vh;
-            position:relative
+            position:relative;
             color: #eb6f92;
             text-decoration: underline;
         }
@@ -381,7 +375,7 @@ button:hover {
                 display: block;
                 padding: 8px 8px;
                 font-size: 2vh;
-                position:relative
+                position:relative;
                 color: #31748f;
                 text-decoration: underline;
             }
@@ -1136,9 +1130,6 @@ img.lightboxCapable {
     padding-top: 0;
 }
 
-.searchParagraph {
-}
-
 .alignedDivider {
     border-left: 2px solid #eb6f92;
     height: 10vh;
@@ -1381,14 +1372,30 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     image-rendering: pixelated;
 }
 
-.buttonLabel {
-    font-size: 2vh;
-    text-shadow: 2px 2px 0px #1f1d2e;
-    background-color: rgba(49, 116, 143, 0.3);
+.arrowLinkButton {
+    a {
+        font-size: 2vh;
+        text-shadow: 2px 2px 0px #1f1d2e;
+        background-color: rgba(49, 116, 143, 0.3);
+        display: inline-block;
+    }
+    img {
+        width: 2em;
+        margin: auto 0;
+        padding: 0;
+    }
 }
 
-.buttonIcon {
-    width: 2vw;
-    margin: 0;
-    padding: 0;
+.imgButton {
+    :hover {
+        transform: scale(1.1);
+        z-index: 1;
+        transition: all 0.2s ease-in-out;
+    }
+}
+
+.grow:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: all 0.2s ease-in-out;
 }
