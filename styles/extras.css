@@ -1,0 +1,33 @@
+.ccapTitle {
+    padding-top: 20vh;
+    width: 40vw;
+}
+
+.ccap {
+    z-index: 999;
+    height: 95vh;
+    text-align: left;
+    align-items: top;
+    position: relative;
+}
+
+.ccap::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: url('../assets/img/misc/hpage/ccap.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-mask-image: linear-gradient(to left, black, transparent);
+    mask-image: linear-gradient(to left, black, transparent);
+    -webkit-mask-size: cover;
+    mask-size: cover;
+}
+
+.ccapDesc {
+    background-color: rgba(49, 116, 143, 0.3);
+    text-shadow: 2px 2px 0px #1f1d2e;
+    overflow-wrap: break-word;
+}

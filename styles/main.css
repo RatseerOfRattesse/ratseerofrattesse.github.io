@@ -33,9 +33,6 @@ body::before {
     }
 }
 
-.content {
-}
-
 .hcsidelogo {
     object-fit: cover;
     display: block;
@@ -100,10 +97,6 @@ body::before {
     border-radius: 50%;
     display: inline-block;
     z-index: 999;
-    @media (max-width: 1024px) {
-        top: 0;
-        left: 0;
-    }
     place-self: center start;
     position: fixed;
 }
@@ -166,24 +159,12 @@ body::before {
     line-height: 0.1;
 }
 
-.artButtonLabel {
-    font-size: 2vh;
-    text-shadow: 2px 2px 0px #1f1d2e;
-    background-color: rgba(49, 116, 143, 0.3);
-}
-
 .art {
     z-index: 999;
     height: 95vh;
     text-align: left;
     align-items: bottom;
     position: relative;
-}
-
-.artButtonIcon {
-    width: 2vw;
-    margin: 0;
-    padding: 0;
 }
 
 .art::before {
@@ -241,19 +222,19 @@ body::before {
     mask-size: cover;
 }
 
-/*ccap*/
-.ccapTitle {
+/*extras*/
+.extrasTitle {
     padding-top: 20vh;
     width: 50vh;
 }
 
-.ccapDesc {
+.extrasDesc {
     background-color: rgba(49, 116, 143, 0.3);
     text-shadow: 2px 2px 0px #1f1d2e;
     overflow-wrap: break-word;
 }
 
-.ccap {
+.extras {
     z-index: 999;
     height: 95vh;
     text-align: left;
@@ -261,7 +242,7 @@ body::before {
     position: relative;
 }
 
-.ccap::before {
+.extras::before {
     content: "";
     position:absolute;
     inset: 0;

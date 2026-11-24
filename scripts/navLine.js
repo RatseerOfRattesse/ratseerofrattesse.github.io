@@ -1,26 +1,32 @@
 const scrollY = window.scrollY
 
 const scrollIndicator = document.getElementById("scrollIndicator")
+var scrollTop = window.scrollY || document.documentElement.scrollTop;
+var totalHeight = document.documentElement.scrollHeight;
+var viewportHeight = document.documentElement.clientHeight;
+var scrollableDistance = totalHeight - viewportHeight;
+var scrollPercent = scrollableDistance > 0
+    ? (scrollTop / scrollableDistance) * 100
+    : 0;
+
+var indicatorPos = 0;
+indicatorPos = 0.4175*scrollPercent;
+scrollIndicator.style.transform= `translate3d(-0.9vw, ${indicatorPos+18}svh, 0)`
 
 window.addEventListener('scroll', () => {
-    const scrollTop = window.scrollY || document.documentElement.scrollTop;
+    scrollTop = window.scrollY || document.documentElement.scrollTop;
 
-    const totalHeight = document.documentElement.scrollHeight;
+    totalHeight = document.documentElement.scrollHeight;
 
-    const viewportHeight = document.documentElement.clientHeight;
+    viewportHeight = document.documentElement.clientHeight;
 
-    const scrollableDistance = totalHeight - viewportHeight;
+    scrollableDistance = totalHeight - viewportHeight;
 
-    const scrollPercent = scrollableDistance > 0
+    scrollPercent = scrollableDistance > 0
         ? (scrollTop / scrollableDistance) * 100
         : 0;
 
-    const isDesktop = window.matchMedia("(min-width: 1024px)").matches;
-    var indicatorPos = 0;
     indicatorPos = 0.4175*scrollPercent;
-
-    var offset = 18;
-    offset /= 3;
 
     scrollIndicator.style.transform= `translate3d(-0.9vw, ${indicatorPos+18}svh, 0)`
 });

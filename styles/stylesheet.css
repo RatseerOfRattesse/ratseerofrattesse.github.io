@@ -1380,3 +1380,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   transform:translate3d(0, 180px,.45px) scale(.55);
     image-rendering: pixelated;
 }
+
+.buttonLabel {
+    font-size: 2vh;
+    text-shadow: 2px 2px 0px #1f1d2e;
+    background-color: rgba(49, 116, 143, 0.3);
+}
+
+.buttonIcon {
+    width: 2vw;
+    margin: 0;
+    padding: 0;
+}
