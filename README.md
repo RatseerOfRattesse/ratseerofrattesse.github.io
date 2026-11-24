@@ -7,8 +7,7 @@ Built in IntelliJ because I know the keyboard shortcuts and don't wanna install 
 Here's a few screenies for the reviewers.
 
 This Week:
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d6e3fda4-9506-4b61-9555-1379d359b611" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/85834215-88de-4f3b-b0cd-f4321886ccd5" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b7a891cb-15ca-4b37-b5ed-12e9ead5dc9b" />
 
 General Stuff:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/86601c71-4af2-4fe6-bfb9-28d52e38d276" />
