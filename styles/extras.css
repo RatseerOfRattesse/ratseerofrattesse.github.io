@@ -1,16 +1,50 @@
 .imgTitle {
-    padding-top: 20vh;
+    padding-top: 10vh;
     width: 40vw;
 }
 
 .ccap {
-    p {
+    p, .arrowLinkButton {
         background-color: rgba(49, 116, 143, 0.3);
     }
 }
 
+.tbs {
+    p, .arrowLinkButton {
+        background-color: rgba(235, 188, 186, 0.3);
+    }
+}
+
+.nstack {
+    p, .arrowLinkButton {
+        background-color: rgba(235, 111, 146, 0.3);
+    }
+}
+
+.laissez {
+    p, .arrowLinkButton {
+        background-color: rgba(246, 193, 119, 0.3);
+    }
+}
+
+.imgTitle {
+    filter: drop-shadow(0.25em 0.25em #191724);
+}
+
 .ccap::before {
     background: url('/assets/img/misc/hpage/ccap.png');
+}
+
+.tbs::before {
+    background: url('/assets/img/misc/hpage/tbs.png');
+}
+
+.nstack::before {
+    background: url('/assets/img/art/2026/noka.png');
+}
+
+.laissez::before {
+    background: url('/assets/img/misc/extras/laissezfaire.png');
 }
 
 .projSectionLeft {
@@ -31,6 +65,10 @@
         mask-image: linear-gradient(to right, black, transparent);
         -webkit-mask-size: cover;
         mask-size: cover;
+    }
+    p {
+        text-shadow: 0.05em 0.1em #1f1d2e;
+        overflow-wrap: break-word;
     }
 }
 
@@ -53,9 +91,8 @@
         -webkit-mask-size: cover;
         mask-size: cover;
     }
-}
-
-.projDesc {
-    text-shadow: 2px 2px 0px #1f1d2e;
-    overflow-wrap: break-word;
+    p {
+        text-shadow: 0.05em 0.1em #1f1d2e;
+        overflow-wrap: break-word;
+    }
 }

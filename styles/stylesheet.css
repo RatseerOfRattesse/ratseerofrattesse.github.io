@@ -458,7 +458,7 @@ code {
     padding: 1px 5px;
     border: 1px solid #31748f;
     border-radius: 15px;
-    font-size: 1rem;
+    font-size: 1em;
 }
 
 .nodeco {
@@ -1376,7 +1376,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     a {
         font-size: 2vh;
         text-shadow: 2px 2px 0px #1f1d2e;
-        background-color: rgba(49, 116, 143, 0.3);
         display: inline-block;
     }
     img {
