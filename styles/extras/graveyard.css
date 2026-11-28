@@ -1,38 +1,14 @@
 #layer0 {
     transform:translate3d(-11px, 46px,-1.3px) scale(2.3);
-    img {
-        -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent);
-        mask-image: linear-gradient (to bottom, black 70%, transparent);
-        -webkit-mask-size: cover;
-        mask-size: cover;
-    }
 }
 #layer1 {
     transform:translate3d(0, 250px,-.7px) scale(1.7);
-    img {
-        -webkit-mask-image: linear-gradient(to bottom, black 75%, transparent);
-        mask-image: linear-gradient (to bottom, black 75%, transparent);
-        -webkit-mask-size: cover;
-        mask-size: cover;
-    }
 }
 #layer2 {
     transform:translate3d(0, 1000px,-.4px) scale(1.6);
-    img {
-        -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent);
-        mask-image: linear-gradient (to bottom, black 80%, transparent);
-        -webkit-mask-size: cover;
-        mask-size: cover;
-    }
 }
 #layer3 {
     transform:translate3d(0, 2000px,-.1px) scale(1.1);
-    img {
-        -webkit-mask-image: linear-gradient(to bottom, black 85%, transparent);
-        mask-image: linear-gradient (to bottom, black 85%, transparent);
-        -webkit-mask-size: cover;
-        mask-size: cover;
-    }
 }
 #layer4 {
     transform:translate3d(0, 2500px,.1px) scale(.9);
@@ -46,9 +22,10 @@
 #layer5 {
     transform:translate3d(0, 3250px,.2px) scale(.8);
     img {
-        -webkit-mask-image: linear-gradient(to bottom, black 95%, transparent);
-        mask-image: linear-gradient (to bottom, black 95%, transparent);
+        -webkit-mask-image: linear-gradient(to bottom, black 90%, transparent);
+        mask-image: linear-gradient (to bottom, black 90%, transparent);
         -webkit-mask-size: cover;
         mask-size: cover;
     }
 }
+

@@ -276,34 +276,6 @@ button:hover {
     text-indent: 20px;
 }
 
-#footer {
-    background-color: #26233a;
-    z-index: 1000;
-    .navPath {
-        @media (max-width: 1024px) {
-            font-size: 1vh;
-        }
-    }
-    .navLogo {
-        @media (max-width: 1024px) {
-            display: none;
-        }
-    }
-    .navActive {
-        @media (max-width: 1024px) {
-            display: none;
-        }
-    }
-    .navbar {
-        @media (max-width: 1024px) {
-            flex-direction: column;
-        }
-    }
-    @media (max-width: 1024px) {
-        flex-direction: column;
-    }
-}
-
 .navbar {
     .navLogo {
         width: 8vw;
@@ -391,15 +363,17 @@ button:hover {
     .navElement:hover .navSubBar {
       display: block;
     }
+    isolation: isolate;
     display: flex;
     list-style-type: none;
     align-items: center;
-    margin: 0;
+    width: 100%;
+    margin: 0.5vh;
     padding: 0 15vw;
     background-color: hsl(245deg 25% 18 / 0.8);
     justify-content: right;
     top: 0;
-    position: sticky;
+    position: fixed;    
     z-index: 1000;
     @media (max-width: 1024px) {
         padding: 0 0;
@@ -425,6 +399,38 @@ button:hover {
             }
         }
     }
+}
+
+#footer {
+    background-color: #26233a;
+    z-index: 1000;
+    .navbar {
+        position: relative;
+    }
+    .navPath {
+        @media (max-width: 1024px) {
+            font-size: 1vh;
+        }
+    }
+    .navLogo {
+        @media (max-width: 1024px) {
+            display: none;
+        }
+    }
+    .navActive {
+        @media (max-width: 1024px) {
+            display: none;
+        }
+    }
+    .navbar {
+        @media (max-width: 1024px) {
+            flex-direction: column;
+        }
+    }
+    @media (max-width: 1024px) {
+        flex-direction: column;
+    }
+    position: relative;
 }
 
 @-webkit-keyframes navSubBarEmerge {
@@ -1306,11 +1312,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 */
 
 .page {
-  width:100vw;
-  height:100vh;
-  perspective:1px;
-  perspective-origin: center center;
-  overflow-x:hidden;
+    width:100vw;
+    height:100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective:1px;
+    perspective-origin: center center;
+    position: relative;
+    z-index: 1;
 }
 .overflow {
   position:absolute;
@@ -1319,7 +1328,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   top:100vh;
 }
 
-#parallax {
+.parallaxContainer {
   transform-style: preserve-3d;
   height:120vh;
 }
@@ -1368,11 +1377,37 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .overlayImg {
-    position: sticky;
     inset: 0;
-    display: block;
-    z-index: 1;
-    width: 100%;
+    width: 50%;
     object-fit: contain;
     pointer-events: none;
+    position: fixed;
+    z-index: 3;
+}
+
+.overlayImgLeft {
+    inset: 0;
+    width: 50%;
+    object-fit: contain;
+    pointer-events: none;
+    place-self: end start;
+    position: fixed;
+    z-index: 3;
+}
+
+.overlayImgRight {
+    inset: 0;
+    width: 50%;
+    object-fit: contain;
+    pointer-events: none;
+    place-self: start end;
+    position: fixed;
+    z-index: 3;
+}
+
+.buffer {
+    height: 15vh;
+    @media (max-width: 1024px) {
+        height: 9vh;
+    }
 }
